@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_zeal.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_faith_zeal.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#motivated]my faith is burning today, I could pray until my knees bleed",
+      "lookup_english": "my faith is burning today, I could pray until my knees bleed",
+      "spanish": "[#speaker={{speaker_id_1}}][#motivated]Hoy mi fe arde. Podría rezar hasta que me sangren las rodillas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#motivated]今天我的信仰烧得正旺，我能一直祷告到膝盖流血。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_zeal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#exited]that is the spirit, do not let it cool",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#motivated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_faith_zeal.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#exited]that is the spirit, do not let it cool",
+      "lookup_english": "that is the spirit, do not let it cool",
+      "spanish": "[#speaker={{speaker_id_2}}][#exited]¡Así se habla! No dejes que se enfríe.",
+      "chinese": "[#speaker={{speaker_id_2}}][#exited]这就对了！别让它冷下去。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_zeal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#motivated]my faith is burning today, I could pray until my knees bleed",
+      "next_english": "[#speaker={{speaker_id_1}}][#prideful_nod]if we keep God close, this village might yet be saved",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#exited]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_faith_zeal.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#prideful_nod]if we keep God close, this village might yet be saved",
+      "lookup_english": "if we keep God close, this village might yet be saved",
+      "spanish": "[#speaker={{speaker_id_1}}][#prideful_nod]Si mantenemos a Dios cerca, puede que este pueblo aún tenga salvación.",
+      "chinese": "[#speaker={{speaker_id_1}}][#prideful_nod]只要我们紧靠上帝，这村子说不定还有救。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_zeal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#exited]that is the spirit, do not let it cool",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]then keep talking like that, I need it",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#prideful_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_faith_zeal.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]then keep talking like that, I need it",
+      "lookup_english": "then keep talking like that, I need it",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Pues sigue hablando así, lo necesito.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]那就继续这么说，我需要听这些。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_zeal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#prideful_nod]if we keep God close, this village might yet be saved",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

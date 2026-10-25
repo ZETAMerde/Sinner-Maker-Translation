@@ -1,0 +1,37 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/global/I18nBlueprintBuilder.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "):\n\t\t\tcontinue\n\t\tif rows.has(literal):\n\t\t\tcontinue\n\t\trows[literal] = {",
+      "english": "):\n\t\t\tcontinue\n\t\tif rows.has(literal):\n\t\t\tcontinue\n\t\trows[literal] = {",
+      "lookup_english": "):\n\t\t\tcontinue\n\t\tif rows.has(literal):\n\t\t\tcontinue\n\t\trows[literal] = {",
+      "spanish": "",
+      "chinese": "",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/global/I18nBlueprintBuilder.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "[literal]"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

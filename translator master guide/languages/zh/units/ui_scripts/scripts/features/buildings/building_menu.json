@@ -1,0 +1,79 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/building_menu.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Delete",
+      "english": "Delete",
+      "lookup_english": "Delete",
+      "spanish": "BORRAR",
+      "chinese": "删除",
+      "translation": "删除",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/building_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "Move",
+      "english": "Move",
+      "lookup_english": "Move",
+      "spanish": "MOVER",
+      "chinese": "移动",
+      "translation": "移动",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/building_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "%s\n\nby %s",
+      "english": "%s\n\nby %s",
+      "lookup_english": "%s\n\nby %s",
+      "spanish": "",
+      "chinese": "",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/building_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/ui/cook/currently_cooking.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Do forever",
+      "english": "Do forever",
+      "lookup_english": "Do forever",
+      "spanish": "Hacer infinitamente",
+      "chinese": "无限重复",
+      "translation": "无限重复",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/ui/cook/currently_cooking.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "X%d",
+      "english": "X%d",
+      "lookup_english": "X%d",
+      "spanish": "x%d",
+      "chinese": "x%d",
+      "translation": "x%d",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/ui/cook/currently_cooking.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "%d/%d",
+      "english": "%d/%d",
+      "lookup_english": "%d/%d",
+      "spanish": "",
+      "chinese": "",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "copy_english",
+      "speaker": "",
+      "source": "scripts/ui/cook/currently_cooking.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Percent placeholders are positional. Keep them in the same order. No words to translate. Set translation equal to english."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]you scare people on purpose",
+      "lookup_english": "you scare people on purpose",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Asustas a la gente a propósito.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]你故意吓人。",
+      "translation": "[#speaker={{speaker_id_1}}][#worried]你故意吓人。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]people scare themselves, I just help",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]people scare themselves, I just help",
+      "lookup_english": "people scare themselves, I just help",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]La gente se asusta. Yo solo ayudo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]人们自己吓自己。我只是帮个忙。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]人们自己吓自己。我只是帮个忙。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]you scare people on purpose",
+      "next_english": "[#speaker={{speaker_id_1}}][#wonder]is that why nobody sits near us?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]is that why nobody sits near us?",
+      "lookup_english": "is that why nobody sits near us?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Es por eso que nadie se sienta cerca de nosotros?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]这就是没人坐我们附近的原因？",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]这就是没人坐我们附近的原因？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]people scare themselves, I just help",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]more room for me, win-win",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]more room for me, win-win",
+      "lookup_english": "more room for me, win-win",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Más espacio para mí. Todos ganan.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]我的空间更大了。双赢。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]我的空间更大了。双赢。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]is that why nobody sits near us?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

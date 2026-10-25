@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_male_to_male.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_male_to_male.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]have you seen any girl in the village that caught your eye?",
+      "lookup_english": "have you seen any girl in the village that caught your eye?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Has visto alguna chica en el pueblo que te haya llamado la atención?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]村里有哪个女孩让你多看了几眼吗",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]村里有哪个女孩让你多看了几眼吗",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_male_to_male.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#nervous_scratch]that's a private thing",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_male_to_male.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#nervous_scratch]that's a private thing",
+      "lookup_english": "that's a private thing",
+      "spanish": "[#speaker={{speaker_id_2}}][#nervous_scratch]Eso es algo privado",
+      "chinese": "[#speaker={{speaker_id_2}}][#nervous_scratch]这属于私事",
+      "translation": "[#speaker={{speaker_id_2}}][#nervous_scratch]这属于私事",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_male_to_male.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]have you seen any girl in the village that caught your eye?",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]okay, okay, hehehehe",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#nervous_scratch]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_male_to_male.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]okay, okay, hehehehe",
+      "lookup_english": "okay, okay, hehehehe",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Vale, vale, jejejeje.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]行行行，嘿嘿嘿嘿",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]行行行，嘿嘿嘿嘿",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_male_to_male.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#nervous_scratch]that's a private thing",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

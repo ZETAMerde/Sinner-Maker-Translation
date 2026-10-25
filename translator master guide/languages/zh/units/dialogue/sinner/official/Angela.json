@@ -1,0 +1,137 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/official/Angela.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/official/Angela.dialogue#1",
+      "english": "[#uninterested]i currently have a boyfriend",
+      "lookup_english": "i currently have a boyfriend",
+      "spanish": "[#uninterested]Ahora mismo tengo novio.",
+      "chinese": "[#uninterested]我有个男朋友。",
+      "translation": "[#uninterested]我有个男朋友。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/Angela.dialogue",
+      "channel": "talk",
+      "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario.",
+      "prev_english": "",
+      "next_english": "[#uninterested]his name's Mario",
+      "placeholders": [
+        "[#uninterested]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "sinner/official/Angela.dialogue#2",
+      "english": "[#uninterested]his name's Mario",
+      "lookup_english": "his name's Mario",
+      "spanish": "[#uninterested]Se llama Mario...",
+      "chinese": "[#uninterested]他的名字是马里奥……",
+      "translation": "[#uninterested]他的名字是马里奥……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/Angela.dialogue",
+      "channel": "talk",
+      "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario.",
+      "prev_english": "[#uninterested]i currently have a boyfriend",
+      "next_english": "[#facepalm]oh boy",
+      "placeholders": [
+        "[#uninterested]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    },
+    {
+      "id": "sinner/official/Angela.dialogue#3",
+      "english": "[#facepalm]oh boy",
+      "lookup_english": "oh boy",
+      "spanish": "[#facepalm]Ah, scheiße...",
+      "chinese": "[#facepalm]哦天……",
+      "translation": "[#facepalm]哦天……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/Angela.dialogue",
+      "channel": "talk",
+      "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario.",
+      "prev_english": "[#uninterested]his name's Mario",
+      "next_english": "[#uninterested]if I could tell you how we met, heh",
+      "placeholders": [
+        "[#facepalm]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 4
+    },
+    {
+      "id": "sinner/official/Angela.dialogue#4",
+      "english": "[#uninterested]if I could tell you how we met, heh",
+      "lookup_english": "if I could tell you how we met, heh",
+      "spanish": "[#uninterested]Si te pudiera contar como nos conocimos, jaja...",
+      "chinese": "[#uninterested]要是能跟你说说我们是怎么认识的就好了，嘿嘿……",
+      "translation": "[#uninterested]要是能跟你说说我们是怎么认识的就好了，嘿嘿……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/Angela.dialogue",
+      "channel": "talk",
+      "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario.",
+      "prev_english": "[#facepalm]oh boy",
+      "next_english": "[#anxious_hands]there's a lot going on, but ugh, at least I'm with someone I know?",
+      "placeholders": [
+        "[#uninterested]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 5
+    },
+    {
+      "id": "sinner/official/Angela.dialogue#5",
+      "english": "[#anxious_hands]there's a lot going on, but ugh, at least I'm with someone I know?",
+      "lookup_english": "there's a lot going on, but ugh, at least I'm with someone I know?",
+      "spanish": "[#anxious_hands]Es bastante lío pero... no sé... ¿Al menos estoy con alguien a quien conozco...?",
+      "chinese": "[#anxious_hands]我们之间发生过很多事，但是…呃，不知道……至少我身边是个认识的人……？",
+      "translation": "[#anxious_hands]我们之间发生过很多事，但是…呃，不知道……至少我身边是个认识的人……？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/Angela.dialogue",
+      "channel": "talk",
+      "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario.",
+      "prev_english": "[#uninterested]if I could tell you how we met, heh",
+      "next_english": "",
+      "placeholders": [
+        "[#anxious_hands]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 6
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "In-village Talk tree, or a Don't Look Back Talk About override.",
+  "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario."
+}

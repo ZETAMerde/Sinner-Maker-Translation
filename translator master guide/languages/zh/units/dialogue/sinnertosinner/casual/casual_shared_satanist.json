@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_satanist.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_satanist.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]people here still flinch when they hear the word devil",
+      "lookup_english": "people here still flinch when they hear the word devil",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]La gente aquí todavía se estremece cuando escucha la palabra diablo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]这里的人听到“魔鬼”这个词还是会一哆嗦。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]这里的人听到“魔鬼”这个词还是会一哆嗦。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_satanist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]that just makes it easier to spot the timid ones",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_satanist.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]that just makes it easier to spot the timid ones",
+      "lookup_english": "that just makes it easier to spot the timid ones",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Eso hace que sea más fácil detectar a los tímidos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]那反而更容易认出胆小的人。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]那反而更容易认出胆小的人。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_satanist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]people here still flinch when they hear the word devil",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]a useful skill in a place like this",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_satanist.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]a useful skill in a place like this",
+      "lookup_english": "a useful skill in a place like this",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Una habilidad útil en un lugar como este.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]在这种地方，这是项有用的本事。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]在这种地方，这是项有用的本事。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_satanist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]that just makes it easier to spot the timid ones",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_troll.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_troll.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]you look like trouble",
+      "lookup_english": "you look like trouble",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Pareces un problema.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]你看着就像个麻烦。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_troll.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]that is the nicest thing anyone said to me today",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_troll.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]that is the nicest thing anyone said to me today",
+      "lookup_english": "that is the nicest thing anyone said to me today",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Eso es lo más bonito que me han dicho hoy.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]这是今天别人对我说过的最好听的话。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_troll.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]you look like trouble",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]good, I judged you correctly",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_troll.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]good, I judged you correctly",
+      "lookup_english": "good, I judged you correctly",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Bien. Te juzgué correctamente.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]很好。我没看错你。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_troll.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]that is the nicest thing anyone said to me today",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]want to start an argument in the square? for science",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_troll.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]want to start an argument in the square? for science",
+      "lookup_english": "want to start an argument in the square? for science",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]¿Quieres iniciar una discusión en la plaza? Para la ciencia.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]想在广场上挑起一场争吵吗？为了科学。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_troll.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]good, I judged you correctly",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

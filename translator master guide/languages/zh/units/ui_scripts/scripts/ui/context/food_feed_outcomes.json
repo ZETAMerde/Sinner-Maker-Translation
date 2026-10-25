@@ -1,0 +1,129 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/ui/context/food_feed_outcomes.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "that %s was incredible, i feel renewed",
+      "english": "that %s was incredible, i feel renewed",
+      "lookup_english": "that %s was incredible, i feel renewed",
+      "spanish": "Ese bocado de %s estaba increíble, me siento genial.",
+      "chinese": "那个%s太棒了，我感觉整个人都焕然一新。",
+      "translation": "那个%s太棒了，我感觉整个人都焕然一新。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/context/food_feed_outcomes.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "good choice, i liked that %s",
+      "english": "good choice, i liked that %s",
+      "lookup_english": "good choice, i liked that %s",
+      "spanish": "Buena elección, me ha gustado ese bocado de %s.",
+      "chinese": "选得好，我喜欢那个%s。",
+      "translation": "选得好，我喜欢那个%s。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/context/food_feed_outcomes.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "i ate it, but I did not enjoy that %s",
+      "english": "i ate it, but I did not enjoy that %s",
+      "lookup_english": "i ate it, but I did not enjoy that %s",
+      "spanish": "Me lo he comido, pero ese bocado de %s no me ha gustado nada.",
+      "chinese": "我是吃了，但那个%s我一点都不喜欢。",
+      "translation": "我是吃了，但那个%s我一点都不喜欢。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/context/food_feed_outcomes.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "that %s made my mood worse, please do not repeat it",
+      "english": "that %s made my mood worse, please do not repeat it",
+      "lookup_english": "that %s made my mood worse, please do not repeat it",
+      "spanish": "Ese bocado de %s me ha puesto de peor humor, no me lo vuelvas a dar, por favor.",
+      "chinese": "那个%s让我心情更糟了，求你别再来一次了。",
+      "translation": "那个%s让我心情更糟了，求你别再来一次了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/context/food_feed_outcomes.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "thanks for the %s, it helped",
+      "english": "thanks for the %s, it helped",
+      "lookup_english": "thanks for the %s, it helped",
+      "spanish": "Gracias por el bocado de %s, me ha venido bien.",
+      "chinese": "谢谢你给的%s，挺管用的。",
+      "translation": "谢谢你给的%s，挺管用的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/context/food_feed_outcomes.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

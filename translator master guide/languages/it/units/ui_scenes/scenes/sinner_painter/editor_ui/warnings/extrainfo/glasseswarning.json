@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/sinner_painter/editor_ui/warnings/extrainfo/glasseswarning.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "to make glasses correctly first\ndraw the frame\n\n\n\n\nthen you'll be able\nto draw the crystals",
+      "english": "to make glasses correctly first\ndraw the frame\n\n\n\n\nthen you'll be able\nto draw the crystals",
+      "lookup_english": "to make glasses correctly first\ndraw the frame\n\n\n\n\nthen you'll be able\nto draw the crystals",
+      "spanish": "Para hacer bien las gafas, primero\ndibuja la montura\n\n\n\n\nDespués podrás\ndibujar los cristales",
+      "chinese": "要正确制作眼镜，请先\n画出镜框\n\n\n\n\n然后你就可以\n画出镜片",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/sinner_painter/editor_ui/warnings/extrainfo/glasseswarning.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

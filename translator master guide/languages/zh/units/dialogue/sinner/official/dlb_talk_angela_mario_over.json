@@ -1,0 +1,65 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_over.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_over.dialogue#1",
+      "english": "[#uninterested]Mario? i don't really care about him anymore",
+      "lookup_english": "Mario? i don't really care about him anymore",
+      "spanish": "[#uninterested]¿Mario? Él ya no me importa un bledo",
+      "chinese": "[#uninterested]Mario？我早就不在乎他了。",
+      "translation": "[#uninterested]Mario？我早就不在乎他了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_over.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#wave_hand]hopefully he has an ok life",
+      "placeholders": [
+        "[#uninterested]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_over.dialogue#2",
+      "english": "[#wave_hand]hopefully he has an ok life",
+      "lookup_english": "hopefully he has an ok life",
+      "spanish": "[#wave_hand]Ojalá le vaya bien la vida",
+      "chinese": "[#wave_hand]希望他过得还行吧。",
+      "translation": "[#wave_hand]希望他过得还行吧。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_over.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#uninterested]Mario? i don't really care about him anymore",
+      "next_english": "",
+      "placeholders": [
+        "[#wave_hand]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "In-village Talk tree, or a Don't Look Back Talk About override.",
+  "voice_hint": ""
+}

@@ -1,0 +1,153 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/trade/trade_post_mode_catalog.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Sinners with more greed %s sell with more reasonable prices, sinners with more gluttony %s find more quantity and more unique vegetables",
+      "english": "Sinners with more greed %s sell with more reasonable prices, sinners with more gluttony %s find more quantity and more unique vegetables",
+      "lookup_english": "Sinners with more greed %s sell with more reasonable prices, sinners with more gluttony %s find more quantity and more unique vegetables",
+      "spanish": "Los pecadores con más avaricia %s venden a precios más razonables; los pecadores con más gula %s encuentran más cantidad y más verduras únicas",
+      "chinese": "贪婪%s更高的罪人售价更合理，暴食%s更高的罪人能找到更多、更独特的蔬菜",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/trade/trade_post_mode_catalog.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Sinners with more greed %s sell with more reasonable prices, sinners with more sloth %s bring more quantity of materials when they work",
+      "english": "Sinners with more greed %s sell with more reasonable prices, sinners with more sloth %s bring more quantity of materials when they work",
+      "lookup_english": "Sinners with more greed %s sell with more reasonable prices, sinners with more sloth %s bring more quantity of materials when they work",
+      "spanish": "Los pecadores con más avaricia %s venden a precios más razonables; los pecadores con más pereza %s traen más cantidad de materiales cuando trabajan",
+      "chinese": "贪婪%s更高的罪人售价更合理，懒惰%s更高的罪人干活时会带回更多材料",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/trade/trade_post_mode_catalog.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Sinners with more greed %s sell with more reasonable prices and dig up more varied treasures worth pawning",
+      "english": "Sinners with more greed %s sell with more reasonable prices and dig up more varied treasures worth pawning",
+      "lookup_english": "Sinners with more greed %s sell with more reasonable prices and dig up more varied treasures worth pawning",
+      "spanish": "Los pecadores con más avaricia %s venden a precios más razonables y desentierran tesoros más variados dignos de empeñar",
+      "chinese": "贪婪%s更高的罪人售价更合理，还能挖出更多种值得典当的宝物",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/trade/trade_post_mode_catalog.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Sinners with more greed %s sell with more reasonable prices, sinners with more wrath %s hunt more and bigger prey",
+      "english": "Sinners with more greed %s sell with more reasonable prices, sinners with more wrath %s hunt more and bigger prey",
+      "lookup_english": "Sinners with more greed %s sell with more reasonable prices, sinners with more wrath %s hunt more and bigger prey",
+      "spanish": "Los pecadores con más avaricia %s venden a precios más razonables; los pecadores con más ira %s cazan presas más grandes y en mayor cantidad",
+      "chinese": "贪婪%s更高的罪人售价更合理，暴怒%s更高的罪人能猎到更多、更大的猎物",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/trade/trade_post_mode_catalog.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Sinners with more greed %s sell with more reasonable prices, sinners with more gluttony %s stock more fast food and snacks",
+      "english": "Sinners with more greed %s sell with more reasonable prices, sinners with more gluttony %s stock more fast food and snacks",
+      "lookup_english": "Sinners with more greed %s sell with more reasonable prices, sinners with more gluttony %s stock more fast food and snacks",
+      "spanish": "Los pecadores con más avaricia %s venden a precios más razonables; los pecadores con más gula %s almacenan más comida rápida y aperitivos",
+      "chinese": "贪婪%s更高的罪人售价更合理，暴食%s更高的罪人会囤更多快餐和零食",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/trade/trade_post_mode_catalog.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Put food from your inventory on display for sinners to buy during the day, shopkeeper greed %s raises the sale price by 1%% per point",
+      "english": "Put food from your inventory on display for sinners to buy during the day, shopkeeper greed %s raises the sale price by 1%% per point",
+      "lookup_english": "Put food from your inventory on display for sinners to buy during the day, shopkeeper greed %s raises the sale price by 1%% per point",
+      "spanish": "Pon comida de tu inventario en exposición para que los pecadores la compren durante el día. La avaricia del tendero %s sube el precio de venta un 1%% por punto",
+      "chinese": "把库存里的食物摆出来，让罪人在白天购买，店主的贪婪%s每点使售价提高1%%",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/trade/trade_post_mode_catalog.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s",
+        "%%"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

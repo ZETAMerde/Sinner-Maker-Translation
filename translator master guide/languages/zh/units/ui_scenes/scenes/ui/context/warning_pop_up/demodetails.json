@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/context/warning_pop_up/demodetails.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "you are playing the demo\nof Sinner Maker\nyou can make up to\n20 custom parts\nand play only\n4 days on the village\nif you want the full version\nvisit Steam or Itch.io:",
+      "english": "you are playing the demo\nof Sinner Maker\nyou can make up to\n20 custom parts\nand play only\n4 days on the village\nif you want the full version\nvisit Steam or Itch.io:",
+      "lookup_english": "you are playing the demo\nof Sinner Maker\nyou can make up to\n20 custom parts\nand play only\n4 days on the village\nif you want the full version\nvisit Steam or Itch.io:",
+      "spanish": "Estás jugando a la demo\nde Sinner Maker.\nPuedes crear hasta\n20 partes personalizadas\ny jugar solo\n4 días en el pueblo.\nSi quieres la versión completa,\nvisita Steam o Itch.io:",
+      "chinese": "你正在玩\nSinner Maker的试玩版\n你最多可以制作\n20个自定义部件\n并且只能在村庄里\n玩4天\n如果你想要完整版\n请访问Steam或Itch.io：",
+      "translation": "你正在玩\nSinner Maker的试玩版\n你最多可以制作\n20个自定义部件\n并且只能在村庄里\n玩4天\n如果你想要完整版\n请访问Steam或Itch.io：",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/warning_pop_up/demodetails.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_insult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_chief_insult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#frustrated]{{player_name}} is a joke, who put them in charge?",
+      "lookup_english": "{{player_name}} is a joke, who put them in charge?",
+      "spanish": "[#speaker={{speaker_id_1}}][#frustrated]{{player_name}} es un chiste, ¿quién le ha puesto al mando?",
+      "chinese": "[#speaker={{speaker_id_1}}][#frustrated]{{player_name}}简直是个笑话，到底是谁让这种人当家的？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#anxious_hands]keep your voice down",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#frustrated]",
+        "{{speaker_id_1}}",
+        "{{player_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_chief_insult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#anxious_hands]keep your voice down",
+      "lookup_english": "keep your voice down",
+      "spanish": "[#speaker={{speaker_id_2}}][#anxious_hands]Baja la voz.",
+      "chinese": "[#speaker={{speaker_id_2}}][#anxious_hands]小声点。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#frustrated]{{player_name}} is a joke, who put them in charge?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]why? they cannot even hear us, useless, the lot of it",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#anxious_hands]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_chief_insult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]why? they cannot even hear us, useless, the lot of it",
+      "lookup_english": "why? they cannot even hear us, useless, the lot of it",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]¿Por qué? Si ni siquiera nos oye. Inútil, todo el tinglado.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]怕什么？人家根本听不见。没用，全都没用。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#anxious_hands]keep your voice down",
+      "next_english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]i am not repeating that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_chief_insult.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]i am not repeating that",
+      "lookup_english": "i am not repeating that",
+      "spanish": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]Yo eso no lo repito.",
+      "chinese": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]这话我可不跟着说。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]why? they cannot even hear us, useless, the lot of it",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#uncomfortable_idle]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

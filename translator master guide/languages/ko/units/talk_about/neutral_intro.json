@@ -1,0 +1,113 @@
+{
+  "unit": "talk_about",
+  "source": "data/talk_about/lines_en.json",
+  "import_target": "data/talk_about/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "neutral_intro/default",
+      "english": "{name}? i don't know much about {obj}",
+      "lookup_english": "{name}? i don't know much about {obj}",
+      "spanish": "¿{name}? La verdad es que no sé mucho sobre {obj}.",
+      "chinese": "{name}？我对{obj}不太了解。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "{name}? yeah, I've heard about {obj}, {friend} knows them",
+      "placeholders": [
+        "{name}",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "neutral_intro/mutual_friend",
+      "english": "{name}? yeah, I've heard about {obj}, {friend} knows them",
+      "lookup_english": "{name}? yeah, I've heard about {obj}, {friend} knows them",
+      "spanish": "¿{name}? Sí, he oído hablar de {obj}. {friend} es conocid@ suy@.",
+      "chinese": "{name}？对，我听说过{obj}。{friend}认识他。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "{name}? i don't know much about {obj}",
+      "next_english": "yeah, {name}, I've heard {poss} name, but I didn't get the chance to meet {obj}",
+      "placeholders": [
+        "{name}",
+        "{obj}",
+        "{friend}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "neutral_intro/many_friends",
+      "english": "yeah, {name}, I've heard {poss} name, but I didn't get the chance to meet {obj}",
+      "lookup_english": "yeah, {name}, I've heard {poss} name, but I didn't get the chance to meet {obj}",
+      "spanish": "Ah sí, {name}, he escuchado hablar de {poss}, pero no he tenido oportunidad conocernos aún.",
+      "chinese": "对，{name}，我听说过{poss}名字，但我没机会见到{obj}。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "{name}? yeah, I've heard about {obj}, {friend} knows them",
+      "next_english": "{name}? i've only heard bad things about {obj}",
+      "placeholders": [
+        "{name}",
+        "{poss}",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "neutral_intro/many_enemies",
+      "english": "{name}? i've only heard bad things about {obj}",
+      "lookup_english": "{name}? i've only heard bad things about {obj}",
+      "spanish": "¿{name}? No te voy a mentir, solo he oído cosas malas sobre {obj}.",
+      "chinese": "{name}？我只听说过关于{obj}的坏话。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "yeah, {name}, I've heard {poss} name, but I didn't get the chance to meet {obj}",
+      "next_english": "",
+      "placeholders": [
+        "{name}",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "neutral_intro"
+}

@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/studies/specific_details/power_of_wind_details.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "unlocks\nelectric\nwindMills",
+      "english": "unlocks\nelectric\nwindMills",
+      "lookup_english": "unlocks\nelectric\nwindMills",
+      "spanish": "Desbloquea\nmolinos\neléctricos",
+      "chinese": "解锁\n发电\n风车",
+      "translation": "解锁\n发电\n风车",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/studies/specific_details/power_of_wind_details.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "depending on the\nstrength of the wind\nthe electric windmills\nwill produce more\nor less electricity",
+      "english": "depending on the\nstrength of the wind\nthe electric windmills\nwill produce more\nor less electricity",
+      "lookup_english": "depending on the\nstrength of the wind\nthe electric windmills\nwill produce more\nor less electricity",
+      "spanish": "Según la\nfuerza del viento,\nlos molinos eléctricos\nproducirán más\no menos electricidad",
+      "chinese": "根据\n风力的强弱，\n发电风车\n会产生更多\n或更少的电力",
+      "translation": "根据\n风力的强弱，\n发电风车\n会产生更多\n或更少的电力",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/studies/specific_details/power_of_wind_details.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

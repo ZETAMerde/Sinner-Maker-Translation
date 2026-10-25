@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_gift.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/proposal/proposal_gift.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]{{npc_name2}}, i have something for you, take this {{gift_name}}",
+      "lookup_english": "{{npc_name2}}, i have something for you, take this {{gift_name}}",
+      "spanish": "[#speaker={{speaker_id_1}}]{{npc_name2}}... Tengo algo para ti. Toma esto {{gift_name}}.",
+      "chinese": "[#speaker={{speaker_id_1}}]{{npc_name2}}……我有东西给你。收下这个{{gift_name}}吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_gift.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_1}}]i want you to go out with me",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}",
+        "{{npc_name2}}",
+        "{{gift_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_gift.dialogue#2",
+      "english": "[#speaker={{speaker_id_1}}]i want you to go out with me",
+      "lookup_english": "i want you to go out with me",
+      "spanish": "[#speaker={{speaker_id_1}}]Quiero que salgas conmigo.",
+      "chinese": "[#speaker={{speaker_id_1}}]我想让你跟我交往。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_gift.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]{{npc_name2}}, i have something for you, take this {{gift_name}}",
+      "next_english": "[#speaker={{speaker_id_2}}]this is, {{npc_name1}}, I am touched, yes, let's give it a try",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_gift.dialogue#3",
+      "english": "[#speaker={{speaker_id_2}}]this is, {{npc_name1}}, I am touched, yes, let's give it a try",
+      "lookup_english": "this is, {{npc_name1}}, I am touched, yes, let's give it a try",
+      "spanish": "[#speaker={{speaker_id_2}}]Esto es... {{npc_name1}}, estoy conmovido. Sí. Probémoslo.",
+      "chinese": "[#speaker={{speaker_id_2}}]这……{{npc_name1}}，我很感动。好，我们试试吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_gift.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]i want you to go out with me",
+      "next_english": "[#speaker={{speaker_id_2}}]the gift is lovely, but I cannot accept what you are asking, I am sorry, {{npc_name1}}",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}",
+        "{{npc_name1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 10
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_gift.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}]the gift is lovely, but I cannot accept what you are asking, I am sorry, {{npc_name1}}",
+      "lookup_english": "the gift is lovely, but I cannot accept what you are asking, I am sorry, {{npc_name1}}",
+      "spanish": "[#speaker={{speaker_id_2}}]El regalo es precioso. Pero no puedo aceptar lo que me pides. Lo siento, {{npc_name1}}.",
+      "chinese": "[#speaker={{speaker_id_2}}]礼物很可爱。但我不能接受你所求的。对不起，{{npc_name1}}。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_gift.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}]this is, {{npc_name1}}, I am touched, yes, let's give it a try",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}",
+        "{{npc_name1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 16
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "One sinner approaches a crush.",
+  "voice_hint": ""
+}

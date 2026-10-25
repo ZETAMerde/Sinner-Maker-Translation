@@ -1,0 +1,39 @@
+{
+  "unit": "talk_about",
+  "source": "data/talk_about/lines_en.json",
+  "import_target": "data/talk_about/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "christian_vs_unbeliever",
+      "english": "[#head_shake]{name} doesn't share our faith, i keep my distance",
+      "lookup_english": "{name} doesn't share our faith, i keep my distance",
+      "spanish": "[#head_shake]{name} no comparte la fe. Prefiero mantener las distancias.",
+      "chinese": "[#head_shake]{name}不认同我们的信仰。我保持距离。",
+      "translation": "[#head_shake]{name}不认同我们的信仰。我保持距离。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "[#head_shake]",
+        "{name}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "christian_vs_unbeliever"
+}

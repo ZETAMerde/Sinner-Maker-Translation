@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/characters/npc/interaction/talk_about_flow.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "I don't know anyone else to talk about",
+      "english": "I don't know anyone else to talk about",
+      "lookup_english": "I don't know anyone else to talk about",
+      "spanish": "No conozco a nadie más de quien hablar.",
+      "chinese": "我不认识其他可以聊的人了。",
+      "translation": "我不认识其他可以聊的人了。",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/characters/npc/interaction/talk_about_flow.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

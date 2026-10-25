@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_chief_rumor.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/neutral_chief_rumor.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]people say the chief talks to Gabriel in his sleep",
+      "lookup_english": "people say the chief talks to Gabriel in his sleep",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]La gente dice que el jefe habla con Gabriel en sueños.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]大家都说首领睡觉时会跟Gabriel说话",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]大家都说首领睡觉时会跟Gabriel说话",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_chief_rumor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]people say a lot of shit when they are hungry",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/neutral_chief_rumor.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]people say a lot of shit when they are hungry",
+      "lookup_english": "people say a lot of shit when they are hungry",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]La gente dice muchas cosas cuando tiene hambre.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]人们饿的时候什么鬼话都说得出来。",
+      "translation": "[#speaker={{speaker_id_2}}][#wonder]人们饿的时候什么鬼话都说得出来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_chief_rumor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]people say the chief talks to Gabriel in his sleep",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]true, still, weird village",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/neutral_chief_rumor.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]true, still, weird village",
+      "lookup_english": "true, still, weird village",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Verdadero. Aún. Pueblo extraño.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]确实。不过，这村子真怪。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]确实。不过，这村子真怪。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_chief_rumor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]people say a lot of shit when they are hungry",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]we live in hell, weird is baseline",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/neutral_chief_rumor.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]we live in hell, weird is baseline",
+      "lookup_english": "we live in hell, weird is baseline",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Vivimos en el infierno. Lo extraño es lo básico.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]我们住在地狱里。怪才是常态。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]我们住在地狱里。怪才是常态。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_chief_rumor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]true, still, weird village",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ambient pair conversation.",
+  "voice_hint": ""
+}

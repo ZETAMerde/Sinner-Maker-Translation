@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cannibal.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_cannibal.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]you look well fed, suspiciously well fed",
+      "lookup_english": "you look well fed, suspiciously well fed",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Te ves bien alimentado. Sospechosamente bien alimentado.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]你看起来吃得不错。可疑的不错。",
+      "translation": "[#speaker={{speaker_id_1}}][#worried]你看起来吃得不错。可疑的不错。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cannibal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]rations, store rations, do not look at me like that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_cannibal.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]rations, store rations, do not look at me like that",
+      "lookup_english": "rations, store rations, do not look at me like that",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Raciones. Almacenar raciones. No me mires así.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]口粮，是储备口粮。别那样看我。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]口粮，是储备口粮。别那样看我。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cannibal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]you look well fed, suspiciously well fed",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_shake]we both know what hunger makes you consider",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_cannibal.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]we both know what hunger makes you consider",
+      "lookup_english": "we both know what hunger makes you consider",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Ambos sabemos lo que te hace considerar el hambre.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]你我都清楚饥饿会让人动什么念头。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_shake]你我都清楚饥饿会让人动什么念头。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cannibal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wave_hand]rations, store rations, do not look at me like that",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]then help me stay fed, that is the whole friendship",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_cannibal.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#worried]then help me stay fed, that is the whole friendship",
+      "lookup_english": "then help me stay fed, that is the whole friendship",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Entonces ayúdame a mantenerme alimentado. Esa es toda la amistad.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]那就帮我别饿着。这份友谊就这么简单。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]那就帮我别饿着。这份友谊就这么简单。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cannibal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]we both know what hunger makes you consider",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

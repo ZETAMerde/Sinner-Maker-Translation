@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]back in my day we had real problems",
+      "lookup_english": "back in my day we had real problems",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]En mis tiempos teníamos problemas reales.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我那个年代，我们有的是真正的问题。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]我那个年代，我们有的是真正的问题。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]grandpa, the world literally ended",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]grandpa, the world literally ended",
+      "lookup_english": "grandpa, the world literally ended",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]Abuelo, el mundo literalmente se acabó.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]爷爷，世界可是真的完了。",
+      "translation": "[#speaker={{speaker_id_2}}][#wonder]爷爷，世界可是真的完了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]back in my day we had real problems",
+      "next_english": "[#speaker={{speaker_id_1}}][#worried]and we still had better furniture, listen to your elder",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#worried]and we still had better furniture, listen to your elder",
+      "lookup_english": "and we still had better furniture, listen to your elder",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Y todavía teníamos mejores muebles. Escuche a su mayor.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]可我们还有更好的家具。听长辈的话。",
+      "translation": "[#speaker={{speaker_id_1}}][#worried]可我们还有更好的家具。听长辈的话。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]grandpa, the world literally ended",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]that is not wisdom, that is bragging",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]that is not wisdom, that is bragging",
+      "lookup_english": "that is not wisdom, that is bragging",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Eso no es sabiduría. Eso es fanfarronear.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]那不是智慧，那是吹牛。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]那不是智慧，那是吹牛。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_grandparent_wisdom.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]and we still had better furniture, listen to your elder",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

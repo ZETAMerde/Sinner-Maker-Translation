@@ -1,0 +1,90 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/feed_result.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/feed_result.dialogue#1",
+      "english": "{{feed_result_line}}",
+      "lookup_english": "{{feed_result_line}}",
+      "spanish": "{{feed_result_line}}",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/feed_result.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#uncomfortable_idle]i'm feeling a bit weird",
+      "placeholders": [
+        "{{feed_result_line}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 2
+    },
+    {
+      "id": "sinner/feed_result.dialogue#2",
+      "english": "[#uncomfortable_idle]i'm feeling a bit weird",
+      "lookup_english": "i'm feeling a bit weird",
+      "spanish": "[#uncomfortable_idle]Me encuentro un poco mal...",
+      "chinese": "[#uncomfortable_idle]我感觉有点怪怪的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/feed_result.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "{{feed_result_line}}",
+      "next_english": "[#dreamy]{{crush_name}}",
+      "placeholders": [
+        "[#uncomfortable_idle]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 6
+    },
+    {
+      "id": "sinner/feed_result.dialogue#3",
+      "english": "[#dreamy]{{crush_name}}",
+      "lookup_english": "{{crush_name}}",
+      "spanish": "",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/feed_result.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#uncomfortable_idle]i'm feeling a bit weird",
+      "next_english": "",
+      "placeholders": [
+        "[#dreamy]",
+        "{{crush_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 7
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "Player talking to one sinner: menus, romance, crisis, feed, gifts.",
+  "voice_hint": ""
+}

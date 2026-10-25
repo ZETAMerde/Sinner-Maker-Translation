@@ -1,0 +1,66 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Ross.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Ross.dialogue#1",
+      "english": "[#exited_clap]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来。",
+      "translation": "[#wave_hand]谢谢你让我进来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Ross.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#hard_laugh]ready for action! hahahaha",
+      "placeholders": [
+        "[#exited_clap]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "welcome/sinners/Ross.dialogue#2",
+      "english": "[#hard_laugh]ready for action! hahahaha",
+      "lookup_english": "ready for action! hahahaha",
+      "spanish": "[#hard_laugh]¡Listo para la acción! jajajaja",
+      "chinese": "[#hard_laugh]随时准备行动！哈哈哈哈",
+      "translation": "[#hard_laugh]随时准备行动！哈哈哈哈",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Ross.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "[#exited_clap]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#hard_laugh]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": ""
+}

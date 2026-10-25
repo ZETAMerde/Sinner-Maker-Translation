@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]the stores have new rations, the chief is distracted",
+      "lookup_english": "the stores have new rations, the chief is distracted",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Las tiendas tienen nuevas raciones. El jefe está distraído.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]储备处有新口粮。首领正分心。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]you say that like it is a coincidence",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]you say that like it is a coincidence",
+      "lookup_english": "you say that like it is a coincidence",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Lo dices como si fuera una coincidencia.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]你说得好像那是巧合似的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]the stores have new rations, the chief is distracted",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]i made it a coincidence, you in?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i made it a coincidence, you in?",
+      "lookup_english": "i made it a coincidence, you in?",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Lo hice una coincidencia. ¿Estás dentro?",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]是我把它变成巧合的。你加入吗？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]you say that like it is a coincidence",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]i was born in, let us go",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]i was born in, let us go",
+      "lookup_english": "i was born in, let us go",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Nací en. Vámonos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]我生来就加入了。我们走吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_food_heist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]i made it a coincidence, you in?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

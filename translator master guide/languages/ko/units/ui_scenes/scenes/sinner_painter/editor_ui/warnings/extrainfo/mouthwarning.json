@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/sinner_painter/editor_ui/warnings/extrainfo/mouthwarning.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "if you want colored\nlips don't draw them with the mouth\n\n\n\nfinish the mouth and\nthen you'll be able\nto add lips",
+      "english": "if you want colored\nlips don't draw them with the mouth\n\n\n\nfinish the mouth and\nthen you'll be able\nto add lips",
+      "lookup_english": "if you want colored\nlips don't draw them with the mouth\n\n\n\nfinish the mouth and\nthen you'll be able\nto add lips",
+      "spanish": "Si quieres labios\nde color, no los dibujes con la boca\n\n\n\nTermina la boca y\ndespués podrás\nañadir los labios",
+      "chinese": "如果你想要有颜色的\n嘴唇，不要和嘴巴一起画\n\n\n\n先画完嘴巴，\n然后你就可以\n添加嘴唇",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/sinner_painter/editor_ui/warnings/extrainfo/mouthwarning.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

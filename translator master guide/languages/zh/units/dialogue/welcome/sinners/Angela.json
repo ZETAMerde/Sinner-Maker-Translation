@@ -1,0 +1,65 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Angela.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Angela.dialogue#1",
+      "english": "[#wave_hand]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来哦。",
+      "translation": "[#wave_hand]谢谢你让我进来哦。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Angela.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario.",
+      "prev_english": "",
+      "next_english": "[#bad_intentioned]i'm sure we'll have a lot of fun together, hehe",
+      "placeholders": [
+        "[#wave_hand]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/sinners/Angela.dialogue#2",
+      "english": "[#bad_intentioned]i'm sure we'll have a lot of fun together, hehe",
+      "lookup_english": "i'm sure we'll have a lot of fun together, hehe",
+      "spanish": "[#bad_intentioned]Estoy segura se que nos lo vamos a pasar muy bien... jeje",
+      "chinese": "[#bad_intentioned]我相信我们会一起玩得很开心的，嘿嘿。",
+      "translation": "[#bad_intentioned]我相信我们会一起玩得很开心的，嘿嘿。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Angela.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario.",
+      "prev_english": "[#wave_hand]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#bad_intentioned]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": "Woman. Anxious, foul mouth, cousin loyalty. Fillers uhm and umm. She is hunting Matilde. Do not make her posh. Do not make her enjoy Mario."
+}

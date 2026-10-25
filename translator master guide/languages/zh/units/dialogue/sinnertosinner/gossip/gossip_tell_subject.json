@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_tell_subject.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/gossip/gossip_tell_subject.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]i live in that house, last night {{gossip_actor_name}} was there with {{gossip_subject_name}} while your partner was away, I am sorry you deserved to hear it from me",
+      "lookup_english": "i live in that house, last night {{gossip_actor_name}} was there with {{gossip_subject_name}} while your partner was away, I am sorry you deserved to hear it from me",
+      "spanish": "[#speaker={{speaker_id_1}}]Vivo en esa casa. Anoche {{gossip_actor_name}} estuvo allí con {{gossip_subject_name}} mientras tu pareja estaba fuera. Lamento que merecieras escucharlo de mí.",
+      "chinese": "[#speaker={{speaker_id_1}}]我就住在那栋房子里。昨晚{{gossip_actor_name}}和{{gossip_subject_name}}在那里，而你的伴侣不在。抱歉，你该从我这儿听到这件事。",
+      "translation": "[#speaker={{speaker_id_1}}]我就住在那栋房子里。昨晚{{gossip_actor_name}}和{{gossip_subject_name}}在那里，而你的伴侣不在。抱歉，你该从我这儿听到这件事。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_tell_subject.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]what?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}",
+        "{{gossip_actor_name}}",
+        "{{gossip_subject_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 7
+    },
+    {
+      "id": "sinnertosinner/gossip/gossip_tell_subject.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]what?",
+      "lookup_english": "what?",
+      "spanish": "[#surprised]¡¿Qué?!",
+      "chinese": "[#surprised]什么？",
+      "translation": "[#surprised]什么？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_tell_subject.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]i live in that house, last night {{gossip_actor_name}} was there with {{gossip_subject_name}} while your partner was away, I am sorry you deserved to hear it from me",
+      "next_english": "[#speaker={{speaker_id_1}}]i need to tell you what I saw, {{gossip_actor_name}} and {{gossip_subject_name}} were together last night at the house",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 8,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "sinnertosinner/gossip/gossip_tell_subject.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}]i need to tell you what I saw, {{gossip_actor_name}} and {{gossip_subject_name}} were together last night at the house",
+      "lookup_english": "i need to tell you what I saw, {{gossip_actor_name}} and {{gossip_subject_name}} were together last night at the house",
+      "spanish": "[#speaker={{speaker_id_1}}]Necesito contarte lo que vi. {{gossip_actor_name}} y {{gossip_subject_name}} estuvieron juntos anoche en la casa.",
+      "chinese": "[#speaker={{speaker_id_1}}]我得告诉你我看到了什么。{{gossip_actor_name}}和{{gossip_subject_name}}昨晚在那栋房子里在一起。",
+      "translation": "[#speaker={{speaker_id_1}}]我得告诉你我看到了什么。{{gossip_actor_name}}和{{gossip_subject_name}}昨晚在那栋房子里在一起。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_tell_subject.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}]what?",
+      "next_english": "[#speaker={{speaker_id_2}}]say it plainly",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}",
+        "{{gossip_actor_name}}",
+        "{{gossip_subject_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 14
+    },
+    {
+      "id": "sinnertosinner/gossip/gossip_tell_subject.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}]say it plainly",
+      "lookup_english": "say it plainly",
+      "spanish": "[#speaker={{speaker_id_2}}]...Dilo claramente.",
+      "chinese": "[#speaker={{speaker_id_2}}]……直说吧。",
+      "translation": "[#speaker={{speaker_id_2}}]……直说吧。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_tell_subject.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]i need to tell you what I saw, {{gossip_actor_name}} and {{gossip_subject_name}} were together last night at the house",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 15
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Gossip between two sinners.",
+  "voice_hint": ""
+}

@@ -1,0 +1,106 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/ui/sinner_context_menu.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Save file: %s",
+      "english": "Save file: %s",
+      "lookup_english": "Save file: %s",
+      "spanish": "Guardar archivo: %s",
+      "chinese": "存档文件：%s",
+      "translation": "存档文件：%s",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/ui/sinner_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "lover:\n%s",
+      "english": "lover:\n%s",
+      "lookup_english": "lover:\n%s",
+      "spanish": "Amante:\n%s",
+      "chinese": "爱人：\n%s",
+      "translation": "爱人：\n%s",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/sinner_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "%s:\n%s",
+      "english": "%s:\n%s",
+      "lookup_english": "%s:\n%s",
+      "spanish": "",
+      "chinese": "",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "copy_english",
+      "speaker": "",
+      "source": "scripts/ui/sinner_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Percent placeholders are positional. Keep them in the same order. No words to translate. Set translation equal to english."
+    },
+    {
+      "id": "best friend:\n%s",
+      "english": "best friend:\n%s",
+      "lookup_english": "best friend:\n%s",
+      "spanish": "Mejor amistad:\n%s",
+      "chinese": "挚友：\n%s",
+      "translation": "挚友：\n%s",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/sinner_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/flipphone/program_scripts/settings_program.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Shell",
+      "english": "Shell",
+      "lookup_english": "Shell",
+      "spanish": "Carcasa",
+      "chinese": "外壳",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/flipphone/program_scripts/settings_program.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "Background",
+      "english": "Background",
+      "lookup_english": "Background",
+      "spanish": "Fondo",
+      "chinese": "背景",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/flipphone/program_scripts/settings_program.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

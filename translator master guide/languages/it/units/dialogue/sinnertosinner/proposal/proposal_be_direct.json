@@ -1,0 +1,92 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_be_direct.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/proposal/proposal_be_direct.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]i like you, I would like for us to be together, that is all I came to say",
+      "lookup_english": "i like you, I would like for us to be together, that is all I came to say",
+      "spanish": "[#speaker={{speaker_id_1}}]Me gustas. Me gustaría que estuviéramos juntos. Eso es todo lo que vine a decir.",
+      "chinese": "[#speaker={{speaker_id_1}}]我喜欢你。我希望我们在一起。我要说的就这些。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_be_direct.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]direct, clear, I respect that more than you know, yes, I want that too",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_be_direct.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]direct, clear, I respect that more than you know, yes, I want that too",
+      "lookup_english": "direct, clear, I respect that more than you know, yes, I want that too",
+      "spanish": "[#speaker={{speaker_id_2}}]Directo. Claro. Lo respeto más de lo que crees. Sí. Yo también quiero eso.",
+      "chinese": "[#speaker={{speaker_id_2}}]直接，清楚。我比你想象的更尊重这一点。是的，我也想。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_be_direct.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]i like you, I would like for us to be together, that is all I came to say",
+      "next_english": "[#speaker={{speaker_id_2}}]i appreciate you being straight with me, I do not feel the same, I hope we are still alright",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 9
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_be_direct.dialogue#3",
+      "english": "[#speaker={{speaker_id_2}}]i appreciate you being straight with me, I do not feel the same, I hope we are still alright",
+      "lookup_english": "i appreciate you being straight with me, I do not feel the same, I hope we are still alright",
+      "spanish": "[#speaker={{speaker_id_2}}]Aprecio que seas sincero conmigo. No siento lo mismo. Espero que todavía estemos bien.",
+      "chinese": "[#speaker={{speaker_id_2}}]谢谢你对我坦诚。我没有同样的感觉。希望我们一切都好。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_be_direct.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}]direct, clear, I respect that more than you know, yes, I want that too",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 15
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "One sinner approaches a crush.",
+  "voice_hint": ""
+}

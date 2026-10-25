@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]you have been staring at that wall for ten minutes",
+      "lookup_english": "you have been staring at that wall for ten minutes",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Llevas diez minutos mirando esa pared.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]你盯着那面墙已经十分钟了。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]你盯着那面墙已经十分钟了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]it understands me",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]it understands me",
+      "lookup_english": "it understands me",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Me entiende.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]它懂我。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]它懂我。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]you have been staring at that wall for ten minutes",
+      "next_english": "[#speaker={{speaker_id_1}}][#wonder]the wall or the apocalypse?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]the wall or the apocalypse?",
+      "lookup_english": "the wall or the apocalypse?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿El muro o el apocalipsis?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]墙，还是末日？",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]墙，还是末日？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]it understands me",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]both, leave me alone, politely",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]both, leave me alone, politely",
+      "lookup_english": "both, leave me alone, politely",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Ambos. Déjame en paz. Cortésmente.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]都是。让我一个人待着，礼貌些。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]都是。让我一个人待着，礼貌些。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]the wall or the apocalypse?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

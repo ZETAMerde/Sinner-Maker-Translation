@@ -1,0 +1,37 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/characters/priest/importcustomcharacterfromplaza.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Slot %d, Circle %d",
+      "english": "Slot %d, Circle %d",
+      "lookup_english": "Slot %d, Circle %d",
+      "spanish": "Espacio %d, Círculo %d",
+      "chinese": "槽位 %d，圈 %d",
+      "translation": "槽位 %d，圈 %d",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/characters/priest/importcustomcharacterfromplaza.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

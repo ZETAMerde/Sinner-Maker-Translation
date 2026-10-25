@@ -1,0 +1,69 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_noisy_neighbors.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/gossip/gossip_noisy_neighbors.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]did you hear them last night? {{gossip_couple_name_a}} and {{gossip_couple_name_b}} on another floor and I still could not sleep",
+      "lookup_english": "did you hear them last night? {{gossip_couple_name_a}} and {{gossip_couple_name_b}} on another floor and I still could not sleep",
+      "spanish": "[#speaker={{speaker_id_1}}]¿Los escuchaste anoche? {{gossip_couple_name_a}} y {{gossip_couple_name_b}} en otro piso y todavía no podía dormir.",
+      "chinese": "[#speaker={{speaker_id_1}}]你昨晚听到他们了吗？{{gossip_couple_name_a}}和{{gossip_couple_name_b}}在另一层楼，我还是睡不着。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_noisy_neighbors.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]the whole house must have heard, people will talk",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}",
+        "{{gossip_couple_name_a}}",
+        "{{gossip_couple_name_b}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/gossip/gossip_noisy_neighbors.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]the whole house must have heard, people will talk",
+      "lookup_english": "the whole house must have heard, people will talk",
+      "spanish": "[#speaker={{speaker_id_2}}]Toda la casa debe haber escuchado. La gente hablará.",
+      "chinese": "[#speaker={{speaker_id_2}}]整栋房子肯定都听见了。人们会议论的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_noisy_neighbors.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]did you hear them last night? {{gossip_couple_name_a}} and {{gossip_couple_name_b}} on another floor and I still could not sleep",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Gossip between two sinners.",
+  "voice_hint": ""
+}

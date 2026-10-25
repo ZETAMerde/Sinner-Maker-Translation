@@ -1,0 +1,36 @@
+{
+  "unit": "resources",
+  "source": "data/window",
+  "import_target": "locale/official_es/resources.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "WINDOW_WOODEN_WINDOW_NAME",
+      "english": "Wooden Window",
+      "lookup_english": "Wooden Window",
+      "spanish": "Ventana de madera",
+      "chinese": "木窗",
+      "translation": "",
+      "style": "item_name",
+      "casing_rule": "ui_name",
+      "speaker": "",
+      "source": "data/building_windows/wooden_window.tres",
+      "channel": "resource",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/resources.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ],
+  "group": "window"
+}

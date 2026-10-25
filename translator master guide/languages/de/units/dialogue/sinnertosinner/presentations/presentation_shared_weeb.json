@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_weeb.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_weeb.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]is that a limited edition shirt or are you just happy to see me?",
+      "lookup_english": "is that a limited edition shirt or are you just happy to see me?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Es una camiseta de edición limitada o simplemente estás feliz de verme?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]那是限量版衬衫，还是你只是见到我很高兴？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_weeb.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]both, do not ask which season",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_weeb.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]both, do not ask which season",
+      "lookup_english": "both, do not ask which season",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Ambos. No preguntes en qué estación.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]都有。别问是哪一季的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_weeb.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]is that a limited edition shirt or are you just happy to see me?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]finally, someone who understands priorities",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_weeb.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]finally, someone who understands priorities",
+      "lookup_english": "finally, someone who understands priorities",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Finalmente. Alguien que entienda las prioridades.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]终于。有个懂轻重缓急的人。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_weeb.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]both, do not ask which season",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]real life is mid, fiction had better writing anyway",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_weeb.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]real life is mid, fiction had better writing anyway",
+      "lookup_english": "real life is mid, fiction had better writing anyway",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]La vida real está en la mitad. De todos modos, es mejor escribir ficción.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]现实生活一般般。虚构作品的剧本本来就更好。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_weeb.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]finally, someone who understands priorities",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

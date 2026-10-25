@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_doubt.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_god_doubt.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]i do not think God is there, not really, not for us",
+      "lookup_english": "i do not think God is there, not really, not for us",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]No creo que Dios esté ahí. No de verdad. No para la gente de aquí.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]我觉得上帝不在那儿，不是真的在，至少不是为了我们。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_doubt.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]you cannot mean that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_doubt.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]you cannot mean that",
+      "lookup_english": "you cannot mean that",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]No lo dirás en serio.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]你不是认真的吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_doubt.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]i do not think God is there, not really, not for us",
+      "next_english": "[#speaker={{speaker_id_1}}][#dont_know]i pray and nothing answers, so perhaps there is no one to answer",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_doubt.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#dont_know]i pray and nothing answers, so perhaps there is no one to answer",
+      "lookup_english": "i pray and nothing answers, so perhaps there is no one to answer",
+      "spanish": "[#speaker={{speaker_id_1}}][#dont_know]Rezo y nada responde. Así que quizá no haya nadie para responder.",
+      "chinese": "[#speaker={{speaker_id_1}}][#dont_know]我祷告，什么都没回应，那也许根本就没有谁能回应。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_doubt.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]you cannot mean that",
+      "next_english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]that is a dangerous thing to say here",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#dont_know]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_doubt.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]that is a dangerous thing to say here",
+      "lookup_english": "that is a dangerous thing to say here",
+      "spanish": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]Decir eso aquí es peligroso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]在这儿说这种话很危险。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_doubt.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#dont_know]i pray and nothing answers, so perhaps there is no one to answer",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#uncomfortable_idle]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

@@ -1,0 +1,105 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/important/savesystem/save_slot_panel.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Slot %d",
+      "english": "Slot %d",
+      "lookup_english": "Slot %d",
+      "spanish": "Espacio %d",
+      "chinese": "存档位 %d",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/important/savesystem/save_slot_panel.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "day %d, %s\n%d sinners",
+      "english": "day %d, %s\n%d sinners",
+      "lookup_english": "day %d, %s\n%d sinners",
+      "spanish": "Día %d, %s\n%d pecadores",
+      "chinese": "第%d天，%s\n%d个罪人",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/important/savesystem/save_slot_panel.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d",
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Difficulty: %s",
+      "english": "Difficulty: %s",
+      "lookup_english": "Difficulty: %s",
+      "spanish": "Dificultad: %s",
+      "chinese": "难度：%s",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/important/savesystem/save_slot_panel.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Slot Empty",
+      "english": "Slot Empty",
+      "lookup_english": "Slot Empty",
+      "spanish": "Espacio vacía",
+      "chinese": "空存档位",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/important/savesystem/save_slot_panel.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

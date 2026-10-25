@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/context/generator_context_menu.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Burning 10 wood",
+      "english": "Burning 10 wood",
+      "lookup_english": "Burning 10 wood",
+      "spanish": "Quemando 10 de madera",
+      "chinese": "正在燃烧10木材",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/generator_context_menu.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "Wood remaining: XXX",
+      "english": "Wood remaining: XXX",
+      "lookup_english": "Wood remaining: XXX",
+      "spanish": "Madera faltante: XXX",
+      "chinese": "剩余木材：XXX",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/generator_context_menu.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

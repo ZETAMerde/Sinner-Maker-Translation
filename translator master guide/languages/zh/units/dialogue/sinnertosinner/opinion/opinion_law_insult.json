@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_insult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_law_insult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#uninterested]{{law_name}} is rubbish, who wrote that rubbish, a child?",
+      "lookup_english": "{{law_name}} is rubbish, who wrote that rubbish, a child?",
+      "spanish": "[#speaker={{speaker_id_1}}][#uninterested]{{law_name}} es una basura. ¿Quién ha escrito esa basura, un crío?",
+      "chinese": "[#speaker={{speaker_id_1}}][#uninterested]{{law_name}}就是垃圾，谁写的这种垃圾，小孩吗？",
+      "translation": "[#speaker={{speaker_id_1}}][#uninterested]{{law_name}}就是垃圾，谁写的这种垃圾，小孩吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]the chief might hear you",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#uninterested]",
+        "{{speaker_id_1}}",
+        "{{law_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_law_insult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]the chief might hear you",
+      "lookup_english": "the chief might hear you",
+      "spanish": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]Te puede oír el jefe.",
+      "chinese": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]首领可能会听见。",
+      "translation": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]首领可能会听见。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#uninterested]{{law_name}} is rubbish, who wrote that rubbish, a child?",
+      "next_english": "[#speaker={{speaker_id_1}}][#frustrated]let them, the law is a farce and everyone knows it",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#uncomfortable_idle]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_law_insult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#frustrated]let them, the law is a farce and everyone knows it",
+      "lookup_english": "let them, the law is a farce and everyone knows it",
+      "spanish": "[#speaker={{speaker_id_1}}][#frustrated]Que me oiga. La ley es una farsa y todo el mundo lo sabe.",
+      "chinese": "[#speaker={{speaker_id_1}}][#frustrated]听见就听见，这法律就是场闹剧，谁都知道。",
+      "translation": "[#speaker={{speaker_id_1}}][#frustrated]听见就听见，这法律就是场闹剧，谁都知道。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]the chief might hear you",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]i am not laughing with you",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#frustrated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_law_insult.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]i am not laughing with you",
+      "lookup_english": "i am not laughing with you",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Yo no me río contigo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]我可不跟你一起笑。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]我可不跟你一起笑。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#frustrated]let them, the law is a farce and everyone knows it",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

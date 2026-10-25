@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/sinner_painter/editor_ui/warnings/extrainfo/windowwarning.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "to make a window first\ndraw the window\n\n\n\n\nthen draw it with\nlight inside",
+      "english": "to make a window first\ndraw the window\n\n\n\n\nthen draw it with\nlight inside",
+      "lookup_english": "to make a window first\ndraw the window\n\n\n\n\nthen draw it with\nlight inside",
+      "spanish": "Para hacer una ventana, primero\ndibuja la ventana\n\n\n\n\nDespués dibújala con\nluz dentro",
+      "chinese": "要制作窗户，请先\n画出窗户\n\n\n\n\n然后再画一遍\n里面亮着光的样子",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/sinner_painter/editor_ui/warnings/extrainfo/windowwarning.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

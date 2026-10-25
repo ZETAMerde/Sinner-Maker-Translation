@@ -1,0 +1,39 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/door/nobody_here.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "door/nobody_here.dialogue#1",
+      "english": "there's nobody at the door currently",
+      "lookup_english": "there's nobody at the door currently",
+      "spanish": "No hay nadie en la puerta actualmente.",
+      "chinese": "目前门口没有人",
+      "translation": "目前门口没有人",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "Player",
+      "source": "scenes/dialogue/dialogues/door/nobody_here.dialogue",
+      "channel": "door",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    }
+  ],
+  "channel": "door",
+  "channel_note": "Door knock. The visitor wants to come in.",
+  "voice_hint": ""
+}

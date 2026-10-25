@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cultist.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_cultist.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]the circle sends greetings, and snacks, well, intentions of snacks",
+      "lookup_english": "the circle sends greetings, and snacks, well, intentions of snacks",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]El círculo envía saludos. Y bocadillos. Bueno, intenciones de snacks.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]圈子向你问好。还有点心。嗯，是点心的心意。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cultist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]our leader promised a feast, he lies beautifully",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_cultist.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]our leader promised a feast, he lies beautifully",
+      "lookup_english": "our leader promised a feast, he lies beautifully",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Nuestro líder prometió un banquete. Miente maravillosamente.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]我们的首领承诺过一场盛宴。他撒谎撒得很漂亮。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cultist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]the circle sends greetings, and snacks, well, intentions of snacks",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]at least the chanting is consistent",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_cultist.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]at least the chanting is consistent",
+      "lookup_english": "at least the chanting is consistent",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Al menos el canto es consistente.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]至少吟诵一直很整齐。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cultist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]our leader promised a feast, he lies beautifully",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]do not say that near the Christians, they get twitchy",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_cultist.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]do not say that near the Christians, they get twitchy",
+      "lookup_english": "do not say that near the Christians, they get twitchy",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]No digas eso cerca de los cristianos. Se ponen nerviosos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]别在基督徒附近说这话。他们会紧张。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_cultist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]at least the chanting is consistent",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

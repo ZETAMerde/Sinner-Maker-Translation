@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_married_routine.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_married_routine.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]same bench, same sky, same bullshit",
+      "lookup_english": "same bench, same sky, same bullshit",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Mismo banco. El mismo cielo. La misma mierda.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]同样的长椅，同样的天空，同样的破事。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_married_routine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]morning to you too, darling",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_married_routine.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]morning to you too, darling",
+      "lookup_english": "morning to you too, darling",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Buenos días para ti también, cariño.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]也祝你早上好，亲爱的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_married_routine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]same bench, same sky, same bullshit",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_shake]we have been married too long for you to still be cheerful",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_married_routine.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]we have been married too long for you to still be cheerful",
+      "lookup_english": "we have been married too long for you to still be cheerful",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Hemos estado casados ​​demasiado tiempo para que todavía estés alegre.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]我们都结婚这么久了，你不该还这么愉快。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_married_routine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wave_hand]morning to you too, darling",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]we have been married too long for you to still be surprised",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_married_routine.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]we have been married too long for you to still be surprised",
+      "lookup_english": "we have been married too long for you to still be surprised",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Hemos estado casados ​​demasiado tiempo como para que todavía te sorprendas.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]我们都结婚这么久了，你不该还这么惊讶。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_married_routine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]we have been married too long for you to still be cheerful",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

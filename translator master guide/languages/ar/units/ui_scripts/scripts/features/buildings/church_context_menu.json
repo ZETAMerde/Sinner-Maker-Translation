@@ -1,0 +1,82 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/church_context_menu.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Sinners with more pride %s will study faster, contributing %d base progress plus their pride each time they complete a church work period when you skip time",
+      "english": "Sinners with more pride %s will study faster, contributing %d base progress plus their pride each time they complete a church work period when you skip time",
+      "lookup_english": "Sinners with more pride %s will study faster, contributing %d base progress plus their pride each time they complete a church work period when you skip time",
+      "spanish": "Los pecadores con más orgullo %s estudiarán más rápido, aportando %d de progreso base más su orgullo cada vez que completen un periodo de trabajo en la iglesia al saltar el tiempo",
+      "chinese": "傲慢%s越高的罪人研究越快：跳过时间时，他们每完成一个教堂工作时段，就会贡献%d点基础进度，外加自身的傲慢值",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/church_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s",
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "current study:\nnone",
+      "english": "current study:\nnone",
+      "lookup_english": "current study:\nnone",
+      "spanish": "Estudio actual:\nninguno",
+      "chinese": "当前研究：\n无",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/features/buildings/church_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "current study:\n%s",
+      "english": "current study:\n%s",
+      "lookup_english": "current study:\n%s",
+      "spanish": "Estudio actual:\n%s",
+      "chinese": "当前研究：\n%s",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/features/buildings/church_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

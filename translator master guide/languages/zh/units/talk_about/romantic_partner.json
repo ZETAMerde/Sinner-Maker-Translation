@@ -1,0 +1,159 @@
+{
+  "unit": "talk_about",
+  "source": "data/talk_about/lines_en.json",
+  "import_target": "data/talk_about/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "romantic_partner/couple_high",
+      "english": "[#head_hard_nod]we're together, I love {obj} so much",
+      "lookup_english": "we're together, I love {obj} so much",
+      "spanish": "[#head_hard_nod]Estamos junt@s. {obj} y yo nos queremos mucho.",
+      "chinese": "[#head_hard_nod]我们在一起了，我太爱{obj}了。",
+      "translation": "[#head_hard_nod]我们在一起了，我太爱{obj}了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "[#head_nod]yeah, we're a couple, {name} and I are doing alright",
+      "placeholders": [
+        "[#head_hard_nod]",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "romantic_partner/couple_mid",
+      "english": "[#head_nod]yeah, we're a couple, {name} and I are doing alright",
+      "lookup_english": "yeah, we're a couple, {name} and I are doing alright",
+      "spanish": "[#head_nod]Sí, somos pareja. {name} y estamos bien.",
+      "chinese": "[#head_nod]对，我们是一对。{name}和我处得还不错。",
+      "translation": "[#head_nod]对，我们是一对。{name}和我处得还不错。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "[#head_hard_nod]we're together, I love {obj} so much",
+      "next_english": "[#head_shake]yeah we're a couple, but lately I don't feel satisfied with {obj}",
+      "placeholders": [
+        "[#head_nod]",
+        "{name}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "romantic_partner/couple_low",
+      "english": "[#head_shake]yeah we're a couple, but lately I don't feel satisfied with {obj}",
+      "lookup_english": "yeah we're a couple, but lately I don't feel satisfied with {obj}",
+      "spanish": "[#head_shake]Sí, somos pareja... pero últimamente es como que {obj} no me satisface del todo.",
+      "chinese": "[#head_shake]对，我们是一对……但最近我对{obj}感到不满。",
+      "translation": "[#head_shake]对，我们是一对……但最近我对{obj}感到不满。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "[#head_nod]yeah, we're a couple, {name} and I are doing alright",
+      "next_english": "[#head_hard_nod]we're married, I love {obj} so much",
+      "placeholders": [
+        "[#head_shake]",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "romantic_partner/married_high",
+      "english": "[#head_hard_nod]we're married, I love {obj} so much",
+      "lookup_english": "we're married, I love {obj} so much",
+      "spanish": "[#head_hard_nod]Estamos casad@s. {obj} y yo nos queremos con locura.",
+      "chinese": "[#head_hard_nod]我们结婚了，我太爱{obj}了。",
+      "translation": "[#head_hard_nod]我们结婚了，我太爱{obj}了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "[#head_shake]yeah we're a couple, but lately I don't feel satisfied with {obj}",
+      "next_english": "[#head_nod]yes, {subj}'s my spouse, things are steady between us",
+      "placeholders": [
+        "[#head_hard_nod]",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "romantic_partner/married_mid",
+      "english": "[#head_nod]yes, {subj}'s my spouse, things are steady between us",
+      "lookup_english": "yes, {subj}'s my spouse, things are steady between us",
+      "spanish": "[#head_nod]Sí, {subj} es mi cónyuge. Las cosas están bien entre nosotros.",
+      "chinese": "[#head_nod]是的，{subj}是我的配偶。我们之间很稳定。",
+      "translation": "[#head_nod]是的，{subj}是我的配偶。我们之间很稳定。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "[#head_hard_nod]we're married, I love {obj} so much",
+      "next_english": "[#head_shake]we're married, but honestly I'm not happy with how things are with {obj} lately",
+      "placeholders": [
+        "[#head_nod]",
+        "{subj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "romantic_partner/married_low",
+      "english": "[#head_shake]we're married, but honestly I'm not happy with how things are with {obj} lately",
+      "lookup_english": "we're married, but honestly I'm not happy with how things are with {obj} lately",
+      "spanish": "[#head_shake]Estamos casad@s, pero sinceramente no estoy muy content@ con cómo están las cosas con {obj} últimamente.",
+      "chinese": "[#head_shake]我们结婚了，但说实话，最近我对和{obj}的状况不太满意。",
+      "translation": "[#head_shake]我们结婚了，但说实话，最近我对和{obj}的状况不太满意。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "[#head_nod]yes, {subj}'s my spouse, things are steady between us",
+      "next_english": "",
+      "placeholders": [
+        "[#head_shake]",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "romantic_partner"
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]we saw nothing",
+      "lookup_english": "we saw nothing",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]No vimos nada.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]我们什么都没看见。",
+      "translation": "[#speaker={{speaker_id_1}}][#worried]我们什么都没看见。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]nothing at all",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]nothing at all",
+      "lookup_english": "nothing at all",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Nada de nada.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]什么都没。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]什么都没。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]we saw nothing",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]especially not who took the tools",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]especially not who took the tools",
+      "lookup_english": "especially not who took the tools",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Especialmente quién se llevó las herramientas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]尤其是没看见是谁拿走了工具。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]尤其是没看见是谁拿走了工具。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]nothing at all",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]tools? what tools? never heard of them",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]tools? what tools? never heard of them",
+      "lookup_english": "tools? what tools? never heard of them",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]¿Herramientas? ¿Qué herramientas? Nunca he oído hablar de ellos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]工具？什么工具？从没听说过。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]工具？什么工具？从没听说过。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_witness_crime.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]especially not who took the tools",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

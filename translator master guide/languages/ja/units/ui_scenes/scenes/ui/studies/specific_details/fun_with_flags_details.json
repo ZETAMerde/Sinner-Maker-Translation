@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/studies/specific_details/fun_with_flags_details.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "allows you to build wall flags,\nmedium flags and tall flags",
+      "english": "allows you to build wall flags,\nmedium flags and tall flags",
+      "lookup_english": "allows you to build wall flags,\nmedium flags and tall flags",
+      "spanish": "Te permite construir banderas de pared,\nbanderas medianas y banderas altas",
+      "chinese": "让你可以建造墙旗、\n中旗和高旗",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/studies/specific_details/fun_with_flags_details.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "assign any design you\nwant to the flags you place",
+      "english": "assign any design you\nwant to the flags you place",
+      "lookup_english": "assign any design you\nwant to the flags you place",
+      "spanish": "Asigna el diseño que\nquieras a las banderas que pongas",
+      "chinese": "为你放置的旗帜\n设置任何你想要的图案",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/studies/specific_details/fun_with_flags_details.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

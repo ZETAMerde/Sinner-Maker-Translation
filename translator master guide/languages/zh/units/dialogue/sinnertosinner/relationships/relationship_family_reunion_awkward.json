@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]so, family",
+      "lookup_english": "so, family",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Entonces. Familia.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]那么，家人。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]那么，家人。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]yeah, family",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]yeah, family",
+      "lookup_english": "yeah, family",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Sí. Familia.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]是啊，家人。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]是啊，家人。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]so, family",
+      "next_english": "[#speaker={{speaker_id_1}}][#wonder]we could pretend we are strangers",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]we could pretend we are strangers",
+      "lookup_english": "we could pretend we are strangers",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]Podríamos fingir que somos extraños.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]我们可以假装我们是陌生人。",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]我们可以假装我们是陌生人。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]yeah, family",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]we tried that at the last funeral, did not work",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]we tried that at the last funeral, did not work",
+      "lookup_english": "we tried that at the last funeral, did not work",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Lo intentamos en el último funeral. No funcionó.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]上次葬礼时我们试过了，没用。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]上次葬礼时我们试过了，没用。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_reunion_awkward.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]we could pretend we are strangers",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

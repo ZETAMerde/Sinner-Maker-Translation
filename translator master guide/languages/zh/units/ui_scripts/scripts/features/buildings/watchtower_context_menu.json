@@ -1,0 +1,37 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/watchtower_context_menu.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Sinners with more envy %s will watch over other sinners more efficiently making them feel safer and reducing faith loss",
+      "english": "Sinners with more envy %s will watch over other sinners more efficiently making them feel safer and reducing faith loss",
+      "lookup_english": "Sinners with more envy %s will watch over other sinners more efficiently making them feel safer and reducing faith loss",
+      "spanish": "Los pecadores con más envidia %s vigilarán a otros pecadores más eficientemente haciéndolos sentir más seguros y reduciendo la pérdida de fe",
+      "chinese": "嫉妒%s越高的罪人越能有效地看守其他罪人，让他们更有安全感，减少信仰流失",
+      "translation": "嫉妒%s越高的罪人越能有效地看守其他罪人，让他们更有安全感，减少信仰流失",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/watchtower_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

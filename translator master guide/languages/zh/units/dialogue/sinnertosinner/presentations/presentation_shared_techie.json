@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_techie.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_techie.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]please tell me you also miss Wi-Fi",
+      "lookup_english": "please tell me you also miss Wi-Fi",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Dime que también extrañas el Wi-Fi.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]请告诉我你也想念Wi-Fi。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]请告诉我你也想念Wi-Fi。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_techie.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]i dream in loading screens",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_techie.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]i dream in loading screens",
+      "lookup_english": "i dream in loading screens",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Sueño en pantallas de carga.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]我做梦都是加载画面。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]我做梦都是加载画面。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_techie.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]please tell me you also miss Wi-Fi",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]the chief thinks a hammer fixes computers, we are doomed",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_techie.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]the chief thinks a hammer fixes computers, we are doomed",
+      "lookup_english": "the chief thinks a hammer fixes computers, we are doomed",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]El jefe cree que un martillo repara las computadoras. Estamos condenados.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]首领觉得锤子能修电脑。我们完蛋了。",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]首领觉得锤子能修电脑。我们完蛋了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_techie.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]i dream in loading screens",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]we can fix nothing, but we can complain together",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_techie.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]we can fix nothing, but we can complain together",
+      "lookup_english": "we can fix nothing, but we can complain together",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]No podemos arreglar nada. Pero podemos quejarnos juntos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]我们什么都修不了。但我们可以一起抱怨。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]我们什么都修不了。但我们可以一起抱怨。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_techie.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]the chief thinks a hammer fixes computers, we are doomed",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

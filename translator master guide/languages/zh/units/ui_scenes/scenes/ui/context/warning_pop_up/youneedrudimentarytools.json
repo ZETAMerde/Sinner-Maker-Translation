@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/context/warning_pop_up/youneedrudimentarytools.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "you need the study\n\"rudimentary tools\"\nto cut down trees",
+      "english": "you need the study\n\"rudimentary tools\"\nto cut down trees",
+      "lookup_english": "you need the study\n\"rudimentary tools\"\nto cut down trees",
+      "spanish": "Necesitas el estudio\n\"herramientas rudimentarias\"\npara talar árboles",
+      "chinese": "你需要研究\n“简易工具”\n才能砍树",
+      "translation": "你需要研究\n“简易工具”\n才能砍树",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/warning_pop_up/youneedrudimentarytools.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "Check study",
+      "english": "Check study",
+      "lookup_english": "Check study",
+      "spanish": "Ver estudio",
+      "chinese": "查看研究",
+      "translation": "查看研究",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/warning_pop_up/youneedrudimentarytools.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

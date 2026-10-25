@@ -1,0 +1,39 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/buildings/tomb_empty.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "buildings/tomb_empty.dialogue#1",
+      "english": "this tomb is empty",
+      "lookup_english": "this tomb is empty",
+      "spanish": "Esta tumba está vacía.",
+      "chinese": "这座坟墓是空的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "Narrator",
+      "source": "scenes/dialogue/dialogues/buildings/tomb_empty.dialogue",
+      "channel": "building",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    }
+  ],
+  "channel": "building",
+  "channel_note": "Building interaction talk.",
+  "voice_hint": ""
+}

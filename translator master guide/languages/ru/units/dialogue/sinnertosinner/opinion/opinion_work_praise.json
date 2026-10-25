@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_praise.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_work_praise.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#motivated]work keeps us honest, I would rather be tired than idle",
+      "lookup_english": "work keeps us honest, I would rather be tired than idle",
+      "spanish": "[#speaker={{speaker_id_1}}][#motivated]El trabajo nos hace gente honrada. Prefiero el cansancio a la holgazanería.",
+      "chinese": "[#speaker={{speaker_id_1}}][#motivated]干活让人老实，我宁愿累着也不想闲着。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]it fills the day, and the belly, if we are lucky",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#motivated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_work_praise.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]it fills the day, and the belly, if we are lucky",
+      "lookup_english": "it fills the day, and the belly, if we are lucky",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Llena el día, y la tripa, si hay suerte.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]能填满一天，运气好的话，还能填饱肚子。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#motivated]work keeps us honest, I would rather be tired than idle",
+      "next_english": "[#speaker={{speaker_id_1}}][#prideful_nod]exactly, a village that works does not rot so fast",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_work_praise.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#prideful_nod]exactly, a village that works does not rot so fast",
+      "lookup_english": "exactly, a village that works does not rot so fast",
+      "spanish": "[#speaker={{speaker_id_1}}][#prideful_nod]Exacto. Un pueblo que trabaja no se pudre tan rápido.",
+      "chinese": "[#speaker={{speaker_id_1}}][#prideful_nod]没错，肯干活的村子烂得没那么快。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]it fills the day, and the belly, if we are lucky",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]then back to it, I suppose",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#prideful_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_work_praise.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]then back to it, I suppose",
+      "lookup_english": "then back to it, I suppose",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Pues nada, de vuelta al tajo, supongo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]那就接着干活吧，我想。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#prideful_nod]exactly, a village that works does not rot so fast",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

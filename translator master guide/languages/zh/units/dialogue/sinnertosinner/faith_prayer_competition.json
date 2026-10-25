@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/faith_prayer_competition.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/faith_prayer_competition.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]i prayed for five minutes today",
+      "lookup_english": "i prayed for five minutes today",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Hoy oré cinco minutos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我今天祈祷了五分钟。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]我今天祈祷了五分钟。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/faith_prayer_competition.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]show-off, I prayed for two and felt proud",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/faith_prayer_competition.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]show-off, I prayed for two and felt proud",
+      "lookup_english": "show-off, I prayed for two and felt proud",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Presumir. Recé por dos y me sentí orgulloso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]爱显摆。我祈祷了两分钟就觉得很自豪了。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]爱显摆。我祈祷了两分钟就觉得很自豪了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/faith_prayer_competition.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]i prayed for five minutes today",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]God is busy, keep it short",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/faith_prayer_competition.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]God is busy, keep it short",
+      "lookup_english": "God is busy, keep it short",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Dios está ocupado. Sea breve.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]上帝很忙。长话短说。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]上帝很忙。长话短说。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/faith_prayer_competition.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]show-off, I prayed for two and felt proud",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]amen to efficiency",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/faith_prayer_competition.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]amen to efficiency",
+      "lookup_english": "amen to efficiency",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Amén a la eficiencia.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]阿门，效率至上。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]阿门，效率至上。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/faith_prayer_competition.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]God is busy, keep it short",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ambient pair conversation.",
+  "voice_hint": ""
+}

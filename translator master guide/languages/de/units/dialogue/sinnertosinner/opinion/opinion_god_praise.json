@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_praise.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_god_praise.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#prideful_nod]God still watches this place, I feel it when I pray",
+      "lookup_english": "God still watches this place, I feel it when I pray",
+      "spanish": "[#speaker={{speaker_id_1}}][#prideful_nod]Dios aún vela por este lugar, lo siento cuando rezo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#prideful_nod]上帝仍在看顾这个地方，我祷告的时候能感觉到。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]amen, we would be lost without Him",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#prideful_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_praise.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]amen, we would be lost without Him",
+      "lookup_english": "amen, we would be lost without Him",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Amén. Sin Él no seríamos nada.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]阿们，没有他我们早就迷失了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#prideful_nod]God still watches this place, I feel it when I pray",
+      "next_english": "[#speaker={{speaker_id_1}}][#motivated]then we ought to live like it, not just mutter it",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_praise.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#motivated]then we ought to live like it, not just mutter it",
+      "lookup_english": "then we ought to live like it, not just mutter it",
+      "spanish": "[#speaker={{speaker_id_1}}][#motivated]Entonces deberíamos vivir como tal, no solo murmurarlo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#motivated]那我们就该照着活，而不只是嘴上念叨。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]amen, we would be lost without Him",
+      "next_english": "[#speaker={{speaker_id_2}}][#shy_cute]you are right, I needed that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#motivated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_praise.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#shy_cute]you are right, I needed that",
+      "lookup_english": "you are right, I needed that",
+      "spanish": "[#speaker={{speaker_id_2}}][#shy_cute]Tienes razón, necesitaba oír eso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#shy_cute]你说得对，我正需要听这个。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#motivated]then we ought to live like it, not just mutter it",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#shy_cute]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

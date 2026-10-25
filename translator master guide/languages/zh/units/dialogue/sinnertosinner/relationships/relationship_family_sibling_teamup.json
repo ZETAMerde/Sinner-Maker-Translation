@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]if the chief yells, we were both at prayer",
+      "lookup_english": "if the chief yells, we were both at prayer",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Si el jefe grita, ambos estábamos orando.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]要是首领吼起来，就说我们俩都在祈祷。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]要是首领吼起来，就说我们俩都在祈祷。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]sibling code, never breaks",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]sibling code, never breaks",
+      "lookup_english": "sibling code, never breaks",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Código de hermano. Nunca se rompe.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]手足情谊，永不破裂。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]手足情谊，永不破裂。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]if the chief yells, we were both at prayer",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]even when we deserve it",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]even when we deserve it",
+      "lookup_english": "even when we deserve it",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Incluso cuando lo merecemos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]哪怕当我们活该的时候。",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]哪怕当我们活该的时候。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]sibling code, never breaks",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]especially then",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]especially then",
+      "lookup_english": "especially then",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Especialmente entonces.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]尤其在那时候。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]尤其在那时候。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_teamup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]even when we deserve it",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

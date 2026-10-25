@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_rumour.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_rumour.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#bad_intentioned]did you hear about {{other_name}}? people are talking",
+      "lookup_english": "did you hear about {{other_name}}? people are talking",
+      "spanish": "[#speaker={{speaker_id_1}}][#bad_intentioned]¿Te has enterado de lo de {{other_name}}? La gente habla.",
+      "chinese": "[#speaker={{speaker_id_1}}][#bad_intentioned]你听说{{other_name}}的事了吗？大家都在议论。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_rumour.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]talking about what?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#bad_intentioned]",
+        "{{speaker_id_1}}",
+        "{{other_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_rumour.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]talking about what?",
+      "lookup_english": "talking about what?",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]¿Y qué dicen?",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]议论什么？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_rumour.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#bad_intentioned]did you hear about {{other_name}}? people are talking",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]nothing proven, that is what makes it fun",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_rumour.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]nothing proven, that is what makes it fun",
+      "lookup_english": "nothing proven, that is what makes it fun",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Nada demostrado. Eso es lo divertido.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]什么都没证实，所以才好玩嘛。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_rumour.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]talking about what?",
+      "next_english": "[#speaker={{speaker_id_2}}][#dissapointed]that is cruel, leave them alone",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_rumour.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#dissapointed]that is cruel, leave them alone",
+      "lookup_english": "that is cruel, leave them alone",
+      "spanish": "[#speaker={{speaker_id_2}}][#dissapointed]Eso es cruel. No te metas con esa persona.",
+      "chinese": "[#speaker={{speaker_id_2}}][#dissapointed]太过分了，放过人家吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_rumour.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]nothing proven, that is what makes it fun",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#dissapointed]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

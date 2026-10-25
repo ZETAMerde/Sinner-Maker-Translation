@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]you carry that holy tone everywhere, don't you?",
+      "lookup_english": "you carry that holy tone everywhere, don't you?",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Ese tono santo lo llevas a todos lados ¿no?",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]你走到哪儿都带着那副神圣的语气，是吧？",
+      "translation": "[#speaker={{speaker_id_1}}][#head_shake]你走到哪儿都带着那副神圣的语气，是吧？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]someone here should still speak of God",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]someone here should still speak of God",
+      "lookup_english": "someone here should still speak of God",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Alguien aquí todavía debería hablar de Dios.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]这里总得有人还谈论上帝。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]这里总得有人还谈论上帝。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]you carry that holy tone everywhere, don't you?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]keep preaching somewhere else",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]keep preaching somewhere else",
+      "lookup_english": "keep preaching somewhere else",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]Sigue predicando en otro lugar.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]去别处布道吧。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_hard_shake]去别处布道吧。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]someone here should still speak of God",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]then keep your blasphemy away from me",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]then keep your blasphemy away from me",
+      "lookup_english": "then keep your blasphemy away from me",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Entonces aleja de mí tu blasfemia.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]那就让你的亵渎离我远点。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]那就让你的亵渎离我远点。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_satanist_vs_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]keep preaching somewhere else",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

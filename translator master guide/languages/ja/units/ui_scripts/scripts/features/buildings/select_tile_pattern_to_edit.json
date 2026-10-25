@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/select_tile_pattern_to_edit.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Select a tile pattern",
+      "english": "Select a tile pattern",
+      "lookup_english": "Select a tile pattern",
+      "spanish": "Seleccione un patrón de baldosa",
+      "chinese": "选择地砖图案",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "author_keep",
+      "speaker": "",
+      "source": "scripts/features/buildings/select_tile_pattern_to_edit.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Author menu Spanish is in the spanish field. Write translation in the target language. Do not copy Spanish capitals into it."
+    }
+  ]
+}

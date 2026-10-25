@@ -1,0 +1,41 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/demon_king/demon_king_cure_fail.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/demon_king/demon_king_cure_fail.dialogue#1",
+      "english": "{{talk_line}}",
+      "lookup_english": "{{talk_line}}",
+      "spanish": "{{talk_line}}",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/demon_king/demon_king_cure_fail.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "{{talk_line}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 2
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "Demon king petition, affliction, or cure.",
+  "voice_hint": ""
+}

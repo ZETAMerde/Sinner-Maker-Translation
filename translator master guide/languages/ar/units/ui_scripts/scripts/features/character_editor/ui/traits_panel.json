@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/character_editor/ui/traits_panel.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Mod traits",
+      "english": "Mod traits",
+      "lookup_english": "Mod traits",
+      "spanish": "Rasgos de mod",
+      "chinese": "模组特质",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/character_editor/ui/traits_panel.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "Select an Age",
+      "english": "Select an Age",
+      "lookup_english": "Select an Age",
+      "spanish": "Seleccione una edad",
+      "chinese": "选择年龄",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/character_editor/ui/traits_panel.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

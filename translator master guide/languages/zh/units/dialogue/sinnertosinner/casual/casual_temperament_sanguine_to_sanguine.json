@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_sanguine.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_sanguine.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]if we are both in a decent mood, we should enjoy it before the village ruins it",
+      "lookup_english": "if we are both in a decent mood, we should enjoy it before the village ruins it",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Si ambos estamos de buen humor, deberíamos disfrutarlo antes de que el pueblo lo arruine.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]要是我们俩心情都还不错，就该趁村子毁掉它之前好好享受。",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]要是我们俩心情都还不错，就该趁村子毁掉它之前好好享受。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]finally, someone with a practical outlook",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_sanguine.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]finally, someone with a practical outlook",
+      "lookup_english": "finally, someone with a practical outlook",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Finalmente, alguien con una perspectiva práctica.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]终于有个务实的人了。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]终于有个务实的人了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]if we are both in a decent mood, we should enjoy it before the village ruins it",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]see? this is already going well",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_sanguine.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]see? this is already going well",
+      "lookup_english": "see? this is already going well",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]¿Ves? Esto ya va bien.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]看吧？这已经进行得挺顺利了。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]看吧？这已经进行得挺顺利了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]finally, someone with a practical outlook",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

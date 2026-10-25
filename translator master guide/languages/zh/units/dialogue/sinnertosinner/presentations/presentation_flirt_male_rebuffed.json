@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i thought I should introduce myself before someone else had the chance",
+      "lookup_english": "i thought I should introduce myself before someone else had the chance",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Pensé que debería presentarme antes de que alguien más tuviera la oportunidad.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]我想我该在别人有机会之前先自我介绍。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]我想我该在别人有机会之前先自我介绍。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]you are bold, but I do not want that kind of attention",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]you are bold, but I do not want that kind of attention",
+      "lookup_english": "you are bold, but I do not want that kind of attention",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Eres atrevido, pero no quiero ese tipo de atención.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]你很大胆，但我不想要那种关注。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]你很大胆，但我不想要那种关注。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]i thought I should introduce myself before someone else had the chance",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_shake]fair enough, that landed badly",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]fair enough, that landed badly",
+      "lookup_english": "fair enough, that landed badly",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Bastante bien. Eso aterrizó mal.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]有道理。这话说得不怎么样。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_shake]有道理。这话说得不怎么样。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]you are bold, but I do not want that kind of attention",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]it would be best to keep this simple",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]it would be best to keep this simple",
+      "lookup_english": "it would be best to keep this simple",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Lo mejor sería mantener esto simple.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]最好还是保持简单。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]最好还是保持简单。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_rebuffed.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]fair enough, that landed badly",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

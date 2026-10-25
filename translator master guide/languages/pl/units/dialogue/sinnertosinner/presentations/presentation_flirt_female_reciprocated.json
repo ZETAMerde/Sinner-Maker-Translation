@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i did not come over here just to discuss the weather",
+      "lookup_english": "i did not come over here just to discuss the weather",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]No vine aquí solo para hablar sobre el clima.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]我过来可不是为了聊天气的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]good, I was hoping you came with better intentions",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]good, I was hoping you came with better intentions",
+      "lookup_english": "good, I was hoping you came with better intentions",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Bien. Esperaba que vinieras con mejores intenciones.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]很好。我就希望你是抱着更好的意图来的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]i did not come over here just to discuss the weather",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]then maybe we understand each other already",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]then maybe we understand each other already",
+      "lookup_english": "then maybe we understand each other already",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Entonces tal vez ya nos entendamos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]那也许我们早就彼此理解了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]good, I was hoping you came with better intentions",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_hard_nod]better than most first meetings, yes",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_hard_nod]better than most first meetings, yes",
+      "lookup_english": "better than most first meetings, yes",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_hard_nod]Mejor que la mayoría de las primeras reuniones, sí.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_hard_nod]比大多数初次见面要好，是的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_reciprocated.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]then maybe we understand each other already",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_hard_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

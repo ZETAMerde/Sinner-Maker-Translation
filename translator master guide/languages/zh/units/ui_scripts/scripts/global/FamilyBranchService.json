@@ -1,0 +1,58 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/global/FamilyBranchService.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "No relationship",
+      "english": "No relationship",
+      "lookup_english": "No relationship",
+      "spanish": "Sin relación",
+      "chinese": "无关系",
+      "translation": "无关系",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/global/FamilyBranchService.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "%s is %s of %s",
+      "english": "%s is %s of %s",
+      "lookup_english": "%s is %s of %s",
+      "spanish": "%s es %s de %s",
+      "chinese": "%s是%s（相对于%s）",
+      "translation": "%s是%s（相对于%s）",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/global/FamilyBranchService.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

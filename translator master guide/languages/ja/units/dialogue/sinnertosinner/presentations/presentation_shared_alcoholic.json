@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_alcoholic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_alcoholic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]you smell like regret and cheap wine",
+      "lookup_english": "you smell like regret and cheap wine",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Hueles a arrepentimiento y a vino barato.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]你闻起来像悔恨和廉价葡萄酒。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_alcoholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]compliment accepted, you too, honestly",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_alcoholic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]compliment accepted, you too, honestly",
+      "lookup_english": "compliment accepted, you too, honestly",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Se acepta elogio. Tú también, sinceramente.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]接受夸奖。说实话，你也是。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_alcoholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]you smell like regret and cheap wine",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]finally someone who gets why mornings are the enemy",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_alcoholic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]finally someone who gets why mornings are the enemy",
+      "lookup_english": "finally someone who gets why mornings are the enemy",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Por fin alguien que entiende por qué las mañanas son el enemigo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]终于有人明白为什么早晨是敌人了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_alcoholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]compliment accepted, you too, honestly",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]cheers to that, with water, for now",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_alcoholic.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]cheers to that, with water, for now",
+      "lookup_english": "cheers to that, with water, for now",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Salud por eso. Con agua. Por ahora.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]为这个干杯。用水。暂时。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_alcoholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]finally someone who gets why mornings are the enemy",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

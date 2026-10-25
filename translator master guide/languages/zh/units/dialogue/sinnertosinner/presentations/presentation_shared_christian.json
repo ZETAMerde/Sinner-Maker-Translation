@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_christian.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_christian.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]another Christian? in THIS village? God works in weird ways",
+      "lookup_english": "another Christian? in THIS village? God works in weird ways",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Otro cristiano? ¿En ESTE pueblo? Dios obra de maneras extrañas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]又一个基督徒？在这个村子里？上帝行事真古怪。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]又一个基督徒？在这个村子里？上帝行事真古怪。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]weird or desperate, maybe both",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_christian.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]weird or desperate, maybe both",
+      "lookup_english": "weird or desperate, maybe both",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Raro o desesperado. Quizás ambos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]古怪还是绝望。也许都有。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]古怪还是绝望。也许都有。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]another Christian? in THIS village? God works in weird ways",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]at least we can pray someone else does the demon shift",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_christian.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]at least we can pray someone else does the demon shift",
+      "lookup_english": "at least we can pray someone else does the demon shift",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Al menos podemos rezar para que alguien más haga el cambio de demonio.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]至少我们可以祈祷别人去值恶魔的班。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]至少我们可以祈祷别人去值恶魔的班。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]weird or desperate, maybe both",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]amen to that, and to not getting eaten",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_christian.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]amen to that, and to not getting eaten",
+      "lookup_english": "amen to that, and to not getting eaten",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Amén a eso. Y a no dejarse comer.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]阿门。也祈祷别被吃掉。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]阿门。也祈祷别被吃掉。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]at least we can pray someone else does the demon shift",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

@@ -1,0 +1,123 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_nod]i barely know you, but I already consider you a gooood friend, {{npc_name2}}",
+      "lookup_english": "i barely know you, but I already consider you a gooood friend, {{npc_name2}}",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_nod]Apenas te conozco pero ya te considero un buen amigo {{npc_name2}}",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_nod]我几乎还不认识你，但我已经把你当成好～～朋友了，{{npc_name2}}",
+      "translation": "[#speaker={{speaker_id_1}}][#head_hard_nod]我几乎还不认识你，但我已经把你当成好～～朋友了，{{npc_name2}}",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]well, thanks, {{npc_name1}}, but we just met",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_nod]",
+        "{{speaker_id_1}}",
+        "{{npc_name2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]well, thanks, {{npc_name1}}, but we just met",
+      "lookup_english": "well, thanks, {{npc_name1}}, but we just met",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Bueno, gracias {{npc_name1}}, pero nos acabamos de conocer",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]那谢谢了，{{npc_name1}}，可我们才刚认识",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]那谢谢了，{{npc_name1}}，可我们才刚认识",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_nod]i barely know you, but I already consider you a gooood friend, {{npc_name2}}",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]and? we have no time to waste!",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}",
+        "{{npc_name1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]and? we have no time to waste!",
+      "lookup_english": "and? we have no time to waste!",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]¿Y? ¡No tenemos tiempo que perder!",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]那又怎样？我们没时间可浪费！",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]那又怎样？我们没时间可浪费！",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]well, thanks, {{npc_name1}}, but we just met",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]if you say so",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]if you say so",
+      "lookup_english": "if you say so",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Si tú lo dices...",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]既然你这么说……",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]既然你这么说……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]and? we have no time to waste!",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

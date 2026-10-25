@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/context/house/house_under_construction_context_menu.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Builders:",
+      "english": "Builders:",
+      "lookup_english": "Builders:",
+      "spanish": "Constructores:",
+      "chinese": "建造者：",
+      "translation": "建造者：",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/house/house_under_construction_context_menu.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "Work done:",
+      "english": "Work done:",
+      "lookup_english": "Work done:",
+      "spanish": "Trabajo hecho:",
+      "chinese": "已完成工作：",
+      "translation": "已完成工作：",
+      "style": "ui_label",
+      "casing_rule": "author_keep",
+      "speaker": "",
+      "source": "scenes/ui/context/house/house_under_construction_context_menu.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels. Author menu Spanish is in the spanish field. Write translation in the target language. Do not copy Spanish capitals into it."
+    }
+  ]
+}

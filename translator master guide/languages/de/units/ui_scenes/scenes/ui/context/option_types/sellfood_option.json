@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/context/option_types/sellfood_option.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "In your inventory:",
+      "english": "In your inventory:",
+      "lookup_english": "In your inventory:",
+      "spanish": "En tu inventario:",
+      "chinese": "在你的物品栏中：",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/option_types/sellfood_option.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "Currently selling:",
+      "english": "Currently selling:",
+      "lookup_english": "Currently selling:",
+      "spanish": "Vendiendo actualmente:",
+      "chinese": "当前出售：",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "author_keep",
+      "speaker": "",
+      "source": "scenes/ui/context/option_types/sellfood_option.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels. Author menu Spanish is in the spanish field. Write translation in the target language. Do not copy Spanish capitals into it."
+    }
+  ]
+}

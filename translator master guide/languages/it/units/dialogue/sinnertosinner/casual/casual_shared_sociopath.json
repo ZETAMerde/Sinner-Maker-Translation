@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_sociopath.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_sociopath.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]people say we are unsettling, I take that as a compliment",
+      "lookup_english": "people say we are unsettling, I take that as a compliment",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]La gente dice que somos inquietantes. Lo tomo como un cumplido.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]人们说我们让人不安。我就当这是夸奖。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_sociopath.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]i do not take anything as a compliment, but same idea",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_sociopath.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]i do not take anything as a compliment, but same idea",
+      "lookup_english": "i do not take anything as a compliment, but same idea",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]No tomo nada como un cumplido. Pero la misma idea.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]我从不把任何话当夸奖。但意思一样。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_sociopath.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]people say we are unsettling, I take that as a compliment",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]at least we understand each other, sort of",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_sociopath.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]at least we understand each other, sort of",
+      "lookup_english": "at least we understand each other, sort of",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Al menos nos entendemos. Más o menos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]至少我们彼此理解。勉强算吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_sociopath.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]i do not take anything as a compliment, but same idea",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]understanding is overrated, useful is better",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_sociopath.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]understanding is overrated, useful is better",
+      "lookup_english": "understanding is overrated, useful is better",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]La comprensión está sobrevalorada. Lo útil es mejor.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]理解被高估了。有用更好。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_sociopath.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]at least we understand each other, sort of",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

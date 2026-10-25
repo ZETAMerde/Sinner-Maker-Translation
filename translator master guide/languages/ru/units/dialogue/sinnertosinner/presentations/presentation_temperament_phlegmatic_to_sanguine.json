@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_phlegmatic_to_sanguine.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_phlegmatic_to_sanguine.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]how can you be so optimistic in a situation like this?",
+      "lookup_english": "how can you be so optimistic in a situation like this?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Cómo puedes ser tan optimista en una situación como esta?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]在这种情况下，你怎么还能这么乐观？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_phlegmatic_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]i have enough time to cry and be angry in hell, don't you think so?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_phlegmatic_to_sanguine.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]i have enough time to cry and be angry in hell, don't you think so?",
+      "lookup_english": "i have enough time to cry and be angry in hell, don't you think so?",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Tengo suficiente tiempo para llorar y enojarme en el infierno ¿no crees?",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]到了地狱我有的是时间哭和生气，你不觉得吗？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_phlegmatic_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]how can you be so optimistic in a situation like this?",
+      "next_english": "[#speaker={{speaker_id_1}}][#surprised]deep",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_phlegmatic_to_sanguine.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#surprised]deep",
+      "lookup_english": "deep",
+      "spanish": "[#speaker={{speaker_id_1}}][#surprised]Profundo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#surprised]深刻。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_phlegmatic_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]i have enough time to cry and be angry in hell, don't you think so?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#surprised]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

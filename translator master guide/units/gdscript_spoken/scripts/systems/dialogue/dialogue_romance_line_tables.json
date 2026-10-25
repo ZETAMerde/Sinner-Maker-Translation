@@ -1,0 +1,130 @@
+{
+  "unit": "gdscript_spoken",
+  "source": "scripts/systems/dialogue/dialogue_romance_line_tables.gd",
+  "import_target": "scripts/systems/dialogue/dialogue_romance_line_tables.gd",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "scripts/systems/dialogue/dialogue_romance_line_tables.gd/PLAYER_PARTNER_ASK_TONIGHT_LINES/devil_card",
+      "english": "[#bad_intentioned]i want you tonight, chief, will you have me later?",
+      "lookup_english": "i want you tonight, chief, will you have me later?",
+      "spanish": "[#bad_intentioned]Esta noche te quiero, jefe. ¿Me llevas a la cama luego?",
+      "chinese": "[#bad_intentioned]今晚我要你，首领。待会儿，你要不要我？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "scripts/systems/dialogue/dialogue_romance_line_tables.gd",
+      "channel": "gdscript_spoken",
+      "voice_hint": "Romance and partner night",
+      "prev_english": "",
+      "next_english": "[#exited]hey, want to hang out tonight? like, really hang out?",
+      "placeholders": [
+        "[#bad_intentioned]"
+      ],
+      "import_target": "locale/official_<locale>/script_lines.csv",
+      "wired": false,
+      "copy_exactly": false,
+      "notes": "Spoken from GDScript. When spanish or chinese is filled, the line ships in script_lines.csv. Keep the tags on english."
+    },
+    {
+      "id": "scripts/systems/dialogue/dialogue_romance_line_tables.gd/PLAYER_PARTNER_ASK_TONIGHT_LINES/fool_card",
+      "english": "[#exited]hey, want to hang out tonight? like, really hang out?",
+      "lookup_english": "hey, want to hang out tonight? like, really hang out?",
+      "spanish": "[#exited]Oye, ¿quieres quedar esta noche? O sea, ¿quedar quedar?",
+      "chinese": "[#exited]嘿，今晚要不要一起玩？就是，真正的那种“一起玩”？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "scripts/systems/dialogue/dialogue_romance_line_tables.gd",
+      "channel": "gdscript_spoken",
+      "voice_hint": "Romance and partner night",
+      "prev_english": "[#bad_intentioned]i want you tonight, chief, will you have me later?",
+      "next_english": "[#motivated]do not make me spell it out, are you coming over tonight or not?",
+      "placeholders": [
+        "[#exited]"
+      ],
+      "import_target": "locale/official_<locale>/script_lines.csv",
+      "wired": false,
+      "copy_exactly": false,
+      "notes": "Spoken from GDScript. When spanish or chinese is filled, the line ships in script_lines.csv. Keep the tags on english."
+    },
+    {
+      "id": "scripts/systems/dialogue/dialogue_romance_line_tables.gd/PLAYER_PARTNER_ASK_TONIGHT_LINES/strength_card",
+      "english": "[#motivated]do not make me spell it out, are you coming over tonight or not?",
+      "lookup_english": "do not make me spell it out, are you coming over tonight or not?",
+      "spanish": "[#motivated]No me hagas deletreártelo. ¿Vienes esta noche o no?",
+      "chinese": "[#motivated]别逼我把话挑明，今晚你到底来不来？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "scripts/systems/dialogue/dialogue_romance_line_tables.gd",
+      "channel": "gdscript_spoken",
+      "voice_hint": "Romance and partner night",
+      "prev_english": "[#exited]hey, want to hang out tonight? like, really hang out?",
+      "next_english": "[#wink_head_lean]feeling lucky about tonight, are you in?",
+      "placeholders": [
+        "[#motivated]"
+      ],
+      "import_target": "locale/official_<locale>/script_lines.csv",
+      "wired": false,
+      "copy_exactly": false,
+      "notes": "Spoken from GDScript. When spanish or chinese is filled, the line ships in script_lines.csv. Keep the tags on english."
+    },
+    {
+      "id": "scripts/systems/dialogue/dialogue_romance_line_tables.gd/PLAYER_PARTNER_ASK_TONIGHT_LINES/wheel_card",
+      "english": "[#wink_head_lean]feeling lucky about tonight, are you in?",
+      "lookup_english": "feeling lucky about tonight, are you in?",
+      "spanish": "[#wink_head_lean]Esta noche me siento con suerte. ¿Te apuntas?",
+      "chinese": "[#wink_head_lean]今晚我感觉手气不错，你来不来？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "scripts/systems/dialogue/dialogue_romance_line_tables.gd",
+      "channel": "gdscript_spoken",
+      "voice_hint": "Romance and partner night",
+      "prev_english": "[#motivated]do not make me spell it out, are you coming over tonight or not?",
+      "next_english": "[#wink_head_lean]lucky me, see you tonight!",
+      "placeholders": [
+        "[#wink_head_lean]"
+      ],
+      "import_target": "locale/official_<locale>/script_lines.csv",
+      "wired": false,
+      "copy_exactly": false,
+      "notes": "Spoken from GDScript. When spanish or chinese is filled, the line ships in script_lines.csv. Keep the tags on english."
+    },
+    {
+      "id": "scripts/systems/dialogue/dialogue_romance_line_tables.gd/PLAYER_PARTNER_ASK_ACCEPT_LINES/wheel_card",
+      "english": "[#wink_head_lean]lucky me, see you tonight!",
+      "lookup_english": "lucky me, see you tonight!",
+      "spanish": "[#wink_head_lean]¡Qué suerte la mía! ¡Nos vemos esta noche!",
+      "chinese": "[#wink_head_lean]我运气真好，今晚见！",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "scripts/systems/dialogue/dialogue_romance_line_tables.gd",
+      "channel": "gdscript_spoken",
+      "voice_hint": "Romance and partner night",
+      "prev_english": "[#wink_head_lean]feeling lucky about tonight, are you in?",
+      "next_english": "",
+      "placeholders": [
+        "[#wink_head_lean]"
+      ],
+      "import_target": "locale/official_<locale>/script_lines.csv",
+      "wired": false,
+      "copy_exactly": false,
+      "notes": "Spoken from GDScript. When spanish or chinese is filled, the line ships in script_lines.csv. Keep the tags on english."
+    }
+  ],
+  "title": "Romance and partner night"
+}

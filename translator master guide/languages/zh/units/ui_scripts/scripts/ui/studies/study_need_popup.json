@@ -1,0 +1,37 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/ui/studies/study_need_popup.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "you need the study\n\"%s\"\n%s",
+      "english": "you need the study\n\"%s\"\n%s",
+      "lookup_english": "you need the study\n\"%s\"\n%s",
+      "spanish": "Necesitas el estudio\n«%s»\n%s",
+      "chinese": "你需要研究\n“%s”\n%s",
+      "translation": "你需要研究\n“%s”\n%s",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/studies/study_need_popup.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

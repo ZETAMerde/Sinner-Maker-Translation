@@ -1,0 +1,65 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Katy.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Katy.dialogue#1",
+      "english": "[#wave_hand]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来。",
+      "translation": "[#wave_hand]谢谢你让我进来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Katy.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#shy_cute]we will get along, I'm sure",
+      "placeholders": [
+        "[#wave_hand]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/sinners/Katy.dialogue#2",
+      "english": "[#shy_cute]we will get along, I'm sure",
+      "lookup_english": "we will get along, I'm sure",
+      "spanish": "[#shy_cute]Nos vamos a llevar bien, seguro que sí",
+      "chinese": "[#shy_cute]我们会相处得很好的，我肯定。",
+      "translation": "[#shy_cute]我们会相处得很好的，我肯定。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Katy.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "[#wave_hand]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#shy_cute]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": ""
+}

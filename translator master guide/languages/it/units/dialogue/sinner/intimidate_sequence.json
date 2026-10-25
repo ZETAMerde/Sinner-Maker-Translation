@@ -1,0 +1,63 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/intimidate_sequence.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/intimidate_sequence.dialogue#1",
+      "english": "you better do it, or else",
+      "lookup_english": "you better do it, or else",
+      "spanish": "Será mejor que lo hagas, o si no...",
+      "chinese": "你最好照做……否则。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "You",
+      "source": "scenes/dialogue/dialogues/sinner/intimidate_sequence.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "{{intimidate_result_line}}",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    },
+    {
+      "id": "sinner/intimidate_sequence.dialogue#2",
+      "english": "{{intimidate_result_line}}",
+      "lookup_english": "{{intimidate_result_line}}",
+      "spanish": "{{intimidate_result_line}}",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/intimidate_sequence.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "you better do it, or else",
+      "next_english": "",
+      "placeholders": [
+        "{{intimidate_result_line}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 7
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "Player talking to one sinner: menus, romance, crisis, feed, gifts.",
+  "voice_hint": ""
+}

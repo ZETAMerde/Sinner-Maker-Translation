@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]cousin, tell me everything, start with who is crying",
+      "lookup_english": "cousin, tell me everything, start with who is crying",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Primo. Cuéntamelo todo. Empiece por quién está llorando.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]表亲，把一切都告诉我。先从谁在哭说起。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]family reunion energy in the worst village ever",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]family reunion energy in the worst village ever",
+      "lookup_english": "family reunion energy in the worst village ever",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Energía de reunión familiar en el peor pueblo de todos los tiempos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]在最烂的村子里，搞出了家庭聚会的氛围。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]cousin, tell me everything, start with who is crying",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]i live for this, go on",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i live for this, go on",
+      "lookup_english": "i live for this, go on",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Vivo para esto. Seguir.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]我就靠这个活着。继续。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]family reunion energy in the worst village ever",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]the lovers card sinners were fighting about bread, plot twist",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]the lovers card sinners were fighting about bread, plot twist",
+      "lookup_english": "the lovers card sinners were fighting about bread, plot twist",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Los amantes de la tarjeta pecadores se peleaban por el pan. Giro de la trama.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]那对恋人牌罪人为了面包吵架。剧情反转。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_cousin_gossip.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]i live for this, go on",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

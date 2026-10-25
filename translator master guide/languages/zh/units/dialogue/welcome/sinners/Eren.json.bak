@@ -1,0 +1,66 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Eren.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Eren.dialogue#1",
+      "english": "[#motivated]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来。",
+      "translation": "[#wave_hand]谢谢你让我进来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Eren.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#exited]this place will shine like the sun!",
+      "placeholders": [
+        "[#motivated]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "welcome/sinners/Eren.dialogue#2",
+      "english": "[#exited]this place will shine like the sun!",
+      "lookup_english": "this place will shine like the sun!",
+      "spanish": "[#exited]¡Este sitio va a brillar como el sol!",
+      "chinese": "[#exited]这个地方会像太阳一样闪耀！",
+      "translation": "[#exited]这个地方会像太阳一样闪耀！",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Eren.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "[#motivated]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#exited]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": ""
+}

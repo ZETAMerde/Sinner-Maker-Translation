@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_choleric.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_choleric.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]you spend a lot of energy being intense",
+      "lookup_english": "you spend a lot of energy being intense",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Gastas mucha energía siendo intenso.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]你花了很多精力在紧绷着。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]better than wasting it being asleep",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_choleric.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]better than wasting it being asleep",
+      "lookup_english": "better than wasting it being asleep",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Mejor que desperdiciarlo estando dormido.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]总比浪费在睡着上强。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]you spend a lot of energy being intense",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]i expected that answer, which probably says enough",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_choleric.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i expected that answer, which probably says enough",
+      "lookup_english": "i expected that answer, which probably says enough",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Esperaba esa respuesta, que probablemente dice suficiente.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]我料到会是这个回答，这大概已经说明一切了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]better than wasting it being asleep",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

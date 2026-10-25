@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]you looked interesting, so I thought I should say hello properly",
+      "lookup_english": "you looked interesting, so I thought I should say hello properly",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Te veías interesante, así que pensé que debería saludarte apropiadamente.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]你看起来挺有意思，所以我想我该好好打个招呼。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]你看起来挺有意思，所以我想我该好好打个招呼。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]that is kind, but I am not looking for that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]that is kind, but I am not looking for that",
+      "lookup_english": "that is kind, but I am not looking for that",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Eso es amable, pero no estoy buscando eso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]这话很客气，但我不是在找那个。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]这话很客气，但我不是在找那个。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]you looked interesting, so I thought I should say hello properly",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_shake]right, that was more awkward than I hoped",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]right, that was more awkward than I hoped",
+      "lookup_english": "right, that was more awkward than I hoped",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Correcto. Eso fue más incómodo de lo que esperaba.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]好吧。这比我预想的还要尴尬。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_shake]好吧。这比我预想的还要尴尬。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]that is kind, but I am not looking for that",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]it is better if we leave it there",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]it is better if we leave it there",
+      "lookup_english": "it is better if we leave it there",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Es mejor si lo dejamos ahí.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]我们就到此为止吧。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]我们就到此为止吧。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_rebuffed.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]right, that was more awkward than I hoped",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

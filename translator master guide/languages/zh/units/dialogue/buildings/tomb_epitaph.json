@@ -1,0 +1,89 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/buildings/tomb_epitaph.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "buildings/tomb_epitaph.dialogue#1",
+      "english": "{{line1}}",
+      "lookup_english": "{{line1}}",
+      "spanish": "{{line1}}",
+      "chinese": "{{line1}}",
+      "translation": "{{line1}}",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "Narrator",
+      "source": "scenes/dialogue/dialogues/buildings/tomb_epitaph.dialogue",
+      "channel": "building",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "{{line2}}",
+      "placeholders": [
+        "{{line1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 2
+    },
+    {
+      "id": "buildings/tomb_epitaph.dialogue#2",
+      "english": "{{line2}}",
+      "lookup_english": "{{line2}}",
+      "spanish": "{{line2}}",
+      "chinese": "{{line2}}",
+      "translation": "{{line2}}",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "Narrator",
+      "source": "scenes/dialogue/dialogues/buildings/tomb_epitaph.dialogue",
+      "channel": "building",
+      "voice_hint": "",
+      "prev_english": "{{line1}}",
+      "next_english": "{{line3}}",
+      "placeholders": [
+        "{{line2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 4
+    },
+    {
+      "id": "buildings/tomb_epitaph.dialogue#3",
+      "english": "{{line3}}",
+      "lookup_english": "{{line3}}",
+      "spanish": "{{line3}}",
+      "chinese": "{{line3}}",
+      "translation": "{{line3}}",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "Narrator",
+      "source": "scenes/dialogue/dialogues/buildings/tomb_epitaph.dialogue",
+      "channel": "building",
+      "voice_hint": "",
+      "prev_english": "{{line2}}",
+      "next_english": "",
+      "placeholders": [
+        "{{line3}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 5
+    }
+  ],
+  "channel": "building",
+  "channel_note": "Building interaction talk.",
+  "voice_hint": ""
+}

@@ -1,0 +1,63 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/trade_post/trade_post_restaurant_boss.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "trade_post/trade_post_restaurant_boss.dialogue#1",
+      "english": "{{greeting_line}}",
+      "lookup_english": "{{greeting_line}}",
+      "spanish": "{{greeting_line}}",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{seller_name}}",
+      "source": "scenes/dialogue/dialogues/trade_post/trade_post_restaurant_boss.dialogue",
+      "channel": "trade",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "nothing",
+      "placeholders": [
+        "{{greeting_line}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 2
+    },
+    {
+      "id": "trade_post/trade_post_restaurant_boss.dialogue#2",
+      "english": "nothing",
+      "lookup_english": "nothing",
+      "spanish": "Nada",
+      "chinese": "没什么",
+      "translation": "",
+      "style": "player_choice",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(player choice)",
+      "source": "scenes/dialogue/dialogues/trade_post/trade_post_restaurant_boss.dialogue",
+      "channel": "trade",
+      "voice_hint": "",
+      "prev_english": "{{greeting_line}}",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "trade",
+  "channel_note": "Trade post talk.",
+  "voice_hint": ""
+}

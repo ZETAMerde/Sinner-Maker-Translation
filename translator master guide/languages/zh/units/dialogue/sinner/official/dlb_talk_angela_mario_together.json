@@ -1,0 +1,114 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_together.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_together.dialogue#1",
+      "english": "[#uninterested]yeah we are together",
+      "lookup_english": "yeah we are together",
+      "spanish": "[#uninterested]Sí, estamos juntos...",
+      "chinese": "[#uninterested]对，我们是一对儿。",
+      "translation": "[#uninterested]对，我们是一对儿。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_together.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#frustrated]ughhh",
+      "placeholders": [
+        "[#uninterested]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_together.dialogue#2",
+      "english": "[#frustrated]ughhh",
+      "lookup_english": "ughhh",
+      "spanish": "[#uncomfortable_idle]Ughhh.",
+      "chinese": "[#uncomfortable_idle]呃啊……",
+      "translation": "[#uncomfortable_idle]呃啊……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_together.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#uninterested]yeah we are together",
+      "next_english": "[#uncomfortable_idle]he is uhhh",
+      "placeholders": [
+        "[#frustrated]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_together.dialogue#3",
+      "english": "[#uncomfortable_idle]he is uhhh",
+      "lookup_english": "he is uhhh",
+      "spanish": "[#uncomfortable_idle]Él... bueno...",
+      "chinese": "[#uncomfortable_idle]他人还挺，呃……",
+      "translation": "[#uncomfortable_idle]他人还挺，呃……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_together.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#frustrated]ughhh",
+      "next_english": "[#dissapointed]i feel bad for him honestly",
+      "placeholders": [
+        "[#uncomfortable_idle]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 4
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_together.dialogue#4",
+      "english": "[#dissapointed]i feel bad for him honestly",
+      "lookup_english": "i feel bad for him honestly",
+      "spanish": "[#dissapointed]Me sabe mal por él, la verdad",
+      "chinese": "[#dissapointed]好吧，说实话，我挺可怜他的。",
+      "translation": "[#dissapointed]好吧，说实话，我挺可怜他的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_together.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#uncomfortable_idle]he is uhhh",
+      "next_english": "",
+      "placeholders": [
+        "[#dissapointed]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 5
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "In-village Talk tree, or a Don't Look Back Talk About override.",
+  "voice_hint": ""
+}

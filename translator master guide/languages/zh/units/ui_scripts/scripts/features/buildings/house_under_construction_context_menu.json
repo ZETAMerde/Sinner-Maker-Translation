@@ -1,0 +1,37 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/house_under_construction_context_menu.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Sinners with more sloth %s will build houses faster",
+      "english": "Sinners with more sloth %s will build houses faster",
+      "lookup_english": "Sinners with more sloth %s will build houses faster",
+      "spanish": "Los pecadores con más pereza %s construirán casas más rápido",
+      "chinese": "懒惰%s越高的罪人建造房屋越快",
+      "translation": "懒惰%s越高的罪人建造房屋越快",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/house_under_construction_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]do you hear that noise from next door?",
+      "lookup_english": "do you hear that noise from next door?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Escuchas ese ruido de la casa de al lado?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]你听到从隔壁传来的那个声音了吗？",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]你听到从隔壁传来的那个声音了吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]every night, I stopped asking",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]every night, I stopped asking",
+      "lookup_english": "every night, I stopped asking",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Todas las noches. Dejé de preguntar.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]每晚都有。我已经不再问了。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]每晚都有。我已经不再问了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]do you hear that noise from next door?",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]i think it is chanting, or sobbing, hard to tell",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]i think it is chanting, or sobbing, hard to tell",
+      "lookup_english": "i think it is chanting, or sobbing, hard to tell",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Creo que es canto. O sollozando. Es difícil saberlo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我觉得那是吟诵，或者是抽泣。很难分辨。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]我觉得那是吟诵，或者是抽泣。很难分辨。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]every night, I stopped asking",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]village life, cozy",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]village life, cozy",
+      "lookup_english": "village life, cozy",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Vida de pueblo. Acogedor.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]村庄生活。真舒适。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]村庄生活。真舒适。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_weird_neighbor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]i think it is chanting, or sobbing, hard to tell",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

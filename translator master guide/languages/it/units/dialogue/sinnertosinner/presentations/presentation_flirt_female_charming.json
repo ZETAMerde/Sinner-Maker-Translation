@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_charming.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_charming.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]you have a nice face, I wanted to test that smile up close",
+      "lookup_english": "you have a nice face, I wanted to test that smile up close",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Tienes una cara bonita. Quería probar esa sonrisa de cerca.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]你的脸很好看。我想近距离验证一下那个笑容。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_charming.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]that is a strong opening, I like the confidence",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_charming.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]that is a strong opening, I like the confidence",
+      "lookup_english": "that is a strong opening, I like the confidence",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Esa es una apertura fuerte. Me gusta la confianza.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]这开场很有力。我喜欢这份自信。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_charming.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]you have a nice face, I wanted to test that smile up close",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]so that is a no?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_charming.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]so that is a no?",
+      "lookup_english": "so that is a no?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Entonces eso es un no?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]所以这是拒绝？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_charming.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]that is a strong opening, I like the confidence",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]a friendly no, but I would still talk again",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_female_charming.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]a friendly no, but I would still talk again",
+      "lookup_english": "a friendly no, but I would still talk again",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Un amistoso no. Pero aún así volvería a hablar.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]友好的拒绝。但我还是愿意再聊。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_female_charming.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]so that is a no?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

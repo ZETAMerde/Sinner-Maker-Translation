@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/info_panels/door_info_panel.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Someone is at the door",
+      "english": "Someone is at the door",
+      "lookup_english": "Someone is at the door",
+      "spanish": "Hay alguien en la puerta",
+      "chinese": "有人在门口",
+      "translation": "有人在门口",
+      "style": "ui_label",
+      "casing_rule": "author_keep",
+      "speaker": "",
+      "source": "scenes/info_panels/door_info_panel.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels. Author menu Spanish is in the spanish field. Write translation in the target language. Do not copy Spanish capitals into it."
+    },
+    {
+      "id": "someone is knocking your door!\n sinners will try to convince\n you to let them enter\nyou can decide to\n let them in or not\n\nbut look out,\n demons know\n how to\nknock doors\n  too",
+      "english": "someone is knocking your door!\n sinners will try to convince\n you to let them enter\nyou can decide to\n let them in or not\n\nbut look out,\n demons know\n how to\nknock doors\n  too",
+      "lookup_english": "someone is knocking your door!\n sinners will try to convince\n you to let them enter\nyou can decide to\n let them in or not\n\nbut look out,\n demons know\n how to\nknock doors\n  too",
+      "spanish": "¡Alguien está llamando a tu puerta!\n Los pecadores intentarán convencerte\n de que los dejes entrar.\nPuedes decidir\n dejarlos entrar o no.\n\nPero ten cuidado,\n los demonios saben\n cómo\nllamar a las puertas\n  también...",
+      "chinese": "有人在敲你的门！\n 罪人会想方设法\n 说服你让他们进来\n你可以决定\n 要不要开门\n\n但要当心，\n 恶魔\n 也一样\n会敲门\n  哦……",
+      "translation": "有人在敲你的门！\n 罪人会想方设法\n 说服你让他们进来\n你可以决定\n 要不要开门\n\n但要当心，\n 恶魔\n 也一样\n会敲门\n  哦……",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/info_panels/door_info_panel.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/systems/village/urban_electricity_tab.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Bank: %.1f / %.0f",
+      "english": "Bank: %.1f / %.0f",
+      "lookup_english": "Bank: %.1f / %.0f",
+      "spanish": "Batería: %.1f / %.0f",
+      "chinese": "电池组：%.1f / %.0f",
+      "translation": "电池组：%.1f / %.0f",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/systems/village/urban_electricity_tab.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "Upgrade bank (%d candles)",
+      "english": "Upgrade bank (%d candles)",
+      "lookup_english": "Upgrade bank (%d candles)",
+      "spanish": "Mejorar batería (%d velas)",
+      "chinese": "升级电池组（%d 蜡烛）",
+      "translation": "升级电池组（%d 蜡烛）",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/systems/village/urban_electricity_tab.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Powered tiles (yellow): %d",
+      "english": "Powered tiles (yellow): %d",
+      "lookup_english": "Powered tiles (yellow): %d",
+      "spanish": "Zonas con electricidad (amarillo): %d",
+      "chinese": "通电地块（黄色）：%d",
+      "translation": "通电地块（黄色）：%d",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/systems/village/urban_electricity_tab.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Bank upgraded",
+      "english": "Bank upgraded",
+      "lookup_english": "Bank upgraded",
+      "spanish": "Batería mejorada",
+      "chinese": "电池组已升级",
+      "translation": "电池组已升级",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/systems/village/urban_electricity_tab.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

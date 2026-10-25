@@ -1,0 +1,92 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_show_best_face.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/proposal/proposal_show_best_face.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]i thought I would take a moment to look my best before coming to you, I hope you noticed",
+      "lookup_english": "i thought I would take a moment to look my best before coming to you, I hope you noticed",
+      "spanish": "[#speaker={{speaker_id_1}}]Pensé que me tomaría un momento para lucir lo mejor posible antes de acudir a ti. Espero que te hayas dado cuenta.",
+      "chinese": "[#speaker={{speaker_id_1}}]我想在来见你之前花点时间把自己打理到最好。希望你有注意到。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_show_best_face.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]i did notice, I notice everything about you, yes",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_show_best_face.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]i did notice, I notice everything about you, yes",
+      "lookup_english": "i did notice, I notice everything about you, yes",
+      "spanish": "[#speaker={{speaker_id_2}}]Me di cuenta. Noto todo sobre ti. Sí.",
+      "chinese": "[#speaker={{speaker_id_2}}]我注意到了。你的一切我都注意到，是的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_show_best_face.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]i thought I would take a moment to look my best before coming to you, I hope you noticed",
+      "next_english": "[#speaker={{speaker_id_2}}]you look wonderful, but I do not feel the same way, I am sorry",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 9
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_show_best_face.dialogue#3",
+      "english": "[#speaker={{speaker_id_2}}]you look wonderful, but I do not feel the same way, I am sorry",
+      "lookup_english": "you look wonderful, but I do not feel the same way, I am sorry",
+      "spanish": "[#speaker={{speaker_id_2}}]Te ves maravillosa. Pero no siento lo mismo. Lo siento.",
+      "chinese": "[#speaker={{speaker_id_2}}]你看起来很棒。但我没有同样的感觉。对不起。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_show_best_face.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}]i did notice, I notice everything about you, yes",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 15
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "One sinner approaches a crush.",
+  "voice_hint": ""
+}

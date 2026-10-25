@@ -1,0 +1,65 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Bastienne.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Bastienne.dialogue#1",
+      "english": "[#wave_hand]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Bastienne.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#laugh]helloooooo hehe",
+      "placeholders": [
+        "[#wave_hand]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/sinners/Bastienne.dialogue#2",
+      "english": "[#laugh]helloooooo hehe",
+      "lookup_english": "helloooooo hehe",
+      "spanish": "[#laugh]Holiiiiiii jeje",
+      "chinese": "[#laugh]哈喽～～～嘿嘿",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Bastienne.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "[#wave_hand]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#laugh]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": ""
+}

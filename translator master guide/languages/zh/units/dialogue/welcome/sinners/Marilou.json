@@ -1,0 +1,65 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Marilou.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Marilou.dialogue#1",
+      "english": "[#wave_hand]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来。",
+      "translation": "[#wave_hand]谢谢你让我进来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Marilou.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Darling, vanity, hard laugh at her own tragedy. Do not make her shy.",
+      "prev_english": "",
+      "next_english": "[#wonder]ouhh, you are not as I expected",
+      "placeholders": [
+        "[#wave_hand]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/sinners/Marilou.dialogue#2",
+      "english": "[#wonder]ouhh, you are not as I expected",
+      "lookup_english": "ouhh, you are not as I expected",
+      "spanish": "[#wonder]Ahh... No eres como me esperaba",
+      "chinese": "[#wonder]哦～你跟我想象的不太一样。",
+      "translation": "[#wonder]哦～你跟我想象的不太一样。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Marilou.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Darling, vanity, hard laugh at her own tragedy. Do not make her shy.",
+      "prev_english": "[#wave_hand]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#wonder]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": "Woman. Darling, vanity, hard laugh at her own tragedy. Do not make her shy."
+}

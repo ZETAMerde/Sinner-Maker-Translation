@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]stop moping, it is contagious",
+      "lookup_english": "stop moping, it is contagious",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Deja de deprimirte. Es contagioso.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]别闷闷不乐了。会传染的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]good, maybe the village will finally match my mood",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]good, maybe the village will finally match my mood",
+      "lookup_english": "good, maybe the village will finally match my mood",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Bien. Quizás el pueblo finalmente coincida con mi estado de ánimo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]很好。也许村子终于能配上我的心情了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]stop moping, it is contagious",
+      "next_english": "[#speaker={{speaker_id_1}}][#wonder]that was almost clever",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]that was almost clever",
+      "lookup_english": "that was almost clever",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]...Eso fue casi inteligente.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]……这几乎算是机智了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]good, maybe the village will finally match my mood",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]do not get used to it",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]do not get used to it",
+      "lookup_english": "do not get used to it",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]No te acostumbres.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]别习惯了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]that was almost clever",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

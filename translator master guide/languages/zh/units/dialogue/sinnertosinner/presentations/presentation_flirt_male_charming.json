@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_charming.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_charming.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]you caught my eye, so I decided to make that your problem",
+      "lookup_english": "you caught my eye, so I decided to make that your problem",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Me llamaste la atención, así que decidí convertirlo en tu problema.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]你吸引了我的注意，所以我决定把这变成你的问题。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]你吸引了我的注意，所以我决定把这变成你的问题。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_charming.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]that line is ridiculous",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_charming.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]that line is ridiculous",
+      "lookup_english": "that line is ridiculous",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Esa línea es ridícula.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]这台词太离谱了。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]这台词太离谱了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_charming.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]you caught my eye, so I decided to make that your problem",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]ridiculous in a useful way?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_charming.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]ridiculous in a useful way?",
+      "lookup_english": "ridiculous in a useful way?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Ridículo de una manera útil?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]是那种有用的离谱吗？",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]是那种有用的离谱吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_charming.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]that line is ridiculous",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]useful enough for a conversation, not much more",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_charming.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]useful enough for a conversation, not much more",
+      "lookup_english": "useful enough for a conversation, not much more",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Lo suficientemente útil para una conversación, no mucho más.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]够聊个天，再多就没了。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]够聊个天，再多就没了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_charming.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]ridiculous in a useful way?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

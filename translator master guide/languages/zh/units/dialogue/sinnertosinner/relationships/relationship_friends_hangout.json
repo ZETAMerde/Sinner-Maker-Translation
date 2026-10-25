@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_hangout.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_hangout.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]sit, tell me something stupid that happened",
+      "lookup_english": "sit, tell me something stupid that happened",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Siéntate. Cuéntame alguna estupidez que haya pasado.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]坐下。跟我说点发生的蠢事。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]坐下。跟我说点发生的蠢事。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_hangout.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]the fool tried to feed a demon, does that count?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_hangout.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]the fool tried to feed a demon, does that count?",
+      "lookup_english": "the fool tried to feed a demon, does that count?",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]El tonto intentó alimentar a un demonio. ¿Eso cuenta?",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]那个傻瓜试着喂一个恶魔。这算吗？",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]那个傻瓜试着喂一个恶魔。这算吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_hangout.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]sit, tell me something stupid that happened",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]that counts, details, now",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_hangout.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]that counts, details, now",
+      "lookup_english": "that counts, details, now",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Eso cuenta. Detalles. Ahora.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]算。细节，现在就要。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]算。细节，现在就要。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_hangout.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]the fool tried to feed a demon, does that count?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

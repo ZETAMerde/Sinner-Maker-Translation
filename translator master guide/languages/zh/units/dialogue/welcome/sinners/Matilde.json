@@ -1,0 +1,113 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Matilde.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Matilde.dialogue#1",
+      "english": "[#wave_hand]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来。",
+      "translation": "[#wave_hand]谢谢你让我进来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Matilde.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Gamer, rambler, Angela's cousin. She does not want dating. Keep the topic hops.",
+      "prev_english": "",
+      "next_english": "[#nervous_scratch]oh, and uhhh",
+      "placeholders": [
+        "[#wave_hand]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/sinners/Matilde.dialogue#2",
+      "english": "[#nervous_scratch]oh, and uhhh",
+      "lookup_english": "oh, and uhhh",
+      "spanish": "[#nervous_scratch]Ah, y ehhh...",
+      "chinese": "[#nervous_scratch]哦，对了，呃……",
+      "translation": "[#nervous_scratch]哦，对了，呃……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Matilde.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Gamer, rambler, Angela's cousin. She does not want dating. Keep the topic hops.",
+      "prev_english": "[#wave_hand]thanks for letting me in",
+      "next_english": "[#dissapointed]i actually lost my Demon screens",
+      "placeholders": [
+        "[#nervous_scratch]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    },
+    {
+      "id": "welcome/sinners/Matilde.dialogue#3",
+      "english": "[#dissapointed]i actually lost my Demon screens",
+      "lookup_english": "i actually lost my Demon screens",
+      "spanish": "[#dissapointed]Pues es que perdí mi Demon screens.",
+      "chinese": "[#dissapointed]其实我把我的任地狱弄丢了。",
+      "translation": "[#dissapointed]其实我把我的任地狱弄丢了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Matilde.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Gamer, rambler, Angela's cousin. She does not want dating. Keep the topic hops.",
+      "prev_english": "[#nervous_scratch]oh, and uhhh",
+      "next_english": "[#wonder]can you lend me yours?",
+      "placeholders": [
+        "[#dissapointed]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 4
+    },
+    {
+      "id": "welcome/sinners/Matilde.dialogue#4",
+      "english": "[#wonder]can you lend me yours?",
+      "lookup_english": "can you lend me yours?",
+      "spanish": "[#wonder]¿Me dejarías la tuya?",
+      "chinese": "[#wonder]可以把你的借我玩玩吗？",
+      "translation": "[#wonder]可以把你的借我玩玩吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Matilde.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Gamer, rambler, Angela's cousin. She does not want dating. Keep the topic hops.",
+      "prev_english": "[#dissapointed]i actually lost my Demon screens",
+      "next_english": "",
+      "placeholders": [
+        "[#wonder]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 5
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": "Woman. Gamer, rambler, Angela's cousin. She does not want dating. Keep the topic hops."
+}

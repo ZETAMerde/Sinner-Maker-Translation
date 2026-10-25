@@ -1,0 +1,7156 @@
+{
+  "pack_version": 2,
+  "generated_at": "2026-10-12T16:30:43Z",
+  "purpose": "Translator master guide. spanish and chinese are the official references. Revise Chinese in languages/zh/. Fill the empty worksheets for ru, de, it, ko, ja, pl, and ar.",
+  "languages": [
+    {
+      "code": "zh",
+      "name": "Chinese (Simplified)",
+      "native_name": "简体中文",
+      "prefilled": true
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "native_name": "Русский",
+      "prefilled": false
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "native_name": "Deutsch",
+      "prefilled": false
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "native_name": "Italiano",
+      "prefilled": false
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "native_name": "한국어",
+      "prefilled": false
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "native_name": "日本語",
+      "prefilled": false
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "native_name": "Polski",
+      "prefilled": false
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "native_name": "العربية",
+      "prefilled": false
+    }
+  ],
+  "output_folder": "C:\\Users\\angel\\OneDrive\\Desktop\\translator master guide",
+  "counts": {
+    "files": 884,
+    "strings": 11359,
+    "with_spanish": 11117,
+    "with_chinese": 10981,
+    "missing_either": 378,
+    "long_dash_in_references": 0,
+    "script_lines_rows_in_units": 2638,
+    "script_lines_with_spanish": 2628,
+    "script_lines_with_chinese": 2628,
+    "dialogue_library_rows": 606,
+    "dialogue_library_with_spanish": 606,
+    "dialogue_library_with_chinese": 606,
+    "by_unit": {
+      "dialogue": 5424,
+      "dialogue_library": 606,
+      "gdscript_spoken": 1938,
+      "localize_gaps": 22,
+      "resources": 1383,
+      "talk_about": 136,
+      "ui_core": 690,
+      "ui_scenes": 744,
+      "ui_scripts": 401,
+      "unwired": 15
+    }
+  },
+  "files": [
+    {
+      "file": "units/dialogue/buildings/tomb_empty.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/buildings/tomb_epitaph.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 0,
+      "missing_either": 3
+    },
+    {
+      "file": "units/dialogue/buildings/workbench_busy.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/baby_gender_at_door.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/demons/gotiketh.json",
+      "unit": "dialogue",
+      "strings": 42,
+      "with_spanish": 42,
+      "with_chinese": 42,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/demons/locust.json",
+      "unit": "dialogue",
+      "strings": 63,
+      "with_spanish": 63,
+      "with_chinese": 63,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/demons/lucereth.json",
+      "unit": "dialogue",
+      "strings": 62,
+      "with_spanish": 62,
+      "with_chinese": 62,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/demons/nharazel.json",
+      "unit": "dialogue",
+      "strings": 54,
+      "with_spanish": 54,
+      "with_chinese": 54,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/demons/pherenes.json",
+      "unit": "dialogue",
+      "strings": 48,
+      "with_spanish": 48,
+      "with_chinese": 48,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/demons/saboricaris.json",
+      "unit": "dialogue",
+      "strings": 55,
+      "with_spanish": 55,
+      "with_chinese": 55,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/demons/wallofflesh.json",
+      "unit": "dialogue",
+      "strings": 75,
+      "with_spanish": 75,
+      "with_chinese": 75,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/devil_card.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/emperor_card.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/empress_card.json",
+      "unit": "dialogue",
+      "strings": 22,
+      "with_spanish": 22,
+      "with_chinese": 22,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/fool_card.json",
+      "unit": "dialogue",
+      "strings": 21,
+      "with_spanish": 21,
+      "with_chinese": 20,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/door/hanged_card.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/hermit_card.json",
+      "unit": "dialogue",
+      "strings": 18,
+      "with_spanish": 18,
+      "with_chinese": 18,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/lovers_card.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/masquerade/krammer_voss.json",
+      "unit": "dialogue",
+      "strings": 16,
+      "with_spanish": 16,
+      "with_chinese": 16,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/masquerade/mirela.json",
+      "unit": "dialogue",
+      "strings": 16,
+      "with_spanish": 16,
+      "with_chinese": 16,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/moon_card.json",
+      "unit": "dialogue",
+      "strings": 19,
+      "with_spanish": 18,
+      "with_chinese": 18,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/door/nobody_here.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sinners/Angela.json",
+      "unit": "dialogue",
+      "strings": 49,
+      "with_spanish": 49,
+      "with_chinese": 49,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sinners/Bastienne.json",
+      "unit": "dialogue",
+      "strings": 57,
+      "with_spanish": 57,
+      "with_chinese": 57,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sinners/Isaiah.json",
+      "unit": "dialogue",
+      "strings": 45,
+      "with_spanish": 44,
+      "with_chinese": 44,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/door/sinners/Lizbeth.json",
+      "unit": "dialogue",
+      "strings": 46,
+      "with_spanish": 46,
+      "with_chinese": 46,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sinners/Marilou.json",
+      "unit": "dialogue",
+      "strings": 71,
+      "with_spanish": 71,
+      "with_chinese": 71,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sinners/Mario.json",
+      "unit": "dialogue",
+      "strings": 61,
+      "with_spanish": 61,
+      "with_chinese": 61,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sinners/Matilde.json",
+      "unit": "dialogue",
+      "strings": 56,
+      "with_spanish": 56,
+      "with_chinese": 56,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sinners/Soren.json",
+      "unit": "dialogue",
+      "strings": 63,
+      "with_spanish": 63,
+      "with_chinese": 63,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sinners/Zekia.json",
+      "unit": "dialogue",
+      "strings": 57,
+      "with_spanish": 57,
+      "with_chinese": 57,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/someone_sleeping_inside.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/star_card.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/strength_card.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/sun_card.json",
+      "unit": "dialogue",
+      "strings": 22,
+      "with_spanish": 22,
+      "with_chinese": 22,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/tower_card.json",
+      "unit": "dialogue",
+      "strings": 16,
+      "with_spanish": 16,
+      "with_chinese": 16,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/alcoholic_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/alcoholic_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/alcoholic_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/alcoholic_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/cannibal_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/cannibal_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/cannibal_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/cannibal_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/christian_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/christian_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/christian_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 30,
+      "with_spanish": 30,
+      "with_chinese": 30,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/christian_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/convict_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/convict_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/convict_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/convict_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/criminal_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/criminal_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/criminal_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/criminal_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/cultist_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/cultist_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/cultist_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/cultist_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/gambler_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/gambler_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/gambler_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/gambler_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/murder_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/murder_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/murder_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/murder_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/satanist_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/satanist_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/satanist_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/satanist_sanguine.json",
+      "unit": "dialogue",
+      "strings": 30,
+      "with_spanish": 30,
+      "with_chinese": 30,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/sociopath_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/sociopath_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/sociopath_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/sociopath_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/troll_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/troll_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/troll_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/troll_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/weeb_choleric.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/weeb_melancholic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/weeb_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/traits/weeb_sanguine.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/travelers/krammer_voss.json",
+      "unit": "dialogue",
+      "strings": 128,
+      "with_spanish": 128,
+      "with_chinese": 128,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/travelers/mirela.json",
+      "unit": "dialogue",
+      "strings": 136,
+      "with_spanish": 135,
+      "with_chinese": 135,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/door/wheel_card.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/door/world_card.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/gabriel.json",
+      "unit": "dialogue",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 10,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/giftreaction/hate.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 0,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/giftreaction/like.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 0,
+      "missing_either": 3
+    },
+    {
+      "file": "units/dialogue/giftreaction/neutral.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 0,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/giftreaction/recognize.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 0,
+      "missing_either": 6
+    },
+    {
+      "file": "units/dialogue/nightmare/jump_nightmare.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/progression/blueprint.json",
+      "unit": "dialogue",
+      "strings": 38,
+      "with_spanish": 38,
+      "with_chinese": 38,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/progression/watering_can.json",
+      "unit": "dialogue",
+      "strings": 32,
+      "with_spanish": 32,
+      "with_chinese": 32,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/questions/change_character.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/questions/how_babies.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/questions/how_interact.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/questions/how_save.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/questions/more_questions.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/questions/nds_port.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/questions/who_are_you.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/shop/shop_seller.json",
+      "unit": "dialogue",
+      "strings": 21,
+      "with_spanish": 21,
+      "with_chinese": 21,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/baby_maternity_care.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/baby_naming_father.json",
+      "unit": "dialogue",
+      "strings": 15,
+      "with_spanish": 15,
+      "with_chinese": 8,
+      "missing_either": 7
+    },
+    {
+      "file": "units/dialogue/sinner/baby_naming_mother.json",
+      "unit": "dialogue",
+      "strings": 15,
+      "with_spanish": 15,
+      "with_chinese": 8,
+      "missing_either": 7
+    },
+    {
+      "file": "units/dialogue/sinner/birth_petition.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/couple_intimacy_petition.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 2,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/couple_love_lost.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/crucified_dead_removal.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 2,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/crucified_dead_removal_harvest.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 3,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/crucified_night.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 3,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/crucified_petition.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 3,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/crucified_release_reaction.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/crush_being_proposed.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/dead_body_interaction.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 3,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/dead_body_interaction_bury_only.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 2,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/demon_king/demon_king_afflicted.json",
+      "unit": "dialogue",
+      "strings": 8,
+      "with_spanish": 8,
+      "with_chinese": 5,
+      "missing_either": 3
+    },
+    {
+      "file": "units/dialogue/sinner/demon_king/demon_king_cure_fail.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/demon_king/demon_king_ialbeth.json",
+      "unit": "dialogue",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 8,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/demon_king/demon_king_orothiel.json",
+      "unit": "dialogue",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 8,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/demon_king/demon_king_petition.json",
+      "unit": "dialogue",
+      "strings": 8,
+      "with_spanish": 8,
+      "with_chinese": 6,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/demon_king/demon_king_shirati.json",
+      "unit": "dialogue",
+      "strings": 12,
+      "with_spanish": 12,
+      "with_chinese": 10,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/demon_king/shirati_survivor.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/feed_result.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 2,
+      "with_chinese": 1,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/gift_proposal_reaction.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/gossip_report.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/intimidate_sequence.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 1,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/kick_out.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 2,
+      "missing_either": 3
+    },
+    {
+      "file": "units/dialogue/sinner/love_proposal.json",
+      "unit": "dialogue",
+      "strings": 148,
+      "with_spanish": 145,
+      "with_chinese": 143,
+      "missing_either": 5
+    },
+    {
+      "file": "units/dialogue/sinner/menu_interaction.json",
+      "unit": "dialogue",
+      "strings": 15,
+      "with_spanish": 15,
+      "with_chinese": 11,
+      "missing_either": 4
+    },
+    {
+      "file": "units/dialogue/sinner/menu_something_else.json",
+      "unit": "dialogue",
+      "strings": 91,
+      "with_spanish": 77,
+      "with_chinese": 74,
+      "missing_either": 17
+    },
+    {
+      "file": "units/dialogue/sinner/menu_work_interaction.json",
+      "unit": "dialogue",
+      "strings": 12,
+      "with_spanish": 12,
+      "with_chinese": 8,
+      "missing_either": 4
+    },
+    {
+      "file": "units/dialogue/sinner/nightmare_aftermath.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/Angela.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/Isaiah.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/Marilou.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/Mario.json",
+      "unit": "dialogue",
+      "strings": 18,
+      "with_spanish": 18,
+      "with_chinese": 18,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/Matilde.json",
+      "unit": "dialogue",
+      "strings": 52,
+      "with_spanish": 52,
+      "with_chinese": 52,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_angela_mario_ex.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_angela_mario_over.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_angela_mario_together.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_angela_matilde.json",
+      "unit": "dialogue",
+      "strings": 13,
+      "with_spanish": 13,
+      "with_chinese": 13,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_angela_soren_hate.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_angela_soren_interested.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_angela_soren_love.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_mario_angela_ex.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/official/dlb_talk_matilde_angela.json",
+      "unit": "dialogue",
+      "strings": 11,
+      "with_spanish": 11,
+      "with_chinese": 11,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/player_bed_sleep.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/player_caused_loss_grief.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/player_love_proposal.json",
+      "unit": "dialogue",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 8,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinner/player_meet.json",
+      "unit": "dialogue",
+      "strings": 11,
+      "with_spanish": 10,
+      "with_chinese": 10,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/player_night_duration.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/player_partner_ask_tonight.json",
+      "unit": "dialogue",
+      "strings": 12,
+      "with_spanish": 7,
+      "with_chinese": 4,
+      "missing_either": 8
+    },
+    {
+      "file": "units/dialogue/sinner/player_partner_night.json",
+      "unit": "dialogue",
+      "strings": 28,
+      "with_spanish": 9,
+      "with_chinese": 6,
+      "missing_either": 22
+    },
+    {
+      "file": "units/dialogue/sinner/player_proposal_result.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/player_propose.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/questions/opinion_of_me.json",
+      "unit": "dialogue",
+      "strings": 103,
+      "with_spanish": 102,
+      "with_chinese": 102,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/sleep_menu_interaction.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 4,
+      "with_chinese": 2,
+      "missing_either": 5
+    },
+    {
+      "file": "units/dialogue/sinner/sleep_nightmare_interaction.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/talk_about_line.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinner/talk_about_schedule.json",
+      "unit": "dialogue",
+      "strings": 8,
+      "with_spanish": 8,
+      "with_chinese": 2,
+      "missing_either": 6
+    },
+    {
+      "file": "units/dialogue/sinner/watchtower_report.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinner/work_refusal_interaction.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 5,
+      "missing_either": 4
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_age_adult_to_adult.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_age_adult_to_young_adult.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_age_young_adult_to_adult.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_age_young_adult_to_young_adult.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_female_to_female.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_female_to_male.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_male_to_female.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_male_to_male.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_alcoholic.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_cannibal.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_christian.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_convict.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_criminal.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_cultist.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_gambler.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_murder.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_prolific.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_satanist.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_snob.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_sociopath.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_techie.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_troll.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_shared_weeb.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_choleric_to_choleric.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_choleric_to_melancholic.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_choleric_to_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_choleric_to_sanguine.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_melancholic_to_choleric.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_melancholic_to_melancholic.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_melancholic_to_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_melancholic_to_sanguine.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_phlegmatic_to_choleric.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_phlegmatic_to_melancholic.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_phlegmatic_to_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_sanguine_to_choleric.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_sanguine_to_melancholic.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/casual/casual_temperament_sanguine_to_sanguine.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_am_dump.json",
+      "unit": "dialogue",
+      "strings": 36,
+      "with_spanish": 32,
+      "with_chinese": 32,
+      "missing_either": 4
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_am_goodbye.json",
+      "unit": "dialogue",
+      "strings": 31,
+      "with_spanish": 31,
+      "with_chinese": 31,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_am_reunion.json",
+      "unit": "dialogue",
+      "strings": 15,
+      "with_spanish": 15,
+      "with_chinese": 15,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_as_angy.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_as_baby.json",
+      "unit": "dialogue",
+      "strings": 67,
+      "with_spanish": 63,
+      "with_chinese": 62,
+      "missing_either": 5
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_as_cross.json",
+      "unit": "dialogue",
+      "strings": 15,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_as_second.json",
+      "unit": "dialogue",
+      "strings": 30,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_as_tonight.json",
+      "unit": "dialogue",
+      "strings": 20,
+      "with_spanish": 17,
+      "with_chinese": 17,
+      "missing_either": 3
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_cm_critic.json",
+      "unit": "dialogue",
+      "strings": 15,
+      "with_spanish": 15,
+      "with_chinese": 15,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_cm_sorry.json",
+      "unit": "dialogue",
+      "strings": 30,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_ma_confession.json",
+      "unit": "dialogue",
+      "strings": 29,
+      "with_spanish": 29,
+      "with_chinese": 29,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_ma_first.json",
+      "unit": "dialogue",
+      "strings": 11,
+      "with_spanish": 11,
+      "with_chinese": 11,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_ma_tease.json",
+      "unit": "dialogue",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 10,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/dont_look_back/dlb_sx_gossip.json",
+      "unit": "dialogue",
+      "strings": 11,
+      "with_spanish": 10,
+      "with_chinese": 10,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/faith_faltering_prayer.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/faith_prayer_competition.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/food_empty_stomachs.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/food_ration_trading.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/food_vegetarian_meat.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/gossip/gossip_event_hookup.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/gossip/gossip_infidelity.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/gossip/gossip_noisy_neighbors.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/gossip/gossip_tell_subject.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/gossip/infidelity_confrontation.json",
+      "unit": "dialogue",
+      "strings": 12,
+      "with_spanish": 12,
+      "with_chinese": 8,
+      "missing_either": 4
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/gossip_village_drama3.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/gossip_weird_habit.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/hookup/hookup_morning_acceptable.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/hookup/hookup_morning_incredible.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/hookup/hookup_morning_mediocre.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/hookup/hookup_offer.json",
+      "unit": "dialogue",
+      "strings": 11,
+      "with_spanish": 11,
+      "with_chinese": 11,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/intimacy/couple_love_lost_breakup.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/intimacy/couple_petition_breakup.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_convict.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_demon_gluttony.json",
+      "unit": "dialogue",
+      "strings": 19,
+      "with_spanish": 19,
+      "with_chinese": 18,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_demon_wrath.json",
+      "unit": "dialogue",
+      "strings": 19,
+      "with_spanish": 19,
+      "with_chinese": 18,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_epilogue.json",
+      "unit": "dialogue",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_hatred.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_infidelity.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_inverted_defense.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_satanist.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_sociopath.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_trait.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_trait_satanist.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/murder/murder_withdrawal.json",
+      "unit": "dialogue",
+      "strings": 21,
+      "with_spanish": 21,
+      "with_chinese": 21,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/neutral_bad_cooking.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/neutral_chief_rumor.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/neutral_demon_sighting.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/neutral_village_conversation.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/neutral_village_gossip.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/neutral_village_gossip2.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_chief_insult.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_chief_praise.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_curse_colony.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_faith_crisis.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_faith_zeal.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_god_doubt.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_god_insult.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_god_praise.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_law_insult.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_law_praise.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_mock_church.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_mock_cross.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_rumour_chief.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_satan_fear.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_satan_insult.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_satan_praise.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_sinner_insult.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_sinner_praise.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_sinner_rumour.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_village_insult.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_village_praise.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_work_complaint.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/opinion/opinion_work_praise.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_christian_vs_satanist.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_demon_vs_christian.json",
+      "unit": "dialogue",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_fallback_bad.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 3,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_fallback_good.json",
+      "unit": "dialogue",
+      "strings": 13,
+      "with_spanish": 13,
+      "with_chinese": 11,
+      "missing_either": 2
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_fallback_neutral.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_flirt_female_charming.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_flirt_female_rebuffed.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_flirt_female_reciprocated.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_flirt_male_charming.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_flirt_male_rebuffed.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_flirt_male_reciprocated.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_flirt_stunning_playalong.json",
+      "unit": "dialogue",
+      "strings": 12,
+      "with_spanish": 12,
+      "with_chinese": 12,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_flirt_stunning_reject.json",
+      "unit": "dialogue",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 10,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_isaiah_eren.json",
+      "unit": "dialogue",
+      "strings": 23,
+      "with_spanish": 22,
+      "with_chinese": 22,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_matilde_mario_narrow_gate.json",
+      "unit": "dialogue",
+      "strings": 13,
+      "with_spanish": 12,
+      "with_chinese": 12,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_same_hair_sanguine.json",
+      "unit": "dialogue",
+      "strings": 8,
+      "with_spanish": 8,
+      "with_chinese": 8,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_sanguine_man_phlegmatic_woman.json",
+      "unit": "dialogue",
+      "strings": 10,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_satanist_vs_christian.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_shared_alcoholic.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_shared_christian.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_shared_prolific.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_shared_satanist.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_shared_snob.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_shared_techie.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_shared_troll.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_shared_weeb.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_soren_maxim.json",
+      "unit": "dialogue",
+      "strings": 26,
+      "with_spanish": 26,
+      "with_chinese": 26,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_choleric_to_choleric.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_choleric_to_melancholic.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_choleric_to_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_choleric_to_sanguine.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_melancholic_to_melancholic.json",
+      "unit": "dialogue",
+      "strings": 13,
+      "with_spanish": 13,
+      "with_chinese": 10,
+      "missing_either": 3
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_melancholic_to_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_melancholic_to_sanguine.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_phlegmatic_to_choleric.json",
+      "unit": "dialogue",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_phlegmatic_to_melancholic.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_phlegmatic_to_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 8,
+      "with_spanish": 8,
+      "with_chinese": 8,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_phlegmatic_to_sanguine.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_sanguine_to_choleric.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_sanguine_to_phlegmatic.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/presentations/presentation_temperament_sanguine_to_sanguine.json",
+      "unit": "dialogue",
+      "strings": 8,
+      "with_spanish": 8,
+      "with_chinese": 7,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/proposal/proposal_be_direct.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/proposal/proposal_do_it_cool.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/proposal/proposal_gift.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/proposal/proposal_open_up_emotionally.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/proposal/proposal_show_best_face.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_angela_matilde_cat_ears.json",
+      "unit": "dialogue",
+      "strings": 15,
+      "with_spanish": 15,
+      "with_chinese": 15,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_bestfriends_cover_lie.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_bestfriends_demon_prank.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_bestfriends_food_heist.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_bestfriends_roast.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_bestfriends_trauma_dump.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 4,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_bestfriends_witness_crime.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_couple_affection_rare.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_couple_apocalypse_date.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_couple_bickering_chores.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_couple_jealous_glance.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_family_child_rebel.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_family_cousin_gossip.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_family_grandparent_wisdom.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_family_parent_nag.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_family_reunion_awkward.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_family_sibling_rivalry.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_family_sibling_teamup.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_family_uncle_weird_gift.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_friends_compare_houses.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_friends_crush_secret.json",
+      "unit": "dialogue",
+      "strings": 29,
+      "with_spanish": 28,
+      "with_chinese": 28,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_friends_endtimes_hobby.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_friends_hangout.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_friends_share_rations.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_friends_weird_neighbor.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_friends_work_complaint.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_married_routine.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/relationships/relationship_married_secrets.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/sleep_nightmare_share.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/sleep_restless_night.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/sinnertosinner/sleep_snoring_neighbor.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/trade_post/trade_post_empty.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/trade_post/trade_post_preparing.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/trade_post/trade_post_restaurant_boss.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 1,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/trade_post/trade_post_seller.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 5,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/trade_post/trade_post_strike_note.json",
+      "unit": "dialogue",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 2,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/treasurefound.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 5,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/tutorial/gabriel_tutorial.json",
+      "unit": "dialogue",
+      "strings": 56,
+      "with_spanish": 56,
+      "with_chinese": 55,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/tutorial/tutorial_clock_gift.json",
+      "unit": "dialogue",
+      "strings": 41,
+      "with_spanish": 41,
+      "with_chinese": 41,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/tutorial/tutorial_door_nag.json",
+      "unit": "dialogue",
+      "strings": 12,
+      "with_spanish": 12,
+      "with_chinese": 12,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/tutorial/tutorial_first_door_beg.json",
+      "unit": "dialogue",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/tutorial/tutorial_pair.json",
+      "unit": "dialogue",
+      "strings": 68,
+      "with_spanish": 68,
+      "with_chinese": 68,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/tutorial/tutorial_solo_work.json",
+      "unit": "dialogue",
+      "strings": 43,
+      "with_spanish": 43,
+      "with_chinese": 43,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/tutorial/tutorial_toolbox.json",
+      "unit": "dialogue",
+      "strings": 30,
+      "with_spanish": 30,
+      "with_chinese": 30,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/tutorial/voiceover_intro.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/devil_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/emperor_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/empress_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/fool_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/hanged_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/hermit_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/lovers_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/moon_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Angela.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Bastienne.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Caesar.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Eren.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Isaiah.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Katy.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Kira.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Lilith.json",
+      "unit": "dialogue",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Marilou.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Mario.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Matilde.json",
+      "unit": "dialogue",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Maxim.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Ross.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Soren.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Vesna.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 1
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Yevhen.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sinners/Zekia.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/star_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/strength_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/sun_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/tower_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/wheel_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue/welcome/world_card.json",
+      "unit": "dialogue",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/BIRTH_HELPER_CHOSEN_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/BIRTH_SELF_RESOLVE_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/CANNIBAL_DEPRESSED_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/CANNIBAL_HUNGRY_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/CRUCIFIED_PETITION_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/CRUCIFIED_RELEASE_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/INLINE_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 30,
+      "with_spanish": 30,
+      "with_chinese": 30,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/INTIMACY_PETITION_LINE1.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/INTIMACY_PETITION_LINE2.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PLAYER_MORNING_DEBRIEF_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 42,
+      "with_spanish": 42,
+      "with_chinese": 42,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PLAYER_PARTNER_ASK_ACCEPT_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PLAYER_PARTNER_ASK_REJECT_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PLAYER_PARTNER_ASK_TONIGHT_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PLAYER_PARTNER_NIGHT_OPENERS.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PLAYER_PARTNER_NIGHT_REJECTED_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PLAYER_PROPOSAL_ACCEPT_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PLAYER_PROPOSAL_REJECT_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/POST_BIRTH_HELPER_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 16,
+      "with_spanish": 16,
+      "with_chinese": 16,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/POST_BIRTH_PARENT_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 16,
+      "with_spanish": 16,
+      "with_chinese": 16,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/PREGNANCY_STAGE_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 16,
+      "with_spanish": 16,
+      "with_chinese": 16,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_DEPRESSED_OPENER_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_DEPRESSED_TALK_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_HUNGRY_TALK_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_LOVE_OPENER_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_LOW_FAITH_TALK_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_NOTHING_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 70,
+      "with_spanish": 70,
+      "with_chinese": 70,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_OPENERS.json",
+      "unit": "dialogue_library",
+      "strings": 70,
+      "with_spanish": 70,
+      "with_chinese": 70,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_REFUSAL_HUNGRY.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_REFUSAL_LOW_FAITH.json",
+      "unit": "dialogue_library",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/TAROT_TALK_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 70,
+      "with_spanish": 70,
+      "with_chinese": 70,
+      "missing_either": 0
+    },
+    {
+      "file": "units/dialogue_library/WORK_ACTIVITY_LINES.json",
+      "unit": "dialogue_library",
+      "strings": 8,
+      "with_spanish": 8,
+      "with_chinese": 8,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/global/DemonKingDialogue.json",
+      "unit": "gdscript_spoken",
+      "strings": 27,
+      "with_spanish": 27,
+      "with_chinese": 27,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/global/SinnerDeathAftermath.json",
+      "unit": "gdscript_spoken",
+      "strings": 23,
+      "with_spanish": 23,
+      "with_chinese": 23,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/global/SinnerHousingRequestSystem.json",
+      "unit": "gdscript_spoken",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/global/SinnerPairDialogueLibrary.json",
+      "unit": "gdscript_spoken",
+      "strings": 59,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 59
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/politics/opinions/law_opinion_line_catalog.json",
+      "unit": "gdscript_spoken",
+      "strings": 837,
+      "with_spanish": 837,
+      "with_chinese": 837,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/baby/baby_catalog.json",
+      "unit": "gdscript_spoken",
+      "strings": 69,
+      "with_spanish": 69,
+      "with_chinese": 69,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/colony/kick_out_reaction_catalog.json",
+      "unit": "gdscript_spoken",
+      "strings": 120,
+      "with_spanish": 120,
+      "with_chinese": 120,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/dialogue/dialogue_partner_night_line_tables.json",
+      "unit": "gdscript_spoken",
+      "strings": 283,
+      "with_spanish": 283,
+      "with_chinese": 283,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/dialogue/dialogue_resource_preloads.json",
+      "unit": "gdscript_spoken",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/dialogue/dialogue_romance_line_tables.json",
+      "unit": "gdscript_spoken",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/dialogue/dialogue_scene_line_tables.json",
+      "unit": "gdscript_spoken",
+      "strings": 29,
+      "with_spanish": 29,
+      "with_chinese": 29,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/dialogue/dialogue_tarot_line_tables.json",
+      "unit": "gdscript_spoken",
+      "strings": 20,
+      "with_spanish": 20,
+      "with_chinese": 20,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/dialogue/wake_sleep_line_tables.json",
+      "unit": "gdscript_spoken",
+      "strings": 42,
+      "with_spanish": 42,
+      "with_chinese": 42,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/missions/mission_catalog.json",
+      "unit": "gdscript_spoken",
+      "strings": 118,
+      "with_spanish": 111,
+      "with_chinese": 111,
+      "missing_either": 7
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/missions/mission_flavor_lines.json",
+      "unit": "gdscript_spoken",
+      "strings": 58,
+      "with_spanish": 57,
+      "with_chinese": 57,
+      "missing_either": 1
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/systems/village/official_welcome_dialogue.json",
+      "unit": "gdscript_spoken",
+      "strings": 16,
+      "with_spanish": 16,
+      "with_chinese": 16,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/ui/context/candy_catalog.json",
+      "unit": "gdscript_spoken",
+      "strings": 13,
+      "with_spanish": 13,
+      "with_chinese": 13,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/ui/context/food_basket_reactions.json",
+      "unit": "gdscript_spoken",
+      "strings": 96,
+      "with_spanish": 95,
+      "with_chinese": 95,
+      "missing_either": 1
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/ui/context/food_feed_outcomes.json",
+      "unit": "gdscript_spoken",
+      "strings": 5,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 3
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/ui/context/substance_consume_outcomes.json",
+      "unit": "gdscript_spoken",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/gdscript_spoken/scripts/ui/context/treasure_gift_outcomes.json",
+      "unit": "gdscript_spoken",
+      "strings": 99,
+      "with_spanish": 99,
+      "with_chinese": 99,
+      "missing_either": 0
+    },
+    {
+      "file": "units/localize_gaps/scripts/systems/dialogue/dialogue_menu_work_sleep.json",
+      "unit": "localize_gaps",
+      "strings": 22,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 17
+    },
+    {
+      "file": "units/resources/building.json",
+      "unit": "resources",
+      "strings": 190,
+      "with_spanish": 190,
+      "with_chinese": 190,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/clothing.json",
+      "unit": "resources",
+      "strings": 86,
+      "with_spanish": 86,
+      "with_chinese": 86,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/crop.json",
+      "unit": "resources",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 10,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/demon.json",
+      "unit": "resources",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/demonking.json",
+      "unit": "resources",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/discmann.json",
+      "unit": "resources",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/earring.json",
+      "unit": "resources",
+      "strings": 13,
+      "with_spanish": 13,
+      "with_chinese": 13,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/fbible.json",
+      "unit": "resources",
+      "strings": 40,
+      "with_spanish": 40,
+      "with_chinese": 40,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/flag.json",
+      "unit": "resources",
+      "strings": 26,
+      "with_spanish": 26,
+      "with_chinese": 26,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/flowers.json",
+      "unit": "resources",
+      "strings": 44,
+      "with_spanish": 44,
+      "with_chinese": 44,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/food.json",
+      "unit": "resources",
+      "strings": 112,
+      "with_spanish": 112,
+      "with_chinese": 112,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/law.json",
+      "unit": "resources",
+      "strings": 114,
+      "with_spanish": 114,
+      "with_chinese": 114,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/music_discs.json",
+      "unit": "resources",
+      "strings": 39,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 39
+    },
+    {
+      "file": "units/resources/neckwear.json",
+      "unit": "resources",
+      "strings": 19,
+      "with_spanish": 19,
+      "with_chinese": 19,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/part.json",
+      "unit": "resources",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/phone.json",
+      "unit": "resources",
+      "strings": 17,
+      "with_spanish": 17,
+      "with_chinese": 17,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/question.json",
+      "unit": "resources",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/study.json",
+      "unit": "resources",
+      "strings": 80,
+      "with_spanish": 80,
+      "with_chinese": 80,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/substances.json",
+      "unit": "resources",
+      "strings": 72,
+      "with_spanish": 72,
+      "with_chinese": 72,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/tarot.json",
+      "unit": "resources",
+      "strings": 42,
+      "with_spanish": 42,
+      "with_chinese": 42,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/tattoo.json",
+      "unit": "resources",
+      "strings": 54,
+      "with_spanish": 54,
+      "with_chinese": 54,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/tile.json",
+      "unit": "resources",
+      "strings": 45,
+      "with_spanish": 45,
+      "with_chinese": 45,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/trait.json",
+      "unit": "resources",
+      "strings": 104,
+      "with_spanish": 104,
+      "with_chinese": 104,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/treasure.json",
+      "unit": "resources",
+      "strings": 204,
+      "with_spanish": 204,
+      "with_chinese": 204,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/wheel.json",
+      "unit": "resources",
+      "strings": 41,
+      "with_spanish": 41,
+      "with_chinese": 41,
+      "missing_either": 0
+    },
+    {
+      "file": "units/resources/window.json",
+      "unit": "resources",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/already_used_by_personality.json",
+      "unit": "talk_about",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/although.json",
+      "unit": "talk_about",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/both_christian.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/both_gamer.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/both_techie.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/both_vegetarian.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/both_weeb.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/choleric_love_stunning.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/christian_vs_hooker.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/christian_vs_morbid.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/christian_vs_satanist.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/christian_vs_unbeliever.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/genius_vs_idiot.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/hooker_attractive.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/hooker_love_stunning.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/hooker_vs_asexual.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/in_conversation_by_personality.json",
+      "unit": "talk_about",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/memorial.json",
+      "unit": "talk_about",
+      "strings": 18,
+      "with_spanish": 18,
+      "with_chinese": 18,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/neutral_intro.json",
+      "unit": "talk_about",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/no_by_personality.json",
+      "unit": "talk_about",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/occupied_refusal.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/pronouns.json",
+      "unit": "talk_about",
+      "strings": 12,
+      "with_spanish": 12,
+      "with_chinese": 12,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/romantic_partner.json",
+      "unit": "talk_about",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/schedule_prompt.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/spiritual_vs_satanist.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_choleric_choleric_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_choleric_melancholic_neg.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_choleric_sanguine_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_melancholic_choleric_neg.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_melancholic_melancholic_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_melancholic_phlegmatic_neg.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_melancholic_sanguine_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_phlegmatic_choleric_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_phlegmatic_melancholic_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_phlegmatic_phlegmatic_neg.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_phlegmatic_sanguine_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_sanguine_choleric_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_sanguine_melancholic_pos.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/temp_sanguine_phlegmatic_neg.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/tier_intro.json",
+      "unit": "talk_about",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/weeb_vs_gamer.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/workaholic_vs_slob.json",
+      "unit": "talk_about",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/talk_about/yes_by_personality.json",
+      "unit": "talk_about",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_core/ui_core.json",
+      "unit": "ui_core",
+      "strings": 690,
+      "with_spanish": 690,
+      "with_chinese": 688,
+      "missing_either": 2
+    },
+    {
+      "file": "units/ui_scenes/scenes/building/select_tile_pattern_to_edit.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/buttons/glossy_button.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/buttons/plazabutton.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/buttons/selectatrait_button.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/cd_player/cd_player.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/1_or_2_layers.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/automaticplacementcontroller.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/card_info.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/changesinnerposition/baby_calculator.json",
+      "unit": "ui_scenes",
+      "strings": 21,
+      "with_spanish": 21,
+      "with_chinese": 21,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/changesinnerposition/changesinnerslotmenu.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/changesinnerposition/circlename.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/circlepart.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/earring_billboard_toggle.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/editor.json",
+      "unit": "ui_scenes",
+      "strings": 18,
+      "with_spanish": 18,
+      "with_chinese": 18,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/family_sheet.json",
+      "unit": "ui_scenes",
+      "strings": 8,
+      "with_spanish": 8,
+      "with_chinese": 8,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/hideorshowclothes.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/selectaparttoedit.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/selectfamilyrelationship.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/sinner_paste_panel.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/sinner_share_panel.json",
+      "unit": "ui_scenes",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/character_editor/traits_panel.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/characters/priest/editpopup.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/characters/sinnerstatetracker.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/circles/circle_1.json",
+      "unit": "ui_scenes",
+      "strings": 41,
+      "with_spanish": 35,
+      "with_chinese": 35,
+      "missing_either": 6
+    },
+    {
+      "file": "units/ui_scenes/scenes/community/community_creations_window.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/core/demoinformation.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/core/earlyaccesinformation.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/core/virtual_keyboard/virtual_keyboard.json",
+      "unit": "ui_scenes",
+      "strings": 25,
+      "with_spanish": 25,
+      "with_chinese": 25,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/core/virtual_keyboard/virtual_keyboard_key.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/credits/addto_plaza_button.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/credits/credits_scroll_content.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 3
+    },
+    {
+      "file": "units/ui_scenes/scenes/demons/Forbidden_Bible/forbidden_bible.json",
+      "unit": "ui_scenes",
+      "strings": 12,
+      "with_spanish": 12,
+      "with_chinese": 10,
+      "missing_either": 2
+    },
+    {
+      "file": "units/ui_scenes/scenes/demos/new_metro_team_intro.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/dialogue/balloon/balloon.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/dialogue/balloon/response_example.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/dialogue/balloon/village_balloon.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/events/god_judgement.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/events/morning_church/church_option.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/events/morning_church/morning_church.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/events/wheel_of_fortune.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/acheivements.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/app.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/demons.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/discmann.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/discord.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/exit.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/itchio.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/map.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/mymission.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/online.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/passage.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/save.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/settings.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/sinners.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/steam.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/twitter.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/village_manager.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/apps/volume.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/flipphone.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/confirm_call.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/exit_program.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/programs_parts/gameplay_setting_panel.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/programs_parts/graphic_setting_panel.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/programs_parts/sinnercontact.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/programs_parts/themechange.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/selectsinnergroup.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/settings_program.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/under_construction_program.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/flipphone/programs/volume_program.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/info_panels/corpse_info_panel.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/info_panels/door_info_panel.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/info_panels/info_panel.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/info_panels/study_info_panel.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/info_panels/work_info_panel.json",
+      "unit": "ui_scenes",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/mainmenu/customizeyourgame.json",
+      "unit": "ui_scenes",
+      "strings": 47,
+      "with_spanish": 47,
+      "with_chinese": 47,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/mainmenu/game_option_checkbox.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/body_menu.json",
+      "unit": "ui_scenes",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/building_menu.json",
+      "unit": "ui_scenes",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/hair_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/head_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/metro_menu/exitrestartbacktoplaza.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/metro_menu/key_assign.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/metro_menu/menu_button.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/metro_menu/options_menu_metrobutton.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/metro_menu/outorplaza.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/metro_menu/pause_menu_button.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mods/mod_browser.json",
+      "unit": "ui_scenes",
+      "strings": 21,
+      "with_spanish": 21,
+      "with_chinese": 21,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mods/mod_list_item.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mouth_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mymission/mission_detail.json",
+      "unit": "ui_scenes",
+      "strings": 11,
+      "with_spanish": 11,
+      "with_chinese": 11,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mymission/mission_detail_step_row.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mymission/mission_list_row.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mymission/mission_profile.json",
+      "unit": "ui_scenes",
+      "strings": 14,
+      "with_spanish": 14,
+      "with_chinese": 14,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mymission/mymission.json",
+      "unit": "ui_scenes",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/menus/mymission/player_info_container.json",
+      "unit": "ui_scenes",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/online/social/friend_row.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/politics/30/sinneropinion_dot30.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/politics/Categories/category_of_laws.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/politics/Categories/productivity_laws.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/politics/law_option.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/politics/law_picker.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/editor_ui/separatorforcustomparts.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/editor_ui/warnings/extrainfo/eyeswarning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/editor_ui/warnings/extrainfo/glasseswarning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/editor_ui/warnings/extrainfo/mouthwarning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/editor_ui/warnings/extrainfo/windowwarning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/editor_ui/warnings/warningpanel.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/editor_ui/warnings/warningpanelwithedit.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/painter_brush_settings.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/sinner_painter/sinner_painter.json",
+      "unit": "ui_scenes",
+      "strings": 18,
+      "with_spanish": 18,
+      "with_chinese": 18,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/building/building_group_name.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/1_or_2_custom_color_furniture_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/barrel_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/base_bed_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/bed_1_or_2_custom_color_furniture_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/billboard_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/bulletin_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/buy_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/choose_church_style_panel.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/church_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/church_under_construction_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/craft_contextmenu.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/crop_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/delete_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/electric_power_toggle.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/electric_windmill_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/flower_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/foodcontextmenu.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/generator_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/house/2_floors_select.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/house/3_floors_select.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/house/edit_house_menu.json",
+      "unit": "ui_scenes",
+      "strings": 13,
+      "with_spanish": 13,
+      "with_chinese": 13,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/house/house_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/house/house_level2_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/house/house_level3_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/house/house_under_construction_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/house/wallandfloorselector.json",
+      "unit": "ui_scenes",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/kitchen_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/brewing_option.json",
+      "unit": "ui_scenes",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/colonyoption.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/craft_option.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/crop_option.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/crucify_option.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/detailedopinion.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/doctor_option.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/familiar_option.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/floweroption.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/food_option.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/questionoption.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/relationship_status.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/resident_option.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/sellfood_option.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/sinner_ranking.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/trade_option.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/option_types/treasure_option.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/options_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 1,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/restaurant_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/rock_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/selectcustomflag.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/selectcustomofficialorcreate.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/shop_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/sinner_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/sitting_1_or_2_custom_color_furniture_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/solar_panel_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/statue_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/studies_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 3,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/tomb_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/trade_contextmenu.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/treasurecontextmenu.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/tree_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/unit_selector.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/canvas_demo_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/confirmchurchstyleupgrade.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/confirmhouseupgrade.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/demodetails.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/earlyaccesswarning.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/namethebaby.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/pop_up_panel_reuseable.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/youdonthaveenoughmaterial.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/warning_pop_up/youneedrudimentarytools.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/watchtower_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/context/workbench_context_menu.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/cook/cookoption.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 1,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/cook/currently_cooking.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/customparts/category_title.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/customparts/custom_partdetailspanel.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/customparts/custom_parts_manager.json",
+      "unit": "ui_scenes",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/customparts/texture_viewer.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/extra_option.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/probabilityitem.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/savesystem/save_slot_panel.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/savesystem/saveactionconfirmwindow.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/savesystem/savesmenu.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/search/categorypanel.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/select_orbs.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/requirementlabel.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/resourcerequired.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/sdytreecontent.json",
+      "unit": "ui_scenes",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/alternative_nutrition_details.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/architecture_details.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/basic_medicine_details.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/bulletin_details.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/calvary_details.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/fun_with_flags_details.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/gambling_details.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/gardening_details.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/power_of_sun_details.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/power_of_wind_details.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/rudimentary_tools_details.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/rustic_cooking_details.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/statues_details.json",
+      "unit": "ui_scenes",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/tithe_details.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/trade_details.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/specific_details/watchtower_details.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/study_details.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/studies/upgrade_info_panel.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/ui/workplace_info.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/acheivement_notification.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/all_achievements.json",
+      "unit": "ui_scenes",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/door_talk.json",
+      "unit": "ui_scenes",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/godopinion.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/hoverdescription.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/new_mode_unlocked.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/study_unlocked_notification.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/village_hud.json",
+      "unit": "ui_scenes",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/village_manager.json",
+      "unit": "ui_scenes",
+      "strings": 19,
+      "with_spanish": 19,
+      "with_chinese": 19,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/conversation_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/cook_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/corpse_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/door_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/faith_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/homeless_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/hunger_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/love_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/lust_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/mission_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/nightmare_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/nocurrentstudies_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/petition_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/strike_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/substance_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/tutorial_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/unemployed_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/urgency_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scenes/scenes/village/warnings/watchtower_warning.json",
+      "unit": "ui_scenes",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/display_tables.json",
+      "unit": "ui_scripts",
+      "strings": 44,
+      "with_spanish": 43,
+      "with_chinese": 43,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/buttons/editor/color/glasses_transparency_slider.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/buttons/editor/data/deletedata.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/buttons/editor/parts/selectatrait_button.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/cd_player/cd_player_controller.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/characters/npc/interaction/interaction_context_menus.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/characters/npc/interaction/player_romance_menus.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/characters/npc/interaction/talk_about_flow.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/characters/priest/importcustomcharacterfromplaza.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/editor/family_sheet.json",
+      "unit": "ui_scripts",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/editor/family_tree_flow_controller.json",
+      "unit": "ui_scripts",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/editor/select_a_part_to_edit.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/editor/select_family_relationship.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/all_buildings_selector.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/barrel_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/building_menu.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/bulletin_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/church_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/church_under_construction_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/confirm_church_style_upgrade_popup.json",
+      "unit": "ui_scripts",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/confirm_house_upgrade_popup.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/crop_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/double_sitting_furniture_color_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/edit_house_menu.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/electricity_producer_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 11,
+      "with_spanish": 11,
+      "with_chinese": 11,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/flower_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/furniture_color_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/house_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/house_part_paint_flow.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/house_under_construction_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/interior_floor_paint_flow.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/interior_wall_paint_flow.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/kitchen_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/plants_menu.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/restaurant_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/rock_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/select_tile_pattern_to_edit.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/sitting_furniture_color_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/studies_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/tomb_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/tree_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/buildings/watchtower_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/baby_calculator.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/card_info.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/creatoredit.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/deletethismf.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 1,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/exportpanel.json",
+      "unit": "ui_scripts",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/importpanel.json",
+      "unit": "ui_scripts",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/nameedit.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/result_panel.json",
+      "unit": "ui_scripts",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/character_editor/ui/traits_panel.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/flipphone/program_scripts/confirm_call.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/flipphone/program_scripts/settings_program.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/flipphone/program_scripts/sinnercontact.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/menus/achievements/achievement_notification.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/menus/achievements/all_achievements.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/menus/metro/metro_pause_battery.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/menus/mymission/mission_detail.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/menus/mymission/mission_profile.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/menus/mymission/player_info_container.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/sinner_painter/material_cost_option.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/sinner_painter/sinner_painter.json",
+      "unit": "ui_scripts",
+      "strings": 15,
+      "with_spanish": 15,
+      "with_chinese": 15,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/sinner_painter/ui/painter_brush_settings.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/features/sinner_painter/ui/painter_image_import_dialog.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/global/CrucifixionWarningUI.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/global/DemonKingDialogue.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/global/FamilyBranchService.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/global/I18nBlueprintBuilder.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/global/LocalizationUIStrings.json",
+      "unit": "ui_scripts",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 6,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/global/SinnerContactDisplay.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/global/SinnerDeathAftermath.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/global/SinnerHousingRequestSystem.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/important/savesystem/save_slot_panel.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/important/savesystem/savesmenu.json",
+      "unit": "ui_scripts",
+      "strings": 8,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/mainmenu/billboard_picker_grid.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/mainmenu/flag_custom_flow_controller.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/mainmenu/start_new_game_button.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/mods/mod_browser.json",
+      "unit": "ui_scripts",
+      "strings": 11,
+      "with_spanish": 11,
+      "with_chinese": 9,
+      "missing_either": 2
+    },
+    {
+      "file": "units/ui_scripts/scripts/politics/law_picker.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/politics/opinions/law_opinion_line_catalog.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/systems/electricity/electricity_system_delegates.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/systems/electricity/electricity_tick.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/systems/village/door/door_talk_button_policy.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/systems/village/kitchen_warning_helper.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/systems/village/traveler/traveler_shop_factory.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/systems/village/urban_electricity_tab.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/systems/village/urban_territory_draft.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/systems/village/warninglist.json",
+      "unit": "ui_scripts",
+      "strings": 31,
+      "with_spanish": 31,
+      "with_chinese": 31,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/trade/TradeShopProfile.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/trade/trade_post_mode_catalog.json",
+      "unit": "ui_scripts",
+      "strings": 6,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/buy_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/context/food_basket_reactions.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/context/food_feed_outcomes.json",
+      "unit": "ui_scripts",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/context/substance_consume_outcomes.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/context/treasure_gift_outcomes.json",
+      "unit": "ui_scripts",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 8,
+      "missing_either": 2
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/cook/cookoption.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/cook/currently_cooking.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 2,
+      "with_chinese": 2,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/craftcontextmenu.json",
+      "unit": "ui_scripts",
+      "strings": 5,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/custom_parts/custom_part_details_panel.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/custom_parts/custom_parts_manager.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 4,
+      "with_chinese": 4,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/earned_resources.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/foodcontextmenu.json",
+      "unit": "ui_scripts",
+      "strings": 10,
+      "with_spanish": 10,
+      "with_chinese": 10,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/gameplay_setting_panel.json",
+      "unit": "ui_scripts",
+      "strings": 7,
+      "with_spanish": 7,
+      "with_chinese": 7,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/modes/new_mode_unlocked.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 0,
+      "with_chinese": 0,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/mymission_profile_state_texture.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/narcotic_deal_menu.json",
+      "unit": "ui_scripts",
+      "strings": 9,
+      "with_spanish": 9,
+      "with_chinese": 9,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/pregnancy_state_texture.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/sinner_context_menu.json",
+      "unit": "ui_scripts",
+      "strings": 4,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 1
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/studies/study_need_popup.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/study_details.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/trade_orb_shop.json",
+      "unit": "ui_scripts",
+      "strings": 2,
+      "with_spanish": 1,
+      "with_chinese": 0,
+      "missing_either": 2
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/tradecontextmenu.json",
+      "unit": "ui_scripts",
+      "strings": 1,
+      "with_spanish": 1,
+      "with_chinese": 1,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/treasurecontextmenu.json",
+      "unit": "ui_scripts",
+      "strings": 5,
+      "with_spanish": 5,
+      "with_chinese": 5,
+      "missing_either": 0
+    },
+    {
+      "file": "units/ui_scripts/scripts/ui/workplace_info.json",
+      "unit": "ui_scripts",
+      "strings": 3,
+      "with_spanish": 3,
+      "with_chinese": 3,
+      "missing_either": 0
+    },
+    {
+      "file": "units/unwired.json",
+      "unit": "unwired",
+      "strings": 15,
+      "with_spanish": 6,
+      "with_chinese": 6,
+      "missing_either": 9
+    }
+  ]
+}

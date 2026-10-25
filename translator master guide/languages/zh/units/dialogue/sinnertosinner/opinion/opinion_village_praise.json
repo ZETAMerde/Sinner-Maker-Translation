@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_praise.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_village_praise.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#exited]this village is not so bad, you know, we have walls, we have bread",
+      "lookup_english": "this village is not so bad, you know, we have walls, we have bread",
+      "spanish": "[#speaker={{speaker_id_1}}][#exited]Este pueblo no está tan mal, ¿sabes? Tenemos murallas, tenemos pan.",
+      "chinese": "[#speaker={{speaker_id_1}}][#exited]这村子其实也没那么糟，知道吧，我们有墙，有面包。",
+      "translation": "[#speaker={{speaker_id_1}}][#exited]这村子其实也没那么糟，知道吧，我们有墙，有面包。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]and people who still speak to each other",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#exited]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_village_praise.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]and people who still speak to each other",
+      "lookup_english": "and people who still speak to each other",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Y gente que todavía se habla.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]还有彼此还说得上话的人。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]还有彼此还说得上话的人。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#exited]this village is not so bad, you know, we have walls, we have bread",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]exactly, I would rather be here than lost in the woods",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_village_praise.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]exactly, I would rather be here than lost in the woods",
+      "lookup_english": "exactly, I would rather be here than lost in the woods",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Exacto. Prefiero estar aquí que vagando por el bosque.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]没错，我宁愿待在这儿，也不想在林子里迷路。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]没错，我宁愿待在这儿，也不想在林子里迷路。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]and people who still speak to each other",
+      "next_english": "[#speaker={{speaker_id_2}}][#shy_cute]i will drink to that if we are allowed",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_village_praise.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#shy_cute]i will drink to that if we are allowed",
+      "lookup_english": "i will drink to that if we are allowed",
+      "spanish": "[#speaker={{speaker_id_2}}][#shy_cute]Brindaría por eso, si nos dejan.",
+      "chinese": "[#speaker={{speaker_id_2}}][#shy_cute]要是允许的话，我愿为这个干一杯。",
+      "translation": "[#speaker={{speaker_id_2}}][#shy_cute]要是允许的话，我愿为这个干一杯。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]exactly, I would rather be here than lost in the woods",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#shy_cute]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

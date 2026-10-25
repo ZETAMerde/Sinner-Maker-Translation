@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/ui/tradecontextmenu.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Select products to BUY",
+      "english": "Select products to BUY",
+      "lookup_english": "Select products to BUY",
+      "spanish": "Seleccionar productos para COMPRAR",
+      "chinese": "选择要购买的产品",
+      "translation": "选择要购买的产品",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/ui/tradecontextmenu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_convict.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_convict.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]they still look at us like the bars are invisible",
+      "lookup_english": "they still look at us like the bars are invisible",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Todavía nos miran como si las rejas fueran invisibles.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]们看我们的眼神，就好像那些栏杆根本不存在一样",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_convict.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]let them look, we know what cold feels like",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_convict.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]let them look, we know what cold feels like",
+      "lookup_english": "let them look, we know what cold feels like",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Que miren. Sabemos cómo se siente el frío.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]让他们看吧。我们知道冷是什么滋味。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_convict.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]they still look at us like the bars are invisible",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]second chances are rare out here",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_convict.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]second chances are rare out here",
+      "lookup_english": "second chances are rare out here",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Las segundas oportunidades son raras aquí.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]在这种地方，第二次机会很珍贵。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_convict.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]let them look, we know what cold feels like",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]then do not waste this one on stupid shit",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_convict.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]then do not waste this one on stupid shit",
+      "lookup_english": "then do not waste this one on stupid shit",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Entonces no desperdicies este en estupideces.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]那就别把这机会浪费在蠢事上。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_convict.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]second chances are rare out here",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

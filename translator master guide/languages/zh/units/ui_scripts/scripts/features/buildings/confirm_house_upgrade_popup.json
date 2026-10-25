@@ -1,0 +1,38 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/confirm_house_upgrade_popup.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "spend %s to upgrade the house to\nlevel %d?",
+      "english": "spend %s to upgrade the house to\nlevel %d?",
+      "lookup_english": "spend %s to upgrade the house to\nlevel %d?",
+      "spanish": "¿Gastar %s para mejorar la casa al\nnivel %d?",
+      "chinese": "花费%s将房屋升级到\n%d级？",
+      "translation": "花费%s将房屋升级到\n%d级？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/features/buildings/confirm_house_upgrade_popup.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s",
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

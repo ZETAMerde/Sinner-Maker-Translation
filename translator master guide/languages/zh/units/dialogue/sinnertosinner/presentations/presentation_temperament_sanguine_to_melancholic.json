@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]hey, {{npc_name2}}, we should hang out some day",
+      "lookup_english": "hey, {{npc_name2}}, we should hang out some day",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]Oye... {{npc_name2}}, deberíamos salir algún día",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]嘿……{{npc_name2}}，我们改天该一起出去玩。",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]嘿……{{npc_name2}}，我们改天该一起出去玩。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]no!! don't hang yourself! hahaha",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}",
+        "{{npc_name2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]no!! don't hang yourself! hahaha",
+      "lookup_english": "no!! don't hang yourself! hahaha",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]¡¡No!! ¡No te ahorques! jajaja",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]不！！别上吊！哈哈哈",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]不！！别上吊！哈哈哈",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]hey, {{npc_name2}}, we should hang out some day",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]well, alright, I actually think about it sometimes",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]well, alright, I actually think about it sometimes",
+      "lookup_english": "well, alright, I actually think about it sometimes",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Bueno, está bien, en realidad lo pienso a veces.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]好吧，其实我有时候也会想这事",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]好吧，其实我有时候也会想这事",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]no!! don't hang yourself! hahaha",
+      "next_english": "[#speaker={{speaker_id_2}}][#surprised]huh?!",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#surprised]huh?!",
+      "lookup_english": "huh?!",
+      "spanish": "[#speaker={{speaker_id_2}}][#surprised]¡¿Eh?!",
+      "chinese": "[#speaker={{speaker_id_2}}][#surprised]嗯？！",
+      "translation": "[#speaker={{speaker_id_2}}][#surprised]嗯？！",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_sanguine_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]well, alright, I actually think about it sometimes",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#surprised]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

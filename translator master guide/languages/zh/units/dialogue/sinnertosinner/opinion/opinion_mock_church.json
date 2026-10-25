@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_church.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_mock_church.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]the Church is a theatre, pretty lights, empty words",
+      "lookup_english": "the Church is a theatre, pretty lights, empty words",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]La Iglesia es un teatro: lucecitas bonitas y palabras vacías.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]教堂就是个戏台，灯光漂亮，话全是空的。",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]教堂就是个戏台，灯光漂亮，话全是空的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_church.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#anxious_hands]you cannot mock the Church like that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_mock_church.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#anxious_hands]you cannot mock the Church like that",
+      "lookup_english": "you cannot mock the Church like that",
+      "spanish": "[#speaker={{speaker_id_2}}][#anxious_hands]No puedes burlarte así de la Iglesia.",
+      "chinese": "[#speaker={{speaker_id_2}}][#anxious_hands]你不能这样嘲笑教堂。",
+      "translation": "[#speaker={{speaker_id_2}}][#anxious_hands]你不能这样嘲笑教堂。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_church.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]the Church is a theatre, pretty lights, empty words",
+      "next_english": "[#speaker={{speaker_id_1}}][#uninterested]i can, it is a building with a collection plate",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#anxious_hands]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_mock_church.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#uninterested]i can, it is a building with a collection plate",
+      "lookup_english": "i can, it is a building with a collection plate",
+      "spanish": "[#speaker={{speaker_id_1}}][#uninterested]Claro que puedo. Es un edificio con un cepillo para las limosnas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#uninterested]我当然能，不过是一栋摆着奉献盘的房子。",
+      "translation": "[#speaker={{speaker_id_1}}][#uninterested]我当然能，不过是一栋摆着奉献盘的房子。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_church.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#anxious_hands]you cannot mock the Church like that",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_hard_shake]i am walking away if you keep on",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#uninterested]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_mock_church.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_hard_shake]i am walking away if you keep on",
+      "lookup_english": "i am walking away if you keep on",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_hard_shake]Si sigues, me largo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_hard_shake]你再说下去我就走了。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_hard_shake]你再说下去我就走了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_church.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#uninterested]i can, it is a building with a collection plate",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

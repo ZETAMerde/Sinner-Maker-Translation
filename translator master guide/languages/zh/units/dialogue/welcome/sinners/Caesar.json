@@ -1,0 +1,67 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Caesar.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Caesar.dialogue#1",
+      "english": "[#frustrated]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#frustrated]谢谢你让我进来…",
+      "translation": "[#wave_hand]谢谢你让我进来…",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Caesar.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Man. Short chide or comfort. Do not invent a new personality.",
+      "prev_english": "",
+      "next_english": "[#frustrated]aghh",
+      "placeholders": [
+        "[#frustrated]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "welcome/sinners/Caesar.dialogue#2",
+      "english": "[#frustrated]aghh",
+      "lookup_english": "aghh",
+      "spanish": "Agh...",
+      "chinese": "[#frustrated]额啊啊……",
+      "translation": "[#frustrated]额啊啊……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Caesar.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Man. Short chide or comfort. Do not invent a new personality.",
+      "prev_english": "[#frustrated]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#frustrated]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": "Man. Short chide or comfort. Do not invent a new personality."
+}

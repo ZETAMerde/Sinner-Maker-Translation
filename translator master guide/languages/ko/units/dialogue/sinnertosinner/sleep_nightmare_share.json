@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_nightmare_share.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/sleep_nightmare_share.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]i dreamed the chief was smiling, terrifying",
+      "lookup_english": "i dreamed the chief was smiling, terrifying",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Soñé que el jefe sonreía. Espantoso.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]我梦见首领在微笑。太可怕了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_nightmare_share.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]that is worse than demons",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/sleep_nightmare_share.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]that is worse than demons",
+      "lookup_english": "that is worse than demons",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]Eso es peor que los demonios.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]那比恶魔还糟。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_nightmare_share.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]i dreamed the chief was smiling, terrifying",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_shake]right? who smiles here on purpose?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/sleep_nightmare_share.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]right? who smiles here on purpose?",
+      "lookup_english": "right? who smiles here on purpose?",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]¿Verdad? ¿Quién sonríe aquí a propósito?",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]对吧？谁会在这里故意微笑？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_nightmare_share.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]that is worse than demons",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]fools, and us, sometimes, by accident",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/sleep_nightmare_share.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]fools, and us, sometimes, by accident",
+      "lookup_english": "fools, and us, sometimes, by accident",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Tontos. Y nosotros. A veces. Sin querer.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]蠢货，还有我们。有时候。不小心。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_nightmare_share.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]right? who smiles here on purpose?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ambient pair conversation.",
+  "voice_hint": ""
+}

@@ -1,0 +1,61 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/empress_card.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/empress_card.dialogue#1",
+      "english": "thanks for opening the door",
+      "lookup_english": "thanks for opening the door",
+      "spanish": "Gracias por abrir la puerta.",
+      "chinese": "谢了，总算给我开门了。",
+      "translation": "谢了，总算给我开门了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/empress_card.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Soft authority. Tired of always reaching first.",
+      "prev_english": "",
+      "next_english": "i will do my best in this colony",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/empress_card.dialogue#2",
+      "english": "i will do my best in this colony",
+      "lookup_english": "i will do my best in this colony",
+      "spanish": "Haré todo lo posible en esta colonia.",
+      "chinese": "在这个殖民地，我会拼尽全力。",
+      "translation": "在这个殖民地，我会拼尽全力。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/empress_card.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Soft authority. Tired of always reaching first.",
+      "prev_english": "thanks for opening the door",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a tarot newcomer in.",
+  "voice_hint": "Soft authority. Tired of always reaching first."
+}

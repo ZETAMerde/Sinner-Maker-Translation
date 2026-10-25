@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_adult_to_adult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_age_adult_to_adult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]at some point every day starts to feel like maintenance",
+      "lookup_english": "at some point every day starts to feel like maintenance",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]En algún momento, cada día empieza a parecer un mantenimiento.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]到了某个时候，每一天都开始像是在做维护。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_adult_to_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]that is because surviving usually is maintenance",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_age_adult_to_adult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]that is because surviving usually is maintenance",
+      "lookup_english": "that is because surviving usually is maintenance",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Eso se debe a que sobrevivir generalmente es mantenimiento.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]那是因为活下去通常就是维护。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_adult_to_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]at some point every day starts to feel like maintenance",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]not a pleasant truth, but a useful one",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_age_adult_to_adult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]not a pleasant truth, but a useful one",
+      "lookup_english": "not a pleasant truth, but a useful one",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]No es una verdad agradable, pero sí útil.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]不是什么令人愉快的真相，但很有用。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_adult_to_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]that is because surviving usually is maintenance",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

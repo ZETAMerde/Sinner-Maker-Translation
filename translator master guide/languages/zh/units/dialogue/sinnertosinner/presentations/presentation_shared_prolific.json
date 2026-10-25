@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_prolific.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_prolific.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]how many kids did you leave behind? be honest",
+      "lookup_english": "how many kids did you leave behind? be honest",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Cuántos niños dejaste atrás? Sea honesto.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]你留下了几个孩子？说实话。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]你留下了几个孩子？说实话。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_prolific.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]enough to start a small village, you?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_prolific.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]enough to start a small village, you?",
+      "lookup_english": "enough to start a small village, you?",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Suficiente para iniciar un pequeño pueblo. ¿Tú?",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]够建一个小村子了。你呢？",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]够建一个小村子了。你呢？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_prolific.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]how many kids did you leave behind? be honest",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]same energy, the chief is gonna love our productivity",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_prolific.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]same energy, the chief is gonna love our productivity",
+      "lookup_english": "same energy, the chief is gonna love our productivity",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Misma energía. Al jefe le encantará nuestra productividad.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]一样的干劲。首领会喜欢我们的生产力的。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]一样的干劲。首领会喜欢我们的生产力的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_prolific.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]enough to start a small village, you?",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]or hate the noise, either way, we survive",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_prolific.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]or hate the noise, either way, we survive",
+      "lookup_english": "or hate the noise, either way, we survive",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]O odiar el ruido. De cualquier manera, sobrevivimos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]或者讨厌那噪音。不管怎样，我们都能活下去。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]或者讨厌那噪音。不管怎样，我们都能活下去。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_prolific.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]same energy, the chief is gonna love our productivity",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

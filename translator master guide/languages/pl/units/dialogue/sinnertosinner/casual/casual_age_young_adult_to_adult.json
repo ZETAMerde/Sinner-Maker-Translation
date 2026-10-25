@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_young_adult_to_adult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_age_young_adult_to_adult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]did you feel more certain when you were younger, or just louder about it?",
+      "lookup_english": "did you feel more certain when you were younger, or just louder about it?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Te sentías más seguro cuando eras más joven o simplemente lo decías más ruidosamente?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]你年轻时是更笃定，还是只是把笃定喊得更响？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_young_adult_to_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]mostly louder, certainty is expensive",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_age_young_adult_to_adult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]mostly louder, certainty is expensive",
+      "lookup_english": "mostly louder, certainty is expensive",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Mayormente más fuerte. La certeza es cara.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]主要是更响。笃定很昂贵。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_young_adult_to_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]did you feel more certain when you were younger, or just louder about it?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]that sounds like experience talking",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_age_young_adult_to_adult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]that sounds like experience talking",
+      "lookup_english": "that sounds like experience talking",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Eso suena a experiencia hablando.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]这话听起来像是经验在说话。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_young_adult_to_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]mostly louder, certainty is expensive",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

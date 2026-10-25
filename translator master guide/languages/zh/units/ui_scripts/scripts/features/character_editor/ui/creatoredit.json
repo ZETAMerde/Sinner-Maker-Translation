@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/character_editor/ui/creatoredit.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Creator name",
+      "english": "Creator name",
+      "lookup_english": "Creator name",
+      "spanish": "Nombre del creador",
+      "chinese": "创作者名称",
+      "translation": "创作者名称",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/character_editor/ui/creatoredit.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

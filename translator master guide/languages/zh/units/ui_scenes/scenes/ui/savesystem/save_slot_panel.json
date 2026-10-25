@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/savesystem/save_slot_panel.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Slot 1",
+      "english": "Slot 1",
+      "lookup_english": "Slot 1",
+      "spanish": "Espacio 1",
+      "chinese": "槽位1",
+      "translation": "槽位1",
+      "style": "ui_label",
+      "casing_rule": "author_keep",
+      "speaker": "",
+      "source": "scenes/ui/savesystem/save_slot_panel.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels. Author menu Spanish is in the spanish field. Write translation in the target language. Do not copy Spanish capitals into it."
+    },
+    {
+      "id": "day 99 morning\n10 sinners\ndifficulty Sinner",
+      "english": "day 99 morning\n10 sinners\ndifficulty Sinner",
+      "lookup_english": "day 99 morning\n10 sinners\ndifficulty Sinner",
+      "spanish": "Día 99, amanecer\n10 pecadores\nDificultad Pecador",
+      "chinese": "第99天 早晨\n10个罪人\n难度：罪人",
+      "translation": "第99天 早晨\n10个罪人\n难度：罪人",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/savesystem/save_slot_panel.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

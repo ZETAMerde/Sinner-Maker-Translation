@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_sanguine.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_sanguine.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]how do you stay cheerful when people are this inefficient?",
+      "lookup_english": "how do you stay cheerful when people are this inefficient?",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]¿Cómo puedes mantenerte alegre cuando la gente es así de ineficiente?",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]人们这么低效的时候，你怎么还能保持心情愉快？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]practice, complaining alone takes too long",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_sanguine.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]practice, complaining alone takes too long",
+      "lookup_english": "practice, complaining alone takes too long",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Práctica. Quejarse solo lleva demasiado tiempo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]练习。一个人抱怨太费时间。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]how do you stay cheerful when people are this inefficient?",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]annoying answer, not a bad one, though",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_sanguine.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]annoying answer, not a bad one, though",
+      "lookup_english": "annoying answer, not a bad one, though",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Respuesta molesta. Aunque no es malo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]烦人的回答。不过不算差。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]practice, complaining alone takes too long",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

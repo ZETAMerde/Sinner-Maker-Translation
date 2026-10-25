@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/context/warning_pop_up/confirmhouseupgrade.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "spend X resources to\nupgrade the house to\nlevel X?",
+      "english": "spend X resources to\nupgrade the house to\nlevel X?",
+      "lookup_english": "spend X resources to\nupgrade the house to\nlevel X?",
+      "spanish": "¿Gastar X recursos para\nmejorar la casa al\nnivel X?",
+      "chinese": "花费X资源\n将房屋升级到\nX级？",
+      "translation": "花费X资源\n将房屋升级到\nX级？",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/warning_pop_up/confirmhouseupgrade.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

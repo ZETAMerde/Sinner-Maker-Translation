@@ -1,0 +1,35 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/interior_floor_paint_flow.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Do you want to make a custom full floor?",
+      "english": "Do you want to make a custom full floor?",
+      "lookup_english": "Do you want to make a custom full floor?",
+      "spanish": "¿Quieres hacer un suelo nuevo?",
+      "chinese": "要制作自定义的整片地板吗？",
+      "translation": "要制作自定义的整片地板吗？",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/interior_floor_paint_flow.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

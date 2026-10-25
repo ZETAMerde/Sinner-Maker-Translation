@@ -1,0 +1,66 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Yevhen.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Yevhen.dialogue#1",
+      "english": "[#head_nod]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Yevhen.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#head_nod]i won't disappoint",
+      "placeholders": [
+        "[#head_nod]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "welcome/sinners/Yevhen.dialogue#2",
+      "english": "[#head_nod]i won't disappoint",
+      "lookup_english": "i won't disappoint",
+      "spanish": "[#head_nod]No os decepcionaré",
+      "chinese": "[#head_nod]我不会让你失望的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Yevhen.dialogue",
+      "channel": "welcome",
+      "voice_hint": "",
+      "prev_english": "[#head_nod]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#head_nod]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": ""
+}

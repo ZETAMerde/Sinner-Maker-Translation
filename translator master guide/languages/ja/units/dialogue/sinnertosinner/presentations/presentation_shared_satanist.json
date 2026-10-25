@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_satanist.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_satanist.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]another one on the fun team? about time",
+      "lookup_english": "another one on the fun team? about time",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Otro en el equipo divertido? Ya era hora.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]又一个加入乐子队的？可算来了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_satanist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]the Christians here look at us like we brought the apocalypse",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_satanist.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]the Christians here look at us like we brought the apocalypse",
+      "lookup_english": "the Christians here look at us like we brought the apocalypse",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Los cristianos aquí nos miran como si hubiéramos traído el apocalipsis.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]这里的基督徒看我们，就像是我们带来了末日。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_satanist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]another one on the fun team? about time",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]we did not, we just predicted it better",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_satanist.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]we did not, we just predicted it better",
+      "lookup_english": "we did not, we just predicted it better",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]No lo hicimos. Simplemente lo predijimos mejor.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]我们没有。我们只是预测得更准。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_satanist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]the Christians here look at us like we brought the apocalypse",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]stick together, demons respect a crowd, sometimes",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_satanist.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]stick together, demons respect a crowd, sometimes",
+      "lookup_english": "stick together, demons respect a crowd, sometimes",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Manténganse unidos. Los demonios respetan a la multitud. A veces.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]抱团吧。恶魔会忌惮人多。有时候。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_satanist.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]we did not, we just predicted it better",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

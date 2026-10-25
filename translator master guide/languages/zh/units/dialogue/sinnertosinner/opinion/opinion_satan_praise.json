@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_praise.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_praise.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#bad_intentioned]satan has the better songs, you know, honest ones",
+      "lookup_english": "satan has the better songs, you know, honest ones",
+      "spanish": "[#speaker={{speaker_id_1}}][#bad_intentioned]Satanás tiene mejores canciones, ¿sabes? Canciones sinceras.",
+      "chinese": "[#speaker={{speaker_id_1}}][#bad_intentioned]撒旦的歌才好听，知道吧，唱的都是真心话。",
+      "translation": "[#speaker={{speaker_id_1}}][#bad_intentioned]撒旦的歌才好听，知道吧，唱的都是真心话。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#surprised]you cannot praise him here",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#bad_intentioned]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_praise.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#surprised]you cannot praise him here",
+      "lookup_english": "you cannot praise him here",
+      "spanish": "[#speaker={{speaker_id_2}}][#surprised]No puedes alabarlo aquí.",
+      "chinese": "[#speaker={{speaker_id_2}}][#surprised]你不能在这儿赞美他。",
+      "translation": "[#speaker={{speaker_id_2}}][#surprised]你不能在这儿赞美他。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#bad_intentioned]satan has the better songs, you know, honest ones",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]why not? he is the only one who tells the truth about this village",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#surprised]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_praise.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]why not? he is the only one who tells the truth about this village",
+      "lookup_english": "why not? he is the only one who tells the truth about this village",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]¿Por qué no? Es el único que dice la verdad sobre este pueblo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]为什么不行？只有他说了这村子的实话。",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]为什么不行？只有他说了这村子的实话。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#surprised]you cannot praise him here",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_hard_shake]i did not hear that, I will not",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_praise.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_hard_shake]i did not hear that, I will not",
+      "lookup_english": "i did not hear that, I will not",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_hard_shake]No he oído eso. Y no pienso oírlo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_hard_shake]我没听见，我也不会听。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_hard_shake]我没听见，我也不会听。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]why not? he is the only one who tells the truth about this village",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

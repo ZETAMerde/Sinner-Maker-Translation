@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_prolific.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_prolific.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]do you ever stop doing things on purpose?",
+      "lookup_english": "do you ever stop doing things on purpose?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Alguna vez dejas de hacer las cosas a propósito?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]你有没有停下来过，不再刻意做事？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_prolific.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]not unless my body gives up before my mind does",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_prolific.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]not unless my body gives up before my mind does",
+      "lookup_english": "not unless my body gives up before my mind does",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]No, a menos que mi cuerpo se rinda antes que mi mente.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]不会，除非我的身体先于我的脑子垮掉。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_prolific.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]do you ever stop doing things on purpose?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]good, I was hoping you would say that",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_prolific.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]good, I was hoping you would say that",
+      "lookup_english": "good, I was hoping you would say that",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Bien. Esperaba que dijeras eso.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]好。我就希望你会这么说。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_prolific.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]not unless my body gives up before my mind does",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

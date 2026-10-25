@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_fallback_neutral.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_fallback_neutral.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]i figured we should at least know each other's faces",
+      "lookup_english": "i figured we should at least know each other's faces",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Pensé que al menos deberíamos conocernos las caras.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我想我们至少该认识彼此的脸。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_fallback_neutral.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]that seems reasonable enough",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_fallback_neutral.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]that seems reasonable enough",
+      "lookup_english": "that seems reasonable enough",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Eso parece bastante razonable.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]这看起来挺合理的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_fallback_neutral.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]i figured we should at least know each other's faces",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]then this was not a wasted minute",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_fallback_neutral.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]then this was not a wasted minute",
+      "lookup_english": "then this was not a wasted minute",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Entonces este no fue un minuto perdido.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]那这一分钟就没白费。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_fallback_neutral.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wave_hand]that seems reasonable enough",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

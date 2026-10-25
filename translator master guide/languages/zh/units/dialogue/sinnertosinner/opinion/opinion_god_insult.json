@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_insult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_god_insult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#frustrated]if God is so good, why does He leave us in this dump?",
+      "lookup_english": "if God is so good, why does He leave us in this dump?",
+      "spanish": "[#speaker={{speaker_id_1}}][#frustrated]Si Dios es tan bueno, ¿por qué nos deja en este vertedero?",
+      "chinese": "[#speaker={{speaker_id_1}}][#frustrated]要是上帝真那么好，他为什么把我们丢在这个垃圾堆里？",
+      "translation": "[#speaker={{speaker_id_1}}][#frustrated]要是上帝真那么好，他为什么把我们丢在这个垃圾堆里？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#anxious_hands]that is blasphemy, stop",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#frustrated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_insult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#anxious_hands]that is blasphemy, stop",
+      "lookup_english": "that is blasphemy, stop",
+      "spanish": "[#speaker={{speaker_id_2}}][#anxious_hands]Eso es blasfemia, para.",
+      "chinese": "[#speaker={{speaker_id_2}}][#anxious_hands]这是亵渎，快住口。",
+      "translation": "[#speaker={{speaker_id_2}}][#anxious_hands]这是亵渎，快住口。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#frustrated]if God is so good, why does He leave us in this dump?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i am tired of pretending, God is a joke if this is His work",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#anxious_hands]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_insult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i am tired of pretending, God is a joke if this is His work",
+      "lookup_english": "i am tired of pretending, God is a joke if this is His work",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]Me he cansado de fingir. Si esto es obra suya, Dios es un chiste.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]我装够了，要是这就是他的杰作，上帝就是个笑话。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_hard_shake]我装够了，要是这就是他的杰作，上帝就是个笑话。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#anxious_hands]that is blasphemy, stop",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]please, not where anyone can hear",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_god_insult.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#worried]please, not where anyone can hear",
+      "lookup_english": "please, not where anyone can hear",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Por favor, no donde alguien pueda oírte.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]求你了，别在有人能听见的地方说。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]求你了，别在有人能听见的地方说。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_god_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i am tired of pretending, God is a joke if this is His work",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

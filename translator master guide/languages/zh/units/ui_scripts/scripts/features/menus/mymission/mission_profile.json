@@ -1,0 +1,84 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/menus/mymission/mission_profile.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Mood: %s",
+      "english": "Mood: %s",
+      "lookup_english": "Mood: %s",
+      "spanish": "Humor: %s",
+      "chinese": "心情：%s",
+      "translation": "心情：%s",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/menus/mymission/mission_profile.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Stars: %d  |  Solved: %d  |  Failed: %d",
+      "english": "Stars: %d  |  Solved: %d  |  Failed: %d",
+      "lookup_english": "Stars: %d  |  Solved: %d  |  Failed: %d",
+      "spanish": "Estrellas: %d  |  Resueltas: %d  |  Fallidas: %d",
+      "chinese": "星数：%d  |  已解决：%d  |  失败：%d",
+      "translation": "星数：%d  |  已解决：%d  |  失败：%d",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/menus/mymission/mission_profile.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "%s has %d friends",
+      "english": "%s has %d friends",
+      "lookup_english": "%s has %d friends",
+      "spanish": "%s tiene %d amigos",
+      "chinese": "%s 有 %d 个好友",
+      "translation": "%s 有 %d 个好友",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/menus/mymission/mission_profile.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s",
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

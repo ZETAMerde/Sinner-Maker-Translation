@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_crisis.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_faith_crisis.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#cry]my faith is cracking, I pray and I feel nothing",
+      "lookup_english": "my faith is cracking, I pray and I feel nothing",
+      "spanish": "[#speaker={{speaker_id_1}}][#cry]Mi fe se está resquebrajando. Rezo y no siento nada.",
+      "chinese": "[#speaker={{speaker_id_1}}][#cry]我的信仰快撑不住了，我祷告，却什么也感觉不到。",
+      "translation": "[#speaker={{speaker_id_1}}][#cry]我的信仰快撑不住了，我祷告，却什么也感觉不到。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_crisis.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]come here, that does not make you wicked",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#cry]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_faith_crisis.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]come here, that does not make you wicked",
+      "lookup_english": "come here, that does not make you wicked",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Ven aquí, eso no te hace mala persona.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]过来，这不代表你是坏人。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]过来，这不代表你是坏人。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_crisis.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#cry]my faith is cracking, I pray and I feel nothing",
+      "next_english": "[#speaker={{speaker_id_1}}][#face_rub]it feels like it does, as if I have already been left",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_faith_crisis.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#face_rub]it feels like it does, as if I have already been left",
+      "lookup_english": "it feels like it does, as if I have already been left",
+      "spanish": "[#speaker={{speaker_id_1}}][#face_rub]Pues lo parece. Como si ya me hubieran abandonado.",
+      "chinese": "[#speaker={{speaker_id_1}}][#face_rub]可我就是觉得是，好像我早就被丢下了。",
+      "translation": "[#speaker={{speaker_id_1}}][#face_rub]可我就是觉得是，好像我早就被丢下了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_crisis.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]come here, that does not make you wicked",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]stay with me, we will sit through it",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#face_rub]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_faith_crisis.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]stay with me, we will sit through it",
+      "lookup_english": "stay with me, we will sit through it",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Quédate conmigo, nos sentaremos aquí hasta que pase.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]陪着我，我们一起熬过去。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]陪着我，我们一起熬过去。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_faith_crisis.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#face_rub]it feels like it does, as if I have already been left",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

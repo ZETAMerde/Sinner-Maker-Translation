@@ -1,0 +1,39 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/door/someone_sleeping_inside.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "door/someone_sleeping_inside.dialogue#1",
+      "english": "i shouldn't enter, there is someone sleeping inside",
+      "lookup_english": "i shouldn't enter, there is someone sleeping inside",
+      "spanish": "No debo entrar, hay alguien durmiendo adentro.",
+      "chinese": "我不该进去，里面有人在睡觉",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "Player",
+      "source": "scenes/dialogue/dialogues/door/someone_sleeping_inside.dialogue",
+      "channel": "door",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    }
+  ],
+  "channel": "door",
+  "channel_note": "Door knock. The visitor wants to come in.",
+  "voice_hint": ""
+}

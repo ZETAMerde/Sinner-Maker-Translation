@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_christian.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_christian.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]have you noticed how much easier the day feels after a proper prayer?",
+      "lookup_english": "have you noticed how much easier the day feels after a proper prayer?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Has notado cuánto más fácil se siente el día después de una oración adecuada?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]你有没有发现，好好祈祷之后，一天会轻松很多？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]yes, the village stays rough, but faith keeps it from feeling empty",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_christian.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]yes, the village stays rough, but faith keeps it from feeling empty",
+      "lookup_english": "yes, the village stays rough, but faith keeps it from feeling empty",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Sí. El pueblo sigue siendo difícil, pero la fe evita que se sienta vacío.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]有。村子依旧简陋，但信仰让它不至于空荡荡的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]have you noticed how much easier the day feels after a proper prayer?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]that is enough to keep going",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_christian.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]that is enough to keep going",
+      "lookup_english": "that is enough to keep going",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Eso es suficiente para seguir adelante.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]这足以让人坚持下去。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_christian.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]yes, the village stays rough, but faith keeps it from feeling empty",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

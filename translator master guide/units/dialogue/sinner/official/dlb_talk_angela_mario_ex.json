@@ -1,0 +1,90 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_ex.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_ex.dialogue#1",
+      "english": "[#uninterested]Mario is my ex",
+      "lookup_english": "Mario is my ex",
+      "spanish": "[#uninterested]Mario es mi ex",
+      "chinese": "[#uninterested]Mario是我前任。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_ex.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#wonder]honestly?",
+      "placeholders": [
+        "[#uninterested]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_ex.dialogue#2",
+      "english": "[#wonder]honestly?",
+      "lookup_english": "honestly?",
+      "spanish": "[#dont_know]Y, ¿a decir verdad?",
+      "chinese": "[#dont_know]说实话？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_ex.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#uninterested]Mario is my ex",
+      "next_english": "[#laugh]i'm happy we are done",
+      "placeholders": [
+        "[#wonder]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_mario_ex.dialogue#3",
+      "english": "[#laugh]i'm happy we are done",
+      "lookup_english": "i'm happy we are done",
+      "spanish": "[#laugh]Me alegro de que lo dejásemos",
+      "chinese": "[#laugh]分了我挺开心的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_mario_ex.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#wonder]honestly?",
+      "next_english": "",
+      "placeholders": [
+        "[#laugh]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 4
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "In-village Talk tree, or a Don't Look Back Talk About override.",
+  "voice_hint": ""
+}

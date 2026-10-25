@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/context/church_context_menu.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "style:\nnormal\n\nnext sermon:\nin 4 time skips",
+      "english": "style:\nnormal\n\nnext sermon:\nin 4 time skips",
+      "lookup_english": "style:\nnormal\n\nnext sermon:\nin 4 time skips",
+      "spanish": "Estilo:\nnormal\n\nPróximo sermón:\nen 4 saltos temporales",
+      "chinese": "风格：\n普通\n\n下次布道：\n4次跳过时间后",
+      "translation": "风格：\n普通\n\n下次布道：\n4次跳过时间后",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/church_context_menu.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "current study:\nupgrade",
+      "english": "current study:\nupgrade",
+      "lookup_english": "current study:\nupgrade",
+      "spanish": "Estudio actual:\nmejora",
+      "chinese": "当前研究：\n升级",
+      "translation": "当前研究：\n升级",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/context/church_context_menu.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

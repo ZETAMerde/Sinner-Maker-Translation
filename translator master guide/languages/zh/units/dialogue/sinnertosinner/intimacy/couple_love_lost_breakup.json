@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/intimacy/couple_love_lost_breakup.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/intimacy/couple_love_lost_breakup.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]i do not love you anymore, i have been pretending, and I cannot keep doing it",
+      "lookup_english": "i do not love you anymore, i have been pretending, and I cannot keep doing it",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Ya no te quiero, he estado fingiendo y no puedo seguir haciéndolo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]我已经不爱你了，我一直在假装，我装不下去了",
+      "translation": "[#speaker={{speaker_id_1}}][#head_shake]我已经不爱你了，我一直在假装，我装不下去了",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/intimacy/couple_love_lost_breakup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#dissapointed]so that is it, then",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/intimacy/couple_love_lost_breakup.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#dissapointed]so that is it, then",
+      "lookup_english": "so that is it, then",
+      "spanish": "[#speaker={{speaker_id_2}}][#dissapointed]Así que se acabó, entonces.",
+      "chinese": "[#speaker={{speaker_id_2}}][#dissapointed]那就这样了，是吧",
+      "translation": "[#speaker={{speaker_id_2}}][#dissapointed]那就这样了，是吧",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/intimacy/couple_love_lost_breakup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]i do not love you anymore, i have been pretending, and I cannot keep doing it",
+      "next_english": "[#speaker={{speaker_id_1}}][#frustrated]yes, we are done",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#dissapointed]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/intimacy/couple_love_lost_breakup.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#frustrated]yes, we are done",
+      "lookup_english": "yes, we are done",
+      "spanish": "[#speaker={{speaker_id_1}}][#frustrated]Sí, lo nuestro ha terminado.",
+      "chinese": "[#speaker={{speaker_id_1}}][#frustrated]对，我们完了",
+      "translation": "[#speaker={{speaker_id_1}}][#frustrated]对，我们完了",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/intimacy/couple_love_lost_breakup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#dissapointed]so that is it, then",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#frustrated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Couple petition or breakup.",
+  "voice_hint": ""
+}

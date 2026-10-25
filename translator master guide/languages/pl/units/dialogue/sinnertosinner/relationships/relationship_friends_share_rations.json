@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_share_rations.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_share_rations.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]i stole extra bread, half is yours",
+      "lookup_english": "i stole extra bread, half is yours",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Robé pan extra. La mitad es tuya.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我多偷了面包，一半归你了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_share_rations.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#surprised]why?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_share_rations.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#surprised]why?",
+      "lookup_english": "why?",
+      "spanish": "¿Qué por qué?",
+      "chinese": "为什么？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_share_rations.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]i stole extra bread, half is yours",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]because you looked hungry and I am not a monster",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#surprised]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_share_rations.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]because you looked hungry and I am not a monster",
+      "lookup_english": "because you looked hungry and I am not a monster",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Porque parecías hambriento y yo no soy un monstruo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]因为你看起来饿了，而我不是怪物。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_share_rations.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#surprised]why?",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]debatable, but thanks",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_share_rations.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]debatable, but thanks",
+      "lookup_english": "debatable, but thanks",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Discutible. Pero gracias.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]有待商榷。不过谢了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_share_rations.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]because you looked hungry and I am not a monster",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

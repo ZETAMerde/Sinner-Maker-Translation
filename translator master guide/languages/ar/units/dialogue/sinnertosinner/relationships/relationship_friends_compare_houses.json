@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_compare_houses.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_compare_houses.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]your house has actual chairs",
+      "lookup_english": "your house has actual chairs",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Tu casa tiene sillas reales.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]你家有真正的椅子。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_compare_houses.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]the chief likes me more, cry about it",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_compare_houses.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]the chief likes me more, cry about it",
+      "lookup_english": "the chief likes me more, cry about it",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Le gusto más al jefe. Llora por eso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]首领更喜欢我。哭去吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_compare_houses.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]your house has actual chairs",
+      "next_english": "[#speaker={{speaker_id_1}}][#worried]i am crying internally, and externally a little",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_compare_houses.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#worried]i am crying internally, and externally a little",
+      "lookup_english": "i am crying internally, and externally a little",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Estoy llorando internamente. Y externamente un poco.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]我在内心哭泣。外表也哭了一点。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_compare_houses.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wave_hand]the chief likes me more, cry about it",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]come sit anyway, just do not steal the chairs",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_compare_houses.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]come sit anyway, just do not steal the chairs",
+      "lookup_english": "come sit anyway, just do not steal the chairs",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Ven y siéntate de todos modos. Simplemente no robes las sillas.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]还是过来坐吧。就是别偷椅子。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_compare_houses.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]i am crying internally, and externally a little",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

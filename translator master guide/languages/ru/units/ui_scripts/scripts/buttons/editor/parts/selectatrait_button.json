@@ -1,0 +1,79 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/buttons/editor/parts/selectatrait_button.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "You are this age",
+      "english": "You are this age",
+      "lookup_english": "You are this age",
+      "spanish": "Tienes esta edad",
+      "chinese": "你已经是这个年龄了",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/buttons/editor/parts/selectatrait_button.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "You already have this trait",
+      "english": "You already have this trait",
+      "lookup_english": "You already have this trait",
+      "spanish": "Ya tienes este atributo",
+      "chinese": "你已经拥有这个特质",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/buttons/editor/parts/selectatrait_button.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "Can't pick because you have %s",
+      "english": "Can't pick because you have %s",
+      "lookup_english": "Can't pick because you have %s",
+      "spanish": "No se puede elegir porque tienes %s",
+      "chinese": "无法选择，因为你拥有%s",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/buttons/editor/parts/selectatrait_button.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

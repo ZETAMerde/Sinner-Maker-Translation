@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]want to watch the sky burn after dinner?",
+      "lookup_english": "want to watch the sky burn after dinner?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Quieres ver arder el cielo después de cenar?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]晚饭后想去看晚霞吗？",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]晚饭后想去看晚霞吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]romantic, what is for dinner?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]romantic, what is for dinner?",
+      "lookup_english": "romantic, what is for dinner?",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Romántico. ¿Qué hay para cenar?",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]真浪漫。晚饭吃什么？",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]真浪漫。晚饭吃什么？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]want to watch the sky burn after dinner?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_shake]whatever the chief did not count",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]whatever the chief did not count",
+      "lookup_english": "whatever the chief did not count",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Lo que sea que el jefe no contó.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]首领没数过的那些。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_shake]首领没数过的那些。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]romantic, what is for dinner?",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]stealing rations together, our love language",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]stealing rations together, our love language",
+      "lookup_english": "stealing rations together, our love language",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Robar raciones juntos. Nuestro lenguaje del amor.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]一起偷口粮。我们爱的语言。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]一起偷口粮。我们爱的语言。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_couple_apocalypse_date.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]whatever the chief did not count",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

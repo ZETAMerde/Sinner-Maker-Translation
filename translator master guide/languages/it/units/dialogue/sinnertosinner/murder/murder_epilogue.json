@@ -1,0 +1,43 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/murder/murder_epilogue.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/murder/murder_epilogue.dialogue#1",
+      "english": "[#speaker={{speaker_id}}]{{line_text}}",
+      "lookup_english": "{{line_text}}",
+      "spanish": "[#speaker={{speaker_id}}]{{line_text}}",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{speaker_name}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/murder/murder_epilogue.dialogue",
+      "channel": "pair",
+      "voice_hint": "Trait murder, temperament epilogue. The trait picks the topic. The temperament picks the energy.",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id}}]",
+        "{{speaker_id}}",
+        "{{line_text}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 2
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Murder-scene pair dialogue.",
+  "voice_hint": "Trait murder, temperament epilogue. The trait picks the topic. The temperament picks the energy."
+}

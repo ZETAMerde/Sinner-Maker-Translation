@@ -1,0 +1,40 @@
+{
+  "unit": "talk_about",
+  "source": "data/talk_about/lines_en.json",
+  "import_target": "data/talk_about/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "christian_vs_hooker",
+      "english": "[#head_shake]i don't approve of how {name} carries {ref}",
+      "lookup_english": "i don't approve of how {name} carries {ref}",
+      "spanish": "[#head_shake]No estoy de acuerdo con cómo {name} se presenta a {ref} mism@.",
+      "chinese": "[#head_shake]我不赞同{name}对待{ref}的方式。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "[#head_shake]",
+        "{name}",
+        "{ref}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "christian_vs_hooker"
+}

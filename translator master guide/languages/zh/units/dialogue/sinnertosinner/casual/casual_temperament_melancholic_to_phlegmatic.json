@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_phlegmatic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_phlegmatic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]i envy how calm you look",
+      "lookup_english": "i envy how calm you look",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]Envidio lo tranquila que luces.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]我羡慕你看起来那么平静。",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]我羡慕你看起来那么平静。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]it is mostly stillness, not peace",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_phlegmatic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]it is mostly stillness, not peace",
+      "lookup_english": "it is mostly stillness, not peace",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Es principalmente quietud, no paz.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]那大多是静止，不是平静。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]那大多是静止，不是平静。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]i envy how calm you look",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]stillness would be enough for me some days",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_phlegmatic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]stillness would be enough for me some days",
+      "lookup_english": "stillness would be enough for me some days",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Algunos días la quietud me bastaría.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]有些日子，静止对我来说就足够了。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]有些日子，静止对我来说就足够了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wave_hand]it is mostly stillness, not peace",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

@@ -1,0 +1,61 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/lovers_card.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/lovers_card.dialogue#1",
+      "english": "thanks for opening the door",
+      "lookup_english": "thanks for opening the door",
+      "spanish": "Gracias por abrir la puerta.",
+      "chinese": "谢谢你为我开门哦。",
+      "translation": "谢谢你为我开门哦。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/lovers_card.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Tender, talks in us, names the beloved.",
+      "prev_english": "",
+      "next_english": "i will do my best in this colony",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/lovers_card.dialogue#2",
+      "english": "i will do my best in this colony",
+      "lookup_english": "i will do my best in this colony",
+      "spanish": "Haré todo lo posible en esta colonia.",
+      "chinese": "我会为这个殖民地的发展拼尽全力的。",
+      "translation": "我会为这个殖民地的发展拼尽全力的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/lovers_card.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Tender, talks in us, names the beloved.",
+      "prev_english": "thanks for opening the door",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a tarot newcomer in.",
+  "voice_hint": "Tender, talks in us, names the beloved."
+}

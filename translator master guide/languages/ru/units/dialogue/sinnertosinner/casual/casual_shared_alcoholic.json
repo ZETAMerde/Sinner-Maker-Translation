@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_alcoholic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_alcoholic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]this place could use a drink and a softer chair",
+      "lookup_english": "this place could use a drink and a softer chair",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]A este lugar le vendría bien una bebida y una silla más blanda.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]这地方要是能有杯酒和一把更软的椅子就好了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_alcoholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]preferably in that order",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_alcoholic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]preferably in that order",
+      "lookup_english": "preferably in that order",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Preferiblemente en ese orden.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]最好按这个顺序来。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_alcoholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]this place could use a drink and a softer chair",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]at least someone here understands priorities",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_alcoholic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]at least someone here understands priorities",
+      "lookup_english": "at least someone here understands priorities",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Al menos alguien aquí entiende las prioridades.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]至少这里有人懂轻重缓急。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_alcoholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]preferably in that order",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

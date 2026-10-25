@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_demon_sighting.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/neutral_demon_sighting.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#surprised]i swear I saw something crawl behind the stores",
+      "lookup_english": "i swear I saw something crawl behind the stores",
+      "spanish": "[#speaker={{speaker_id_1}}][#surprised]Juro que vi algo arrastrándose detrás de las tiendas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#surprised]我发誓我看见有东西在储备处后面爬。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_demon_sighting.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]was it a demon or Dave after midnight?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#surprised]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/neutral_demon_sighting.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]was it a demon or Dave after midnight?",
+      "lookup_english": "was it a demon or Dave after midnight?",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]¿Fue un demonio o Dave después de medianoche?",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]是恶魔，还是午夜后的Dave？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_demon_sighting.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#surprised]i swear I saw something crawl behind the stores",
+      "next_english": "[#speaker={{speaker_id_1}}][#worried]it had too many legs for Dave",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/neutral_demon_sighting.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#worried]it had too many legs for Dave",
+      "lookup_english": "it had too many legs for Dave",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Tenía demasiadas piernas para Dave.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]腿太多了，不可能是Dave。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_demon_sighting.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]was it a demon or Dave after midnight?",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]fair, tell the chief, or do not, same result",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/neutral_demon_sighting.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]fair, tell the chief, or do not, same result",
+      "lookup_english": "fair, tell the chief, or do not, same result",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Aceptable. Díselo al jefe. O no lo hagas. Mismo resultado.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]有道理，告诉首领吧。或者别说。结果一样。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_demon_sighting.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]it had too many legs for Dave",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ambient pair conversation.",
+  "voice_hint": ""
+}

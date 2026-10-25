@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_fear.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_fear.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#anxious_hands]do not laugh I still fear Satan, I think he listens",
+      "lookup_english": "do not laugh I still fear Satan, I think he listens",
+      "spanish": "[#speaker={{speaker_id_1}}][#anxious_hands]No te rías, pero aún le temo a Satanás. Creo que escucha.",
+      "chinese": "[#speaker={{speaker_id_1}}][#anxious_hands]别笑，我还是怕撒旦，我觉得他在听。",
+      "translation": "[#speaker={{speaker_id_1}}][#anxious_hands]别笑，我还是怕撒旦，我觉得他在听。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_fear.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]you should, that is the point of fearing him",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#anxious_hands]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_fear.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]you should, that is the point of fearing him",
+      "lookup_english": "you should, that is the point of fearing him",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Y haces bien. Para eso está el miedo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]你就该怕，怕他本来就是这个道理。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]你就该怕，怕他本来就是这个道理。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_fear.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#anxious_hands]do not laugh I still fear Satan, I think he listens",
+      "next_english": "[#speaker={{speaker_id_1}}][#face_rub]i would rather keep my soul than sound brave",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_fear.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#face_rub]i would rather keep my soul than sound brave",
+      "lookup_english": "i would rather keep my soul than sound brave",
+      "spanish": "[#speaker={{speaker_id_1}}][#face_rub]Prefiero conservar el alma a parecer valiente.",
+      "chinese": "[#speaker={{speaker_id_1}}][#face_rub]我宁愿保住灵魂，也不想装勇敢。",
+      "translation": "[#speaker={{speaker_id_1}}][#face_rub]我宁愿保住灵魂，也不想装勇敢。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_fear.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]you should, that is the point of fearing him",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]sensible, keep that fear",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#face_rub]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_fear.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]sensible, keep that fear",
+      "lookup_english": "sensible, keep that fear",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Sensato. Conserva ese miedo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]这才明智，别丢了这份畏惧。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]这才明智，别丢了这份畏惧。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_fear.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#face_rub]i would rather keep my soul than sound brave",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

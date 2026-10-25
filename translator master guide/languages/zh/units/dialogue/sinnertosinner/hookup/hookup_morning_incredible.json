@@ -1,0 +1,67 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/hookup/hookup_morning_incredible.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/hookup/hookup_morning_incredible.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]i cannot stop thinking about last night, that was incredible",
+      "lookup_english": "i cannot stop thinking about last night, that was incredible",
+      "spanish": "[#speaker={{speaker_id_1}}]No puedo dejar de pensar en anoche. Eso fue increíble.",
+      "chinese": "[#speaker={{speaker_id_1}}]我一直在想昨晚的事。那太棒了。",
+      "translation": "[#speaker={{speaker_id_1}}]我一直在想昨晚的事。那太棒了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/hookup/hookup_morning_incredible.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]incredible is putting it lightly, I want more of that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/hookup/hookup_morning_incredible.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]incredible is putting it lightly, I want more of that",
+      "lookup_english": "incredible is putting it lightly, I want more of that",
+      "spanish": "[#speaker={{speaker_id_2}}]Increíble es decirlo a la ligera. Quiero más de eso.",
+      "chinese": "[#speaker={{speaker_id_2}}]说“太棒了”都算委婉了。我还想要更多。",
+      "translation": "[#speaker={{speaker_id_2}}]说“太棒了”都算委婉了。我还想要更多。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/hookup/hookup_morning_incredible.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]i cannot stop thinking about last night, that was incredible",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Hookup offer or morning after.",
+  "voice_hint": ""
+}

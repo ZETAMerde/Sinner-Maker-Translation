@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_work_complaint.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_work_complaint.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]the chief assigned me mining, again",
+      "lookup_english": "the chief assigned me mining, again",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]El jefe me asignó minería. De nuevo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]首领又派我去挖矿了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_work_complaint.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]same, I think the chief hates us personally",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_work_complaint.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]same, I think the chief hates us personally",
+      "lookup_english": "same, I think the chief hates us personally",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Igual. Creo que el jefe nos odia personalmente.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]一样。我觉得首领是针对我们个人。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_work_complaint.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]the chief assigned me mining, again",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]we should unionize, in hell, where we already live",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_work_complaint.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]we should unionize, in hell, where we already live",
+      "lookup_english": "we should unionize, in hell, where we already live",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Deberíamos sindicalizarnos. En el infierno. Donde ya vivimos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我们该成立工会，在地狱里。也就是我们早就住的地方。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_work_complaint.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]same, I think the chief hates us personally",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]i will bring signs, they will say nothing useful",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_friends_work_complaint.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]i will bring signs, they will say nothing useful",
+      "lookup_english": "i will bring signs, they will say nothing useful",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Traeré señales. No dirán nada útil.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]我会带标语牌。上面写的东西一点用都没有。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_friends_work_complaint.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]we should unionize, in hell, where we already live",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

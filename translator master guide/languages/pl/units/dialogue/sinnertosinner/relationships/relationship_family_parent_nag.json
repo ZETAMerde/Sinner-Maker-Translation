@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_parent_nag.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_family_parent_nag.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]when was the last time you ate something green?",
+      "lookup_english": "when was the last time you ate something green?",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]¿Cuándo fue la última vez que comiste algo verde?",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]你上次吃绿色的东西是什么时候？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_parent_nag.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]when was the last time anything was green?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_parent_nag.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]when was the last time anything was green?",
+      "lookup_english": "when was the last time anything was green?",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]¿Cuándo fue la última vez que algo estuvo verde?",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]上次有东西是绿色的又是什么时候？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_parent_nag.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]when was the last time you ate something green?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]do not get smart with me",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_parent_nag.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]do not get smart with me",
+      "lookup_english": "do not get smart with me",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]No te hagas listo conmigo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]别跟我耍小聪明。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_parent_nag.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]when was the last time anything was green?",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]too late, I inherited it from you",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_parent_nag.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]too late, I inherited it from you",
+      "lookup_english": "too late, I inherited it from you",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Demasiado tarde. Lo heredé de ti.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]太迟了。这是从你那儿遗传的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_parent_nag.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]do not get smart with me",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

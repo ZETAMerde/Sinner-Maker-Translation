@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/studies/specific_details/bulletin_details.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "the\nbulletin Board",
+      "english": "the\nbulletin Board",
+      "lookup_english": "the\nbulletin Board",
+      "spanish": "El\ntablón de anuncios",
+      "chinese": "村庄\n公告栏",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/studies/specific_details/bulletin_details.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "the bulletin tells you\ninteresting information about your sinners\nlike how popular they\nare or how much sin\nthey have\n\nthe rankings may create\ndivission among sinners,\nspecially among those who are the most and least popular on the village",
+      "english": "the bulletin tells you\ninteresting information about your sinners\nlike how popular they\nare or how much sin\nthey have\n\nthe rankings may create\ndivission among sinners,\nspecially among those who are the most and least popular on the village",
+      "lookup_english": "the bulletin tells you\ninteresting information about your sinners\nlike how popular they\nare or how much sin\nthey have\n\nthe rankings may create\ndivission among sinners,\nspecially among those who are the most and least popular on the village",
+      "spanish": "El tablón te da\ninformación interesante sobre tus pecadores,\ncomo lo populares que\nson o cuánto pecado\ntienen\n\nLas clasificaciones pueden crear\ndivisión entre los pecadores,\nsobre todo entre los más y los menos populares del pueblo",
+      "chinese": "公告栏会告诉你\n关于罪人的有趣信息，\n比如他们有多\n受欢迎，或者身上\n有多少罪孽\n\n排名可能会在罪人之间\n制造分裂，\n尤其是村里最受欢迎和最不受欢迎的那些人之间",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/studies/specific_details/bulletin_details.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

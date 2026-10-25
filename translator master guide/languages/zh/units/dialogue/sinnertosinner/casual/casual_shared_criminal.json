@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_criminal.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_criminal.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]if the chief asks, we were both at prayer, all day",
+      "lookup_english": "if the chief asks, we were both at prayer, all day",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Si el jefe pregunta, ambos estábamos en oración. Todo el día.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]要是首领问起，就说我们俩都在祈祷。一整天。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]要是首领问起，就说我们俩都在祈祷。一整天。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_criminal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]we do not pray, but I like the lie",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_criminal.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]we do not pray, but I like the lie",
+      "lookup_english": "we do not pray, but I like the lie",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]No oramos. Pero me gusta la mentira.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]我们不祈祷。但我喜欢这个谎。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]我们不祈祷。但我喜欢这个谎。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_criminal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]if the chief asks, we were both at prayer, all day",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]professional courtesy between thieves",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_criminal.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]professional courtesy between thieves",
+      "lookup_english": "professional courtesy between thieves",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Cortesía profesional entre ladrones.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]小偷之间的职业礼貌。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]小偷之间的职业礼貌。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_criminal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]we do not pray, but I like the lie",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]steal from the stores, not each other, house rules",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_criminal.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]steal from the stores, not each other, house rules",
+      "lookup_english": "steal from the stores, not each other, house rules",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Roban en las tiendas, no entre ellos. Reglas de la casa.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]偷储备，别偷彼此。这是规矩。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]偷储备，别偷彼此。这是规矩。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_criminal.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]professional courtesy between thieves",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

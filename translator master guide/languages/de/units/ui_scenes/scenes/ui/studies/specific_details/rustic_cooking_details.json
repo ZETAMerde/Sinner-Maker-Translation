@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/ui/studies/specific_details/rustic_cooking_details.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "allows you to cook\nmany more recipees\nat the archaic kitchen",
+      "english": "allows you to cook\nmany more recipees\nat the archaic kitchen",
+      "lookup_english": "allows you to cook\nmany more recipees\nat the archaic kitchen",
+      "spanish": "Te permite cocinar\nmuchas más recetas\nen la cocina arcaica",
+      "chinese": "让你在原始厨房\n能烹饪\n更多菜谱",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/studies/specific_details/rustic_cooking_details.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "give your sinners delicious homemmade\ndishes!",
+      "english": "give your sinners delicious homemmade\ndishes!",
+      "lookup_english": "give your sinners delicious homemmade\ndishes!",
+      "spanish": "¡Dales a tus pecadores deliciosos platos\ncaseros!",
+      "chinese": "让你的罪人们享用美味的\n家常菜吧！",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/ui/studies/specific_details/rustic_cooking_details.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

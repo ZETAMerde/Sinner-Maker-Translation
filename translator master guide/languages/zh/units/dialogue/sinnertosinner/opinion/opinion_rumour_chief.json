@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_rumour_chief.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_rumour_chief.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#bad_intentioned]have you heard what they whisper about {{player_name}}?",
+      "lookup_english": "have you heard what they whisper about {{player_name}}?",
+      "spanish": "[#speaker={{speaker_id_1}}][#bad_intentioned]¿Has oído lo que cuchichean sobre {{player_name}}?",
+      "chinese": "[#speaker={{speaker_id_1}}][#bad_intentioned]你听说大家在背后怎么嘀咕{{player_name}}了吗？",
+      "translation": "[#speaker={{speaker_id_1}}][#bad_intentioned]你听说大家在背后怎么嘀咕{{player_name}}了吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_rumour_chief.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]go on, then",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#bad_intentioned]",
+        "{{speaker_id_1}}",
+        "{{player_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_rumour_chief.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]go on, then",
+      "lookup_english": "go on, then",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]Venga, cuenta.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]说来听听。",
+      "translation": "[#speaker={{speaker_id_2}}][#wonder]说来听听。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_rumour_chief.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#bad_intentioned]have you heard what they whisper about {{player_name}}?",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]that they sleep through half the village business, might be true",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_rumour_chief.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]that they sleep through half the village business, might be true",
+      "lookup_english": "that they sleep through half the village business, might be true",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Que se pasa durmiendo la mitad de los asuntos del pueblo. Igual hasta es verdad.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]说首领一半的村务都是睡过去的，说不定还是真的。",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]说首领一半的村务都是睡过去的，说不定还是真的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_rumour_chief.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]go on, then",
+      "next_english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]that is a rumour, do not pin it on me",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_rumour_chief.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]that is a rumour, do not pin it on me",
+      "lookup_english": "that is a rumour, do not pin it on me",
+      "spanish": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]Eso es un rumor, a mí no me lo cargues.",
+      "chinese": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]那只是谣言，别算到我头上。",
+      "translation": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]那只是谣言，别算到我头上。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_rumour_chief.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]that they sleep through half the village business, might be true",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#uncomfortable_idle]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

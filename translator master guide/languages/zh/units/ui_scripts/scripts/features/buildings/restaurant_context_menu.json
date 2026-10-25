@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/restaurant_context_menu.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Display Food",
+      "english": "Display Food",
+      "lookup_english": "Display Food",
+      "spanish": "Mostrar comida",
+      "chinese": "展示食物",
+      "translation": "展示食物",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/restaurant_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "Set how much of each food is on display for sinners to buy during the day",
+      "english": "Set how much of each food is on display for sinners to buy during the day",
+      "lookup_english": "Set how much of each food is on display for sinners to buy during the day",
+      "spanish": "Establece cuánto de cada comida se muestra para que los pecadores la compren durante el día.",
+      "chinese": "设置每种食物的展示数量，供罪人在白天购买",
+      "translation": "设置每种食物的展示数量，供罪人在白天购买",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/restaurant_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

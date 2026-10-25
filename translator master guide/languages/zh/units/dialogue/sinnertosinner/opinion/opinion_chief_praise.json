@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_praise.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_chief_praise.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#prideful_nod]i will say this for {{player_name}} they keep this village standing",
+      "lookup_english": "i will say this for {{player_name}} they keep this village standing",
+      "spanish": "[#speaker={{speaker_id_1}}][#prideful_nod]Hay que reconocérselo a {{player_name}}: mantiene este pueblo en pie.",
+      "chinese": "[#speaker={{speaker_id_1}}][#prideful_nod]我得替{{player_name}}说句公道话：这村子能撑到现在，全靠这位。",
+      "translation": "[#speaker={{speaker_id_1}}][#prideful_nod]我得替{{player_name}}说句公道话：这村子能撑到现在，全靠这位。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]you actually mean that?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#prideful_nod]",
+        "{{speaker_id_1}}",
+        "{{player_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_chief_praise.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]you actually mean that?",
+      "lookup_english": "you actually mean that?",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]¿Lo dices en serio?",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]你是认真的？",
+      "translation": "[#speaker={{speaker_id_2}}][#wonder]你是认真的？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#prideful_nod]i will say this for {{player_name}} they keep this village standing",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]i do, not every chief would bother",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_chief_praise.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i do, not every chief would bother",
+      "lookup_english": "i do, not every chief would bother",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Sí. No cualquier jefe se tomaría la molestia.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]当然，不是每个首领都肯这么费心的。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]当然，不是每个首领都肯这么费心的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]you actually mean that?",
+      "next_english": "[#speaker={{speaker_id_2}}][#shy_cute]fair enough, I suppose we could do worse",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_chief_praise.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#shy_cute]fair enough, I suppose we could do worse",
+      "lookup_english": "fair enough, I suppose we could do worse",
+      "spanish": "[#speaker={{speaker_id_2}}][#shy_cute]Vale, supongo que podría irnos peor.",
+      "chinese": "[#speaker={{speaker_id_2}}][#shy_cute]也对，换个人说不定更糟。",
+      "translation": "[#speaker={{speaker_id_2}}][#shy_cute]也对，换个人说不定更糟。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_chief_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]i do, not every chief would bother",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#shy_cute]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

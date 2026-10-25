@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/gossip_weird_habit.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/gossip_weird_habit.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]why does the hermit card guy talk to rocks?",
+      "lookup_english": "why does the hermit card guy talk to rocks?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Por qué el ermitaño de las cartas habla con las rocas?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]那个隐士牌家伙为什么对着石头说话？",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]那个隐士牌家伙为什么对着石头说话？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip_weird_habit.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]better company than most people here",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/gossip_weird_habit.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]better company than most people here",
+      "lookup_english": "better company than most people here",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Mejor compañía que la mayoría de la gente aquí.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]比这里大多数人都是更好的伙伴。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]比这里大多数人都是更好的伙伴。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip_weird_habit.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]why does the hermit card guy talk to rocks?",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]hard to argue",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/gossip_weird_habit.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]hard to argue",
+      "lookup_english": "hard to argue",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Difícil de discutir.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]很难反驳。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]很难反驳。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip_weird_habit.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]better company than most people here",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]do not tell him I said that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/gossip_weird_habit.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]do not tell him I said that",
+      "lookup_english": "do not tell him I said that",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]No le digas que dije eso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]别告诉他我说过这话。",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]别告诉他我说过这话。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip_weird_habit.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]hard to argue",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ambient pair conversation.",
+  "voice_hint": ""
+}

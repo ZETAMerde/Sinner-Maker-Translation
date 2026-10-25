@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/character_editor/traits_panel.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Select a Trait",
+      "english": "Select a Trait",
+      "lookup_english": "Select a Trait",
+      "spanish": "Selecciona un rasgo",
+      "chinese": "选择特质",
+      "translation": "选择特质",
+      "style": "ui_label",
+      "casing_rule": "author_keep",
+      "speaker": "",
+      "source": "scenes/character_editor/traits_panel.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels. Author menu Spanish is in the spanish field. Write translation in the target language. Do not copy Spanish capitals into it."
+    },
+    {
+      "id": "Search",
+      "english": "Search",
+      "lookup_english": "Search",
+      "spanish": "Buscar",
+      "chinese": "搜索",
+      "translation": "搜索",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/character_editor/traits_panel.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels. ui_core key UI_CP_SEARCH uses this English. The spanish field shows the author's menu wording."
+    }
+  ]
+}

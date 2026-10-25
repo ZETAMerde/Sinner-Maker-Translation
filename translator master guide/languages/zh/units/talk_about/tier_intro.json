@@ -1,0 +1,111 @@
+{
+  "unit": "talk_about",
+  "source": "data/talk_about/lines_en.json",
+  "import_target": "data/talk_about/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "tier_intro/best_friends",
+      "english": "{name}? yeah, {subj} and me are best friends",
+      "lookup_english": "{name}? yeah, {subj} and me are best friends",
+      "spanish": "¿{name}? Sí, {subj} y yo somos mejores amig@s.",
+      "chinese": "{name}？对，{subj}和我是最好的朋友。",
+      "translation": "{name}？对，{subj}和我是最好的朋友。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "{name}? yeah, {subj} and me are good friends",
+      "placeholders": [
+        "{name}",
+        "{subj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "tier_intro/friends",
+      "english": "{name}? yeah, {subj} and me are good friends",
+      "lookup_english": "{name}? yeah, {subj} and me are good friends",
+      "spanish": "¿{name}? Sí, {subj} y yo somos buenos amig@s.",
+      "chinese": "{name}？对，{subj}和我是好朋友。",
+      "translation": "{name}？对，{subj}和我是好朋友。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "{name}? yeah, {subj} and me are best friends",
+      "next_english": "{name}, yeah, I don't really like {obj}",
+      "placeholders": [
+        "{name}",
+        "{subj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "tier_intro/disliked",
+      "english": "{name}, yeah, I don't really like {obj}",
+      "lookup_english": "{name}, yeah, I don't really like {obj}",
+      "spanish": "{name}... sí, {obj} me cae bastante como el culo.",
+      "chinese": "{name}……对，我不太喜欢{obj}。",
+      "translation": "{name}……对，我不太喜欢{obj}。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "{name}? yeah, {subj} and me are good friends",
+      "next_english": "{name}? i can't stand {obj}",
+      "placeholders": [
+        "{name}",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "tier_intro/enemy",
+      "english": "{name}? i can't stand {obj}",
+      "lookup_english": "{name}? i can't stand {obj}",
+      "spanish": "¿{name}? Me es insoportable.",
+      "chinese": "{name}？我受不了{obj}。",
+      "translation": "{name}？我受不了{obj}。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "{name}, yeah, I don't really like {obj}",
+      "next_english": "",
+      "placeholders": [
+        "{name}",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "tier_intro"
+}

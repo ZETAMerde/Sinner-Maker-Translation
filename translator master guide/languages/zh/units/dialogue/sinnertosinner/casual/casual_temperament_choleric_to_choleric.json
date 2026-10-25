@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_choleric.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_choleric.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]do you ever get tired of carrying the conversation for slower people?",
+      "lookup_english": "do you ever get tired of carrying the conversation for slower people?",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]¿Alguna vez te cansas de llevar la conversación a personas más lentas?",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]替那些反应慢的人撑起对话，你会累吗？",
+      "translation": "[#speaker={{speaker_id_1}}][#worried]替那些反应慢的人撑起对话，你会累吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]no, I get tired of waiting for them to catch up",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_choleric.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]no, I get tired of waiting for them to catch up",
+      "lookup_english": "no, I get tired of waiting for them to catch up",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]No. Me canso de esperar a que me alcancen.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]不会。我累的是等他们跟上。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]不会。我累的是等他们跟上。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]do you ever get tired of carrying the conversation for slower people?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]that is close enough to wisdom",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_choleric_to_choleric.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]that is close enough to wisdom",
+      "lookup_english": "that is close enough to wisdom",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Eso se acerca bastante a la sabiduría.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]这已经够接近智慧了。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]这已经够接近智慧了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_choleric_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]no, I get tired of waiting for them to catch up",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

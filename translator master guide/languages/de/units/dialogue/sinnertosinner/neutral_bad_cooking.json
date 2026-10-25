@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_bad_cooking.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/neutral_bad_cooking.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]whoever cooked last night should be arrested",
+      "lookup_english": "whoever cooked last night should be arrested",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Quien cocinó anoche debería ser arrestado.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]昨晚做饭的人该被抓起来。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_bad_cooking.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]that was me, arrest me then",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/neutral_bad_cooking.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]that was me, arrest me then",
+      "lookup_english": "that was me, arrest me then",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Ese era yo. Arréstenme entonces.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]那是我做的。那就抓我吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_bad_cooking.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]whoever cooked last night should be arrested",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]it tasted like regret",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/neutral_bad_cooking.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]it tasted like regret",
+      "lookup_english": "it tasted like regret",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]...Sabía a arrepentimiento.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]……尝起来像悔恨。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_bad_cooking.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]that was me, arrest me then",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]accurate branding",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/neutral_bad_cooking.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]accurate branding",
+      "lookup_english": "accurate branding",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Marca precisa.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]品牌定位准确。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/neutral_bad_cooking.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]it tasted like regret",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ambient pair conversation.",
+  "voice_hint": ""
+}

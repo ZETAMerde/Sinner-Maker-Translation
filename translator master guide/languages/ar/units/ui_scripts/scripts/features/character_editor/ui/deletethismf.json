@@ -1,0 +1,58 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/character_editor/ui/deletethismf.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Do you want to delete this character?",
+      "english": "Do you want to delete this character?",
+      "lookup_english": "Do you want to delete this character?",
+      "spanish": "¿Quieres borrar a este personaje?",
+      "chinese": "要删除这个角色吗？",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/character_editor/ui/deletethismf.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "%s?",
+      "english": "%s?",
+      "lookup_english": "%s?",
+      "spanish": "%s?",
+      "chinese": "",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "copy_english",
+      "speaker": "",
+      "source": "scripts/features/character_editor/ui/deletethismf.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Percent placeholders are positional. Keep them in the same order. No words to translate. Set translation equal to english."
+    }
+  ]
+}

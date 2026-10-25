@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_praise.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_law_praise.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#prideful_nod]{{law_name}} is the right call, order beats chaos",
+      "lookup_english": "{{law_name}} is the right call, order beats chaos",
+      "spanish": "[#speaker={{speaker_id_1}}][#prideful_nod]{{law_name}} es la decisión correcta. Mejor orden que caos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#prideful_nod]{{law_name}}是对的决定，有秩序总比一团乱好。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]you really like the law that much?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#prideful_nod]",
+        "{{speaker_id_1}}",
+        "{{law_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_law_praise.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]you really like the law that much?",
+      "lookup_english": "you really like the law that much?",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]¿De verdad te gusta tanto esa ley?",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]你真这么喜欢这条法律？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#prideful_nod]{{law_name}} is the right call, order beats chaos",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]i do, at least we know where we stand",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_law_praise.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i do, at least we know where we stand",
+      "lookup_english": "i do, at least we know where we stand",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Sí. Al menos sabemos a qué atenernos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]是啊，至少大家心里有数。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]you really like the law that much?",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]fair, better a rule than a brawl",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_law_praise.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]fair, better a rule than a brawl",
+      "lookup_english": "fair, better a rule than a brawl",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Cierto, mejor una norma que una reyerta.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]有道理，有规矩总比打架强。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_law_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]i do, at least we know where we stand",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

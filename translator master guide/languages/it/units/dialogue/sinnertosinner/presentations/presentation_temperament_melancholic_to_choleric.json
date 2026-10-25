@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]wanna know what I dreamt last night?",
+      "lookup_english": "wanna know what I dreamt last night?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Quieres saber qué soñé anoche?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]想知道我昨晚梦到什么了吗？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]sorry, but I couldn't give a fuck",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]sorry, but I couldn't give a fuck",
+      "lookup_english": "sorry, but I couldn't give a fuck",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Lo siento, pero me importa una mierda.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]抱歉，但我他妈一点都不在乎。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]wanna know what I dreamt last night?",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]like who starts a conversation like that?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue#3",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]like who starts a conversation like that?",
+      "lookup_english": "like who starts a conversation like that?",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]¿Quién inicia una conversación así?",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]谁会那样开启一段对话啊？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]sorry, but I couldn't give a fuck",
+      "next_english": "[#speaker={{speaker_id_1}}][#dissapointed]me",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue#4",
+      "english": "[#speaker={{speaker_id_1}}][#dissapointed]me",
+      "lookup_english": "me",
+      "spanish": "[#speaker={{speaker_id_1}}][#dissapointed]yo...",
+      "chinese": "[#speaker={{speaker_id_1}}][#dissapointed]我……",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_temperament_melancholic_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]like who starts a conversation like that?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#dissapointed]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

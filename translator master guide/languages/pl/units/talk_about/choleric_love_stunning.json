@@ -1,0 +1,40 @@
+{
+  "unit": "talk_about",
+  "source": "data/talk_about/lines_en.json",
+  "import_target": "data/talk_about/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "choleric_love_stunning",
+      "english": "[#head_hard_nod]{name} has a fire about {obj} I can't ignore",
+      "lookup_english": "{name} has a fire about {obj} I can't ignore",
+      "spanish": "[#head_hard_nod]{name}... {obj} tiene un fuego que soy incapaz ignorar.",
+      "chinese": "[#head_hard_nod]{name}身上有一种我无法忽视的火焰，关于{obj}。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "[#head_hard_nod]",
+        "{name}",
+        "{obj}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "choleric_love_stunning"
+}

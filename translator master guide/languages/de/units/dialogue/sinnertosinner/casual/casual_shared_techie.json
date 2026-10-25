@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_techie.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_techie.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]do you ever miss having actual devices around?",
+      "lookup_english": "do you ever miss having actual devices around?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Alguna vez extrañaste tener dispositivos reales cerca?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]你会想念身边有真正的设备吗？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_techie.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]constantly, half my thoughts are just repair ideas with nowhere to go",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_techie.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]constantly, half my thoughts are just repair ideas with nowhere to go",
+      "lookup_english": "constantly, half my thoughts are just repair ideas with nowhere to go",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Constantemente. La mitad de mis pensamientos son solo ideas de reparación sin ningún lugar adonde ir.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]一直都想。我一半的念头都是无处施展的修理点子。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_techie.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]do you ever miss having actual devices around?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]that may be the most relatable thing I have heard all day",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_techie.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]that may be the most relatable thing I have heard all day",
+      "lookup_english": "that may be the most relatable thing I have heard all day",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Eso puede ser lo más identificable que he escuchado en todo el día.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]这大概是我今天听过最有共鸣的话了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_techie.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]constantly, half my thoughts are just repair ideas with nowhere to go",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

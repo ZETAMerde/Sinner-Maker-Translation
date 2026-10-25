@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/systems/village/kitchen_warning_helper.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "A kitchen has no chefs assigned to cook",
+      "english": "A kitchen has no chefs assigned to cook",
+      "lookup_english": "A kitchen has no chefs assigned to cook",
+      "spanish": "Hay una cocina sin chefs asignados",
+      "chinese": "有厨房没有分配厨师",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/systems/village/kitchen_warning_helper.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "A kitchen has a chef assigned but nothing being cooked",
+      "english": "A kitchen has a chef assigned but nothing being cooked",
+      "lookup_english": "A kitchen has a chef assigned but nothing being cooked",
+      "spanish": "Hay una cocina con chef asignado, pero no se está cocinando nada",
+      "chinese": "有厨房已分配厨师，但没有在烹饪任何东西",
+      "translation": "",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/systems/village/kitchen_warning_helper.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_murder.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_murder.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]people cross the street when we walk by",
+      "lookup_english": "people cross the street when we walk by",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]La gente cruza la calle cuando pasamos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]我们走过时，人们会穿到街对面去。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_murder.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]good, more space for us",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_murder.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]good, more space for us",
+      "lookup_english": "good, more space for us",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Bien. Más espacio para nosotros.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]很好，给我们的空间更大。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_murder.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]people cross the street when we walk by",
+      "next_english": "[#speaker={{speaker_id_1}}][#wonder]you ever think about it still?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_murder.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]you ever think about it still?",
+      "lookup_english": "you ever think about it still?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Todavía lo piensas alguna vez?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]你还会想那件事吗？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_murder.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]good, more space for us",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]every night, that is why I am awake to talk to you",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_murder.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#worried]every night, that is why I am awake to talk to you",
+      "lookup_english": "every night, that is why I am awake to talk to you",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Todas las noches. Por eso estoy despierto para hablar contigo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]每晚都想。所以我才醒着跟你说话。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_murder.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]you ever think about it still?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_child_rebel.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_family_child_rebel.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]you are not too old to be sent to your room",
+      "lookup_english": "you are not too old to be sent to your room",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]No eres demasiado mayor para que te envíen a tu habitación.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]你还没老到不能被关进房间反省。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_child_rebel.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]our room is a corner of hell, already there",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_child_rebel.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]our room is a corner of hell, already there",
+      "lookup_english": "our room is a corner of hell, already there",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Nuestra habitación es un rincón del infierno. Ya ahí.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]我们的房间是地狱的一角。早就在那里了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_child_rebel.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]you are not too old to be sent to your room",
+      "next_english": "[#speaker={{speaker_id_1}}][#worried]i swear you get worse with age",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_child_rebel.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#worried]i swear you get worse with age",
+      "lookup_english": "i swear you get worse with age",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Te juro que empeoras con la edad.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]我发誓你越老越糟。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_child_rebel.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]our room is a corner of hell, already there",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]learned from the best",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_child_rebel.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]learned from the best",
+      "lookup_english": "learned from the best",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Aprendí de los mejores.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]跟最棒的人学的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_child_rebel.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]i swear you get worse with age",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

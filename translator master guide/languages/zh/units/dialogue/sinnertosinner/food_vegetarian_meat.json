@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/food_vegetarian_meat.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/food_vegetarian_meat.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]i still will not eat that",
+      "lookup_english": "i still will not eat that",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Todavía no comeré eso.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]我还是不会吃那个。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_shake]我还是不会吃那个。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/food_vegetarian_meat.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]the world ended, your diet did too",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/food_vegetarian_meat.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]the world ended, your diet did too",
+      "lookup_english": "the world ended, your diet did too",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Se acabó el mundo. Tu dieta también lo hizo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]世界都完了。你的饮食规矩也完了。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]世界都完了。你的饮食规矩也完了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/food_vegetarian_meat.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]i still will not eat that",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]principles, asshole",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/food_vegetarian_meat.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]principles, asshole",
+      "lookup_english": "principles, asshole",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]Principios, pendejo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]原则，混蛋。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_hard_shake]原则，混蛋。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/food_vegetarian_meat.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]the world ended, your diet did too",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]principles do not fill stomachs",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/food_vegetarian_meat.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]principles do not fill stomachs",
+      "lookup_english": "principles do not fill stomachs",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Los principios no llenan el estómago.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]原则填不饱肚子。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]原则填不饱肚子。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/food_vegetarian_meat.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]principles, asshole",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ambient pair conversation.",
+  "voice_hint": ""
+}

@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_phlegmatic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_phlegmatic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]quiet company is underrated",
+      "lookup_english": "quiet company is underrated",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Se subestima la empresa tranquila.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]安静的陪伴被低估了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]it saves everyone from saying something pointless",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_phlegmatic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]it saves everyone from saying something pointless",
+      "lookup_english": "it saves everyone from saying something pointless",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Evita que todos digan algo inútil.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]这样大家就不用说些没意义的话了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]quiet company is underrated",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]that is exactly why I like it",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_phlegmatic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]that is exactly why I like it",
+      "lookup_english": "that is exactly why I like it",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Es exactamente por eso que me gusta.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]这正是我喜欢它的原因。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]it saves everyone from saying something pointless",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

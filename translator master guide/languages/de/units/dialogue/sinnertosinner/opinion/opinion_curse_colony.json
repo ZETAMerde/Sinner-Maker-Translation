@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_curse_colony.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_curse_colony.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#angry]a curse on this colony, let it rot",
+      "lookup_english": "a curse on this colony, let it rot",
+      "spanish": "[#speaker={{speaker_id_1}}][#angry]Maldita sea esta colonia, que se pudra.",
+      "chinese": "[#speaker={{speaker_id_1}}][#angry]诅咒这破殖民地，让它烂掉算了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_curse_colony.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#surprised]christ you cannot say that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#angry]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_curse_colony.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#surprised]christ you cannot say that",
+      "lookup_english": "christ you cannot say that",
+      "spanish": "[#speaker={{speaker_id_2}}][#surprised]¡Cristo! No puedes decir eso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#surprised]主啊，这话可不能乱说。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_curse_colony.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#angry]a curse on this colony, let it rot",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i can, I just did, this place can burn",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#surprised]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_curse_colony.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i can, I just did, this place can burn",
+      "lookup_english": "i can, I just did, this place can burn",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]Puedo, y acabo de hacerlo. Que arda este sitio.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]我能，我刚说了。这地方烧了才好。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_curse_colony.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#surprised]christ you cannot say that",
+      "next_english": "[#speaker={{speaker_id_2}}][#anxious_hands]i did not hear that, I will not hear that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_curse_colony.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#anxious_hands]i did not hear that, I will not hear that",
+      "lookup_english": "i did not hear that, I will not hear that",
+      "spanish": "[#speaker={{speaker_id_2}}][#anxious_hands]No he oído nada. Y no pienso oírlo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#anxious_hands]我什么都没听见，也不想听见。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_curse_colony.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i can, I just did, this place can burn",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#anxious_hands]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

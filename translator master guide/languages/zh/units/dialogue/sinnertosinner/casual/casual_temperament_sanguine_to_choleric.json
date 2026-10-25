@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]you look angry, did the chief assign you something fun?",
+      "lookup_english": "you look angry, did the chief assign you something fun?",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Pareces enojado. ¿El jefe te asignó algo divertido?",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]你看上去很生气。首领给你派了什么好玩的事？",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]你看上去很生气。首领给你派了什么好玩的事？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]everything is fun when you ignore instructions",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]everything is fun when you ignore instructions",
+      "lookup_english": "everything is fun when you ignore instructions",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Todo es divertido cuando ignoras las instrucciones.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]只要无视指令，什么都有趣。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]只要无视指令，什么都有趣。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]you look angry, did the chief assign you something fun?",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]that is why I like you, chaos with standards",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]that is why I like you, chaos with standards",
+      "lookup_english": "that is why I like you, chaos with standards",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Por eso me gustas. Caos con las normas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]这就是我喜欢你的原因，有底线的混乱。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]这就是我喜欢你的原因，有底线的混乱。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]everything is fun when you ignore instructions",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]do not make me like you back",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#worried]do not make me like you back",
+      "lookup_english": "do not make me like you back",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]No hagas que me gustes también.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]别让我也喜欢你。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]别让我也喜欢你。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_choleric.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]that is why I like you, chaos with standards",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

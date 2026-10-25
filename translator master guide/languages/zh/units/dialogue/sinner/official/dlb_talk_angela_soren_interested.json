@@ -1,0 +1,138 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_interested.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/official/dlb_talk_angela_soren_interested.dialogue#1",
+      "english": "[#wonder]Soren?",
+      "lookup_english": "Soren?",
+      "spanish": "[#wonder]¿Soren?",
+      "chinese": "[#wonder]Soren？",
+      "translation": "[#wonder]Soren？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_interested.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#uncomfortable_idle]well, he's different to me",
+      "placeholders": [
+        "[#wonder]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_soren_interested.dialogue#2",
+      "english": "[#uncomfortable_idle]well, he's different to me",
+      "lookup_english": "well, he's different to me",
+      "spanish": "[#uncomfortable_idle]Bueno... me parece que es alguien diferente",
+      "chinese": "[#uncomfortable_idle]嗯……我觉得他和别人都挺不一样的。",
+      "translation": "[#uncomfortable_idle]嗯……我觉得他和别人都挺不一样的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_interested.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#wonder]Soren?",
+      "next_english": "[#anxious_hands]but like",
+      "placeholders": [
+        "[#uncomfortable_idle]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_soren_interested.dialogue#3",
+      "english": "[#anxious_hands]but like",
+      "lookup_english": "but like",
+      "spanish": "[#anxious_hands]Pero en plan...",
+      "chinese": "[#anxious_hands]但就是……",
+      "translation": "[#anxious_hands]但就是……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_interested.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#uncomfortable_idle]well, he's different to me",
+      "next_english": "[#dont_know]i don't know",
+      "placeholders": [
+        "[#anxious_hands]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 4
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_soren_interested.dialogue#4",
+      "english": "[#dont_know]i don't know",
+      "lookup_english": "i don't know",
+      "spanish": "[#head_shake]No sé....",
+      "chinese": "[#head_shake]我也说不明白。",
+      "translation": "[#head_shake]我也说不明白。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_interested.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#anxious_hands]but like",
+      "next_english": "[#shy_cute]he seems kinda interesting",
+      "placeholders": [
+        "[#dont_know]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 5,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_soren_interested.dialogue#5",
+      "english": "[#shy_cute]he seems kinda interesting",
+      "lookup_english": "he seems kinda interesting",
+      "spanish": "[#shy_cute]Parece interesante... o algo",
+      "chinese": "[#shy_cute]他好像……挺有意思的。",
+      "translation": "[#shy_cute]他好像……挺有意思的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_interested.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#dont_know]i don't know",
+      "next_english": "",
+      "placeholders": [
+        "[#shy_cute]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 6
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "In-village Talk tree, or a Don't Look Back Talk About override.",
+  "voice_hint": ""
+}

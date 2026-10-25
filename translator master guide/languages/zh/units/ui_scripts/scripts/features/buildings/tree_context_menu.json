@@ -1,0 +1,104 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/buildings/tree_context_menu.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "Sinners with more wrath %s will cut more wood sooner",
+      "english": "Sinners with more wrath %s will cut more wood sooner",
+      "lookup_english": "Sinners with more wrath %s will cut more wood sooner",
+      "spanish": "Los pecadores con más ira %s talarán la madera más rápido",
+      "chinese": "暴怒%s越高的罪人越快砍伐更多木材",
+      "translation": "暴怒%s越高的罪人越快砍伐更多木材",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/tree_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "Grown: %d/4",
+      "english": "Grown: %d/4",
+      "lookup_english": "Grown: %d/4",
+      "spanish": "Crecido: %d/4",
+      "chinese": "成长：%d/4",
+      "translation": "成长：%d/4",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/buildings/tree_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%d"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "fruit growing:\nnone",
+      "english": "fruit growing:\nnone",
+      "lookup_english": "fruit growing:\nnone",
+      "spanish": "Fruto en crecimiento:\nninguno",
+      "chinese": "果实生长：\n无",
+      "translation": "果实生长：\n无",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/features/buildings/tree_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "fruit growing:\n%s",
+      "english": "fruit growing:\n%s",
+      "lookup_english": "fruit growing:\n%s",
+      "spanish": "Fruto en crecimiento:\n%s",
+      "chinese": "果实生长：\n%s",
+      "translation": "果实生长：\n%s",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/features/buildings/tree_context_menu.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

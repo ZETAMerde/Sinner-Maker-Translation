@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_snob.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_snob.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]the village would look much better if people respected quality",
+      "lookup_english": "the village would look much better if people respected quality",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]El pueblo se vería mucho mejor si la gente respetara la calidad.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]如果人们懂得尊重品德，这个村子会好看得多。",
+      "translation": "[#speaker={{speaker_id_1}}][#worried]如果人们懂得尊重品德，这个村子会好看得多。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_snob.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]you are speaking to one of the few who notices that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_snob.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]you are speaking to one of the few who notices that",
+      "lookup_english": "you are speaking to one of the few who notices that",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Estás hablando con uno de los pocos que se da cuenta de eso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]你正在跟少数会注意到这一点的人说话。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]你正在跟少数会注意到这一点的人说话。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_snob.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]the village would look much better if people respected quality",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]that already improves the conversation",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_snob.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]that already improves the conversation",
+      "lookup_english": "that already improves the conversation",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Eso ya mejora la conversación.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]这已经让对话好多了。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]这已经让对话好多了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_snob.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]you are speaking to one of the few who notices that",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

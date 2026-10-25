@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_snob.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_snob.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]this village is an aesthetic crime",
+      "lookup_english": "this village is an aesthetic crime",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Este pueblo es un crimen estético.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]这个村子是一场审美犯罪。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_snob.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]finally, someone with standards",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_snob.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]finally, someone with standards",
+      "lookup_english": "finally, someone with standards",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Finalmente. Alguien con estándares.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]终于。有个有品位的人。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_snob.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]this village is an aesthetic crime",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]we should start a committee, the chief will hate it",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_snob.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]we should start a committee, the chief will hate it",
+      "lookup_english": "we should start a committee, the chief will hate it",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Deberíamos formar un comité. El jefe lo odiará.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我们该成立个委员会。首领会讨厌它的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_snob.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]finally, someone with standards",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]best reason to do it",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_shared_snob.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]best reason to do it",
+      "lookup_english": "best reason to do it",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]La mejor razón para hacerlo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]这就是做这件事最好的理由。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_shared_snob.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]we should start a committee, the chief will hate it",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

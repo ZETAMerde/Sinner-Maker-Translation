@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_adult_to_young_adult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_age_adult_to_young_adult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]you still have that look people wear before the routine hardens",
+      "lookup_english": "you still have that look people wear before the routine hardens",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Aún tienes esa mirada que la gente usa antes de que la rutina se endurezca.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]你脸上还带着那种表情，在习惯固化之前人们会有的表情。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]你脸上还带着那种表情，在习惯固化之前人们会有的表情。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_adult_to_young_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]is that supposed to comfort me?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_age_adult_to_young_adult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]is that supposed to comfort me?",
+      "lookup_english": "is that supposed to comfort me?",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]¿Se supone que eso debe consolarme?",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]这话是想安慰我吗？",
+      "translation": "[#speaker={{speaker_id_2}}][#wonder]这话是想安慰我吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_adult_to_young_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]you still have that look people wear before the routine hardens",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]not really, just an observation",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_age_adult_to_young_adult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]not really, just an observation",
+      "lookup_english": "not really, just an observation",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]En realidad no. Sólo una observación.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]算不上。只是观察。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]算不上。只是观察。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_adult_to_young_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]is that supposed to comfort me?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

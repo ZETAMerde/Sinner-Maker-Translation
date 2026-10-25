@@ -1,0 +1,161 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Lilith.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Lilith.dialogue#1",
+      "english": "[#wave_hand]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#wave_hand]谢谢你让我进来。",
+      "translation": "[#wave_hand]谢谢你让我进来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Lilith.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Demon in a fashion-influencer disguise. Welcome drops the mask: call me Lilith.",
+      "prev_english": "",
+      "next_english": "[#wave_hand]oh hey honey",
+      "placeholders": [
+        "[#wave_hand]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/sinners/Lilith.dialogue#2",
+      "english": "[#wave_hand]oh hey honey",
+      "lookup_english": "oh hey honey",
+      "spanish": "[#wave_hand]Anda, hola cariño",
+      "chinese": "[#wave_hand]哦你好，亲爱的。",
+      "translation": "[#wave_hand]哦你好，亲爱的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Lilith.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Demon in a fashion-influencer disguise. Welcome drops the mask: call me Lilith.",
+      "prev_english": "[#wave_hand]thanks for letting me in",
+      "next_english": "[#laugh]ohhh yeah",
+      "placeholders": [
+        "[#wave_hand]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    },
+    {
+      "id": "welcome/sinners/Lilith.dialogue#3",
+      "english": "[#laugh]ohhh yeah",
+      "lookup_english": "ohhh yeah",
+      "spanish": "[#laugh]Ohhh sííí",
+      "chinese": "[#laugh]啊～对了～",
+      "translation": "[#laugh]啊～对了～",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Lilith.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Demon in a fashion-influencer disguise. Welcome drops the mask: call me Lilith.",
+      "prev_english": "[#wave_hand]oh hey honey",
+      "next_english": "[#bad_intentioned]i forgot to tell you that THIS is how I look",
+      "placeholders": [
+        "[#laugh]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 4
+    },
+    {
+      "id": "welcome/sinners/Lilith.dialogue#4",
+      "english": "[#bad_intentioned]i forgot to tell you that THIS is how I look",
+      "lookup_english": "i forgot to tell you that THIS is how I look",
+      "spanish": "[#bad_intentioned]Ah sí, se me olvidó decirte que me veo ASÍ.",
+      "chinese": "[#bad_intentioned]我差点忘了告诉你，这才是我本来的样子。",
+      "translation": "[#bad_intentioned]我差点忘了告诉你，这才是我本来的样子。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Lilith.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Demon in a fashion-influencer disguise. Welcome drops the mask: call me Lilith.",
+      "prev_english": "[#laugh]ohhh yeah",
+      "next_english": "[#bad_intentioned]and call me Lilith, that's better",
+      "placeholders": [
+        "[#bad_intentioned]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 5
+    },
+    {
+      "id": "welcome/sinners/Lilith.dialogue#5",
+      "english": "[#bad_intentioned]and call me Lilith, that's better",
+      "lookup_english": "and call me Lilith, that's better",
+      "spanish": "[#bad_intentioned]Y llámame Lilith, mucho mejor.",
+      "chinese": "[#bad_intentioned]还有，叫我Lilith吧，这样更好。",
+      "translation": "[#bad_intentioned]还有，叫我Lilith吧，这样更好。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Lilith.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Demon in a fashion-influencer disguise. Welcome drops the mask: call me Lilith.",
+      "prev_english": "[#bad_intentioned]i forgot to tell you that THIS is how I look",
+      "next_english": "[#head_nod]that's my real name",
+      "placeholders": [
+        "[#bad_intentioned]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 6
+    },
+    {
+      "id": "welcome/sinners/Lilith.dialogue#6",
+      "english": "[#head_nod]that's my real name",
+      "lookup_english": "that's my real name",
+      "spanish": "[#head_nod]Ese es mi nombre.",
+      "chinese": "[#head_nod]那是我的真名。",
+      "translation": "[#head_nod]那是我的真名。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Lilith.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Woman. Demon in a fashion-influencer disguise. Welcome drops the mask: call me Lilith.",
+      "prev_english": "[#bad_intentioned]and call me Lilith, that's better",
+      "next_english": "",
+      "placeholders": [
+        "[#head_nod]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 7
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": "Woman. Demon in a fashion-influencer disguise. Welcome drops the mask: call me Lilith."
+}

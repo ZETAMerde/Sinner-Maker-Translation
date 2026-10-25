@@ -1,0 +1,79 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/ui/context/substance_consume_outcomes.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "one taste and I am right back where I started",
+      "english": "one taste and I am right back where I started",
+      "lookup_english": "one taste and I am right back where I started",
+      "spanish": "Lo pruebo una vez y vuelta a la casilla de salida.",
+      "chinese": "就尝了一口，我又回到原点了。",
+      "translation": "就尝了一口，我又回到原点了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/context/substance_consume_outcomes.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "i think I need more of this",
+      "english": "i think I need more of this",
+      "lookup_english": "i think I need more of this",
+      "spanish": "Creo que necesito más de esto.",
+      "chinese": "我觉得我还得再来点。",
+      "translation": "我觉得我还得再来点。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/context/substance_consume_outcomes.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    },
+    {
+      "id": "gave:\n%s",
+      "english": "gave:\n%s",
+      "lookup_english": "gave:\n%s",
+      "spanish": "Entregado:\n%s",
+      "chinese": "已给予：\n%s",
+      "translation": "已给予：\n%s",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/ui/context/substance_consume_outcomes.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

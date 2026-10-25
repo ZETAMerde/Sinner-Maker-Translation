@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_praise.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_praise.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#exited]i rather like {{other_name}}, properly like them",
+      "lookup_english": "i rather like {{other_name}}, properly like them",
+      "spanish": "[#speaker={{speaker_id_1}}][#exited]{{other_name}} me cae bastante bien. Pero bien de verdad.",
+      "chinese": "[#speaker={{speaker_id_1}}][#exited]我挺喜欢{{other_name}}的，是真心喜欢。",
+      "translation": "[#speaker={{speaker_id_1}}][#exited]我挺喜欢{{other_name}}的，是真心喜欢。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]do you? i would not have guessed",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#exited]",
+        "{{speaker_id_1}}",
+        "{{other_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_praise.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]do you? i would not have guessed",
+      "lookup_english": "do you? i would not have guessed",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]¿Ah, sí? No lo habría adivinado.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]是吗？我还真没看出来。",
+      "translation": "[#speaker={{speaker_id_2}}][#wonder]是吗？我还真没看出来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#exited]i rather like {{other_name}}, properly like them",
+      "next_english": "[#speaker={{speaker_id_1}}][#shy_cute]they are kinder than this village deserves",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_praise.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#shy_cute]they are kinder than this village deserves",
+      "lookup_english": "they are kinder than this village deserves",
+      "spanish": "[#speaker={{speaker_id_1}}][#shy_cute]Tiene más bondad de la que este pueblo merece.",
+      "chinese": "[#speaker={{speaker_id_1}}][#shy_cute]这人的善良，这村子根本配不上。",
+      "translation": "[#speaker={{speaker_id_1}}][#shy_cute]这人的善良，这村子根本配不上。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]do you? i would not have guessed",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]i will not argue with that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#shy_cute]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_praise.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]i will not argue with that",
+      "lookup_english": "i will not argue with that",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]En eso no te voy a llevar la contraria.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]这点我没意见。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]这点我没意见。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_praise.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#shy_cute]they are kinder than this village deserves",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

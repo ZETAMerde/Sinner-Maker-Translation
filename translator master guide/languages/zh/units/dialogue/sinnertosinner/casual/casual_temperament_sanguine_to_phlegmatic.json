@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]why do you always look like you just woke up from a nap you did not want?",
+      "lookup_english": "why do you always look like you just woke up from a nap you did not want?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Por qué siempre pareces como si acabaras de despertar de una siesta que no querías?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]你怎么总像是刚从一个不想要的午睡里醒来？",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]你怎么总像是刚从一个不想要的午睡里醒来？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]because I did",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]because I did",
+      "lookup_english": "because I did",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Porque lo hice.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]因为我的确是。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]因为我的确是。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]why do you always look like you just woke up from a nap you did not want?",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]fair, want to do something stupid later?",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]fair, want to do something stupid later?",
+      "lookup_english": "fair, want to do something stupid later?",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Aceptable. ¿Quieres hacer algo estúpido más tarde?",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]行吧。晚点想干点蠢事吗？",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]行吧。晚点想干点蠢事吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]because I did",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]no, which is why you will ask again",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]no, which is why you will ask again",
+      "lookup_english": "no, which is why you will ask again",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]No. Por eso volverás a preguntar.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]不想。所以你会再问一遍。",
+      "translation": "[#speaker={{speaker_id_2}}][#wave_hand]不想。所以你会再问一遍。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_phlegmatic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]fair, want to do something stupid later?",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

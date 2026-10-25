@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_melancholic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_melancholic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]you always look like you are carrying three extra thoughts",
+      "lookup_english": "you always look like you are carrying three extra thoughts",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Siempre parece que tienes tres pensamientos adicionales.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]你总像是多背着三个念头。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]你总像是多背着三个念头。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]only three would be a pleasant day",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_melancholic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]only three would be a pleasant day",
+      "lookup_english": "only three would be a pleasant day",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]Solo tres sería un día agradable.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]只有三个的话，那都算愉快的一天了。",
+      "translation": "[#speaker={{speaker_id_2}}][#wonder]只有三个的话，那都算愉快的一天了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]you always look like you are carrying three extra thoughts",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]fair enough, I respect the honesty",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_sanguine_to_melancholic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]fair enough, I respect the honesty",
+      "lookup_english": "fair enough, I respect the honesty",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Bastante bien. Respeto la honestidad.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]有道理。我尊重这份坦诚。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]有道理。我尊重这份坦诚。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_sanguine_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]only three would be a pleasant day",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

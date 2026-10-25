@@ -1,0 +1,39 @@
+{
+  "unit": "talk_about",
+  "source": "data/talk_about/lines_en.json",
+  "import_target": "data/talk_about/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "temp_melancholic_choleric_neg",
+      "english": "[#head_shake]{name} is abrasive, wears me down",
+      "lookup_english": "{name} is abrasive, wears me down",
+      "spanish": "[#head_shake]{name} es desagradable, me es muy cansino.",
+      "chinese": "[#head_shake]{name}很粗鲁，让我心力交瘁。",
+      "translation": "[#head_shake]{name}很粗鲁，让我心力交瘁。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "[#head_shake]",
+        "{name}"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "temp_melancholic_choleric_neg"
+}

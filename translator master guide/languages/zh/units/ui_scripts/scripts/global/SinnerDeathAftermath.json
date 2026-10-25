@@ -1,0 +1,106 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/global/SinnerDeathAftermath.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "%s is dead on the cross, and you're the one who put them there",
+      "english": "%s is dead on the cross, and you're the one who put them there",
+      "lookup_english": "%s is dead on the cross, and you're the one who put them there",
+      "spanish": "%s ha muerto en la cruz, y esa cruz la pusiste tú.",
+      "chinese": "%s死在十字架上了，而把人送上去的就是你。",
+      "translation": "%s死在十字架上了，而把人送上去的就是你。",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/global/SinnerDeathAftermath.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "%s is gone, you had them harvested",
+      "english": "%s is gone, you had them harvested",
+      "lookup_english": "%s is gone, you had them harvested",
+      "spanish": "%s ya no está. Tú ordenaste la cosecha.",
+      "chinese": "%s不在了，是你下令收割的。",
+      "translation": "%s不在了，是你下令收割的。",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/global/SinnerDeathAftermath.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "%s is dead, Gabriel killed them but you told him to",
+      "english": "%s is dead, Gabriel killed them but you told him to",
+      "lookup_english": "%s is dead, Gabriel killed them but you told him to",
+      "spanish": "%s ha muerto. Gabriel lo hizo, pero porque tú se lo ordenaste.",
+      "chinese": "%s死了，是Gabriel动的手，但是你让他这么做的。",
+      "translation": "%s死了，是Gabriel动的手，但是你让他这么做的。",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/global/SinnerDeathAftermath.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "the wheel took %s, and you were the one who spun it",
+      "english": "the wheel took %s, and you were the one who spun it",
+      "lookup_english": "the wheel took %s, and you were the one who spun it",
+      "spanish": "La rueda se llevó a %s, y fuiste tú quien la hizo girar.",
+      "chinese": "轮盘带走了%s，而转动它的人是你。",
+      "translation": "轮盘带走了%s，而转动它的人是你。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/global/SinnerDeathAftermath.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    }
+  ]
+}

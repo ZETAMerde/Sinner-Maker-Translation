@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i wanted a closer reason to stand here",
+      "lookup_english": "i wanted a closer reason to stand here",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Quería una razón más cercana para estar aquí.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]我想要一个更亲近的理由站在这儿。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]then stay close, I do not mind",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]then stay close, I do not mind",
+      "lookup_english": "then stay close, I do not mind",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Entonces quédate cerca. No me importa.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]那就靠近点。我不介意。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]i wanted a closer reason to stand here",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]that was easier than expected",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]that was easier than expected",
+      "lookup_english": "that was easier than expected",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Eso fue más fácil de lo esperado.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]这比预想的容易。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]then stay close, I do not mind",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_hard_nod]do not waste the advantage",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_hard_nod]do not waste the advantage",
+      "lookup_english": "do not waste the advantage",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_hard_nod]No desperdicies la ventaja.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_hard_nod]别浪费这个有利条件。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/presentations/presentation_flirt_male_reciprocated.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]that was easier than expected",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_hard_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "First meeting between two sinners.",
+  "voice_hint": ""
+}

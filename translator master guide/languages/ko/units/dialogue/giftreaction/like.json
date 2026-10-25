@@ -1,0 +1,93 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/giftreaction/like.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "giftreaction/like.dialogue#1",
+      "english": "{{reaction_line}}",
+      "lookup_english": "{{reaction_line}}",
+      "spanish": "{{reaction_line}}",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/giftreaction/like.dialogue",
+      "channel": "gift",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#head_nod]{{reaction_line}}",
+      "placeholders": [
+        "{{reaction_line}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 2
+    },
+    {
+      "id": "giftreaction/like.dialogue#2",
+      "english": "[#head_nod]{{reaction_line}}",
+      "lookup_english": "{{reaction_line}}",
+      "spanish": "{{reaction_line}}",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/giftreaction/like.dialogue",
+      "channel": "gift",
+      "voice_hint": "",
+      "prev_english": "{{reaction_line}}",
+      "next_english": "[#surprised]{{reaction_line}}",
+      "placeholders": [
+        "[#head_nod]",
+        "{{reaction_line}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 6,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "giftreaction/like.dialogue#3",
+      "english": "[#surprised]{{reaction_line}}",
+      "lookup_english": "{{reaction_line}}",
+      "spanish": "{{reaction_line}}",
+      "chinese": "",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "copy_english",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/giftreaction/like.dialogue",
+      "channel": "gift",
+      "voice_hint": "",
+      "prev_english": "[#head_nod]{{reaction_line}}",
+      "next_english": "",
+      "placeholders": [
+        "[#surprised]",
+        "{{reaction_line}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": true,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. No words to translate. Set translation equal to english.",
+      "source_line": 10,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english."
+    }
+  ],
+  "channel": "gift",
+  "channel_note": "Gift balloon. The spoken reaction is often filled from code.",
+  "voice_hint": ""
+}

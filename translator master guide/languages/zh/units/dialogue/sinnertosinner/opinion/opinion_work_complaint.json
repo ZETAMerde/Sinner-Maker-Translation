@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_complaint.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_work_complaint.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#dissapointed]i am sick of work, let the chief break their own back",
+      "lookup_english": "i am sick of work, let the chief break their own back",
+      "spanish": "[#speaker={{speaker_id_1}}][#dissapointed]Estoy hasta las narices de trabajar. Que se deslome el jefe.",
+      "chinese": "[#speaker={{speaker_id_1}}][#dissapointed]我受够干活了，让首领自己去累断腰吧。",
+      "translation": "[#speaker={{speaker_id_1}}][#dissapointed]我受够干活了，让首领自己去累断腰吧。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_complaint.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wonder]you would rather starve?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#dissapointed]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_work_complaint.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wonder]you would rather starve?",
+      "lookup_english": "you would rather starve?",
+      "spanish": "[#speaker={{speaker_id_2}}][#wonder]¿Prefieres morirte de hambre?",
+      "chinese": "[#speaker={{speaker_id_2}}][#wonder]你宁愿饿死？",
+      "translation": "[#speaker={{speaker_id_2}}][#wonder]你宁愿饿死？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_complaint.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#dissapointed]i am sick of work, let the chief break their own back",
+      "next_english": "[#speaker={{speaker_id_1}}][#frustrated]i would rather not be a mule, work is a curse they dressed up as virtue",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wonder]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_work_complaint.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#frustrated]i would rather not be a mule, work is a curse they dressed up as virtue",
+      "lookup_english": "i would rather not be a mule, work is a curse they dressed up as virtue",
+      "spanish": "[#speaker={{speaker_id_1}}][#frustrated]Prefiero no ser una mula. El trabajo es una maldición disfrazada de virtud.",
+      "chinese": "[#speaker={{speaker_id_1}}][#frustrated]我宁愿别当牛做马，干活就是被他们打扮成美德的诅咒。",
+      "translation": "[#speaker={{speaker_id_1}}][#frustrated]我宁愿别当牛做马，干活就是被他们打扮成美德的诅咒。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_complaint.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wonder]you would rather starve?",
+      "next_english": "[#speaker={{speaker_id_2}}][#uninterested]keep that to yourself, some of us still clock in",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#frustrated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_work_complaint.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#uninterested]keep that to yourself, some of us still clock in",
+      "lookup_english": "keep that to yourself, some of us still clock in",
+      "spanish": "[#speaker={{speaker_id_2}}][#uninterested]Guárdatelo para ti, que aquí hay quien todavía ficha.",
+      "chinese": "[#speaker={{speaker_id_2}}][#uninterested]这话自己留着吧，我们有些人还得上工呢。",
+      "translation": "[#speaker={{speaker_id_2}}][#uninterested]这话自己留着吧，我们有些人还得上工呢。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_work_complaint.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#frustrated]i would rather not be a mule, work is a curse they dressed up as virtue",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#uninterested]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

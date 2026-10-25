@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_cross.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_mock_cross.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#bad_intentioned]that Cross is just timber, they treat it like it can save them",
+      "lookup_english": "that Cross is just timber, they treat it like it can save them",
+      "spanish": "[#speaker={{speaker_id_1}}][#bad_intentioned]Esa Cruz es solo madera, y la tratan como si pudiera traerles la salvación.",
+      "chinese": "[#speaker={{speaker_id_1}}][#bad_intentioned]那十字架不过是块木头，他们却当它能救命。",
+      "translation": "[#speaker={{speaker_id_1}}][#bad_intentioned]那十字架不过是块木头，他们却当它能救命。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_cross.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]do not mock the Cross",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#bad_intentioned]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_mock_cross.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]do not mock the Cross",
+      "lookup_english": "do not mock the Cross",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]No te burles de la Cruz.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]别嘲笑十字架。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]别嘲笑十字架。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_cross.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#bad_intentioned]that Cross is just timber, they treat it like it can save them",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_shake]why not? two planks and a story, that is all",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_mock_cross.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]why not? two planks and a story, that is all",
+      "lookup_english": "why not? two planks and a story, that is all",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]¿Por qué no? Dos tablones y un cuento, nada más.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]为什么不？两块木板加一个故事，仅此而已。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_shake]为什么不？两块木板加一个故事，仅此而已。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_cross.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]do not mock the Cross",
+      "next_english": "[#speaker={{speaker_id_2}}][#frustrated]enough, I will not stand here for that",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_mock_cross.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#frustrated]enough, I will not stand here for that",
+      "lookup_english": "enough, I will not stand here for that",
+      "spanish": "[#speaker={{speaker_id_2}}][#frustrated]Basta. No pienso quedarme aquí escuchando eso.",
+      "chinese": "[#speaker={{speaker_id_2}}][#frustrated]够了，我不会站在这儿听你说这些。",
+      "translation": "[#speaker={{speaker_id_2}}][#frustrated]够了，我不会站在这儿听你说这些。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_mock_cross.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]why not? two planks and a story, that is all",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#frustrated]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

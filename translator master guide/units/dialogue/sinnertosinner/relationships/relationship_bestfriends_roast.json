@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_roast.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_roast.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]if the chief assigned brains, you would be on permanent break",
+      "lookup_english": "if the chief assigned brains, you would be on permanent break",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Si el jefe asignara cerebros, estarías en descanso permanente.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]要是首领分配脑子，你会永久休假。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_roast.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]good thing I am pretty, you are relying on personality and that is tragic",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_roast.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]good thing I am pretty, you are relying on personality and that is tragic",
+      "lookup_english": "good thing I am pretty, you are relying on personality and that is tragic",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Qué bueno que soy bonita. Dependes de la personalidad y eso es trágico.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]幸好我长得好看。你只能靠人格魅力，那可太惨了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_roast.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]if the chief assigned brains, you would be on permanent break",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]see? this is why we work",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_roast.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]see? this is why we work",
+      "lookup_english": "see? this is why we work",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]¿Ves? Por eso trabajamos.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]看吧？这就是我们合拍的原因。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_roast.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#wave_hand]good thing I am pretty, you are relying on personality and that is tragic",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]we work because nobody else can stand us",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_roast.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]we work because nobody else can stand us",
+      "lookup_english": "we work because nobody else can stand us",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Trabajamos porque nadie más nos soporta.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]我们合拍是因为没别人受得了我们。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_roast.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]see? this is why we work",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

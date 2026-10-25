@@ -1,0 +1,66 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Soren.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Soren.dialogue#1",
+      "english": "[#uninterested]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#uninterested]谢了。",
+      "translation": "[#uninterested]谢了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Soren.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Man. Blunt, lean, hmm, hey. Do not write him as a second Mario.",
+      "prev_english": "",
+      "next_english": "[#uninterested]wimp",
+      "placeholders": [
+        "[#uninterested]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "welcome/sinners/Soren.dialogue#2",
+      "english": "[#uninterested]wimp",
+      "lookup_english": "wimp",
+      "spanish": "[#uninterested]Pringao",
+      "chinese": "[#uninterested]怂包。",
+      "translation": "[#uninterested]怂包。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Soren.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Man. Blunt, lean, hmm, hey. Do not write him as a second Mario.",
+      "prev_english": "[#uninterested]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#uninterested]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": "Man. Blunt, lean, hmm, hey. Do not write him as a second Mario."
+}

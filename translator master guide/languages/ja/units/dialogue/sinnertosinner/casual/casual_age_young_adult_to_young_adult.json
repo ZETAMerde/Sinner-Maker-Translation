@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_young_adult_to_young_adult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_age_young_adult_to_young_adult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]does it ever feel strange that we are supposed to know what we are doing already?",
+      "lookup_english": "does it ever feel strange that we are supposed to know what we are doing already?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]¿Alguna vez te ha parecido extraño que se supone que ya sabemos lo que estamos haciendo?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我们本该已经知道自己在做什么，这感觉不奇怪吗？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_young_adult_to_young_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]constantly, everyone acts certain, and nobody really is",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_age_young_adult_to_young_adult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]constantly, everyone acts certain, and nobody really is",
+      "lookup_english": "constantly, everyone acts certain, and nobody really is",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]Constantemente. Todo el mundo actúa con seguridad y nadie lo está realmente.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]一直都觉得。每个人都表现得笃定，但没有谁真的如此。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_young_adult_to_young_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]does it ever feel strange that we are supposed to know what we are doing already?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]good, I was worried that was just me",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_age_young_adult_to_young_adult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]good, I was worried that was just me",
+      "lookup_english": "good, I was worried that was just me",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Bien. Me preocupaba que fuera solo yo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]那就好。我还担心只有我这么觉得。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_age_young_adult_to_young_adult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]constantly, everyone acts certain, and nobody really is",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

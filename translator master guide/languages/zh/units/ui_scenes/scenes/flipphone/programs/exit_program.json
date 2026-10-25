@@ -1,0 +1,56 @@
+{
+  "unit": "ui_scenes",
+  "source": "scenes/flipphone/programs/exit_program.tscn",
+  "import_target": "locale/official_es/ui_scenes.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "exit\ngame",
+      "english": "exit\ngame",
+      "lookup_english": "exit\ngame",
+      "spanish": "Salir del\njuego",
+      "chinese": "退出\n游戏",
+      "translation": "退出\n游戏",
+      "style": "ui_button",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/flipphone/programs/exit_program.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    },
+    {
+      "id": "quit to\nmenu",
+      "english": "quit to\nmenu",
+      "lookup_english": "quit to\nmenu",
+      "spanish": "Volver al\nmenú",
+      "chinese": "返回\n主菜单",
+      "translation": "返回\n主菜单",
+      "style": "ui_button",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scenes/flipphone/programs/exit_program.tscn",
+      "channel": "ui_scene",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scenes.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "This english key includes any padding spaces. Do not trim english. spanish and chinese are the shipped labels."
+    }
+  ]
+}

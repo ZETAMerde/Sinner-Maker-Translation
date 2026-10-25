@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_insult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_insult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#frustrated]satan can choke on his own smoke, I am done fearing a failed angel",
+      "lookup_english": "satan can choke on his own smoke, I am done fearing a failed angel",
+      "spanish": "[#speaker={{speaker_id_1}}][#frustrated]Que Satanás se ahogue en su propio humo. Se acabó temer a un ángel fracasado.",
+      "chinese": "[#speaker={{speaker_id_1}}][#frustrated]撒旦被自己的烟呛死算了，我受够了怕一个失败的天使。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#anxious_hands]do not mock him, please",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#frustrated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_insult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#anxious_hands]do not mock him, please",
+      "lookup_english": "do not mock him, please",
+      "spanish": "[#speaker={{speaker_id_2}}][#anxious_hands]No te burles de él, por favor.",
+      "chinese": "[#speaker={{speaker_id_2}}][#anxious_hands]别嘲笑他，求你了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#frustrated]satan can choke on his own smoke, I am done fearing a failed angel",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i will, he is a coward with a pretty name",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#anxious_hands]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_insult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i will, he is a coward with a pretty name",
+      "lookup_english": "i will, he is a coward with a pretty name",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]Pues me burlo. Es un cobarde con un nombre bonito.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]我偏要，他就是个名字好听的懦夫。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#anxious_hands]do not mock him, please",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]if something answers that, it is on you",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_satan_insult.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#worried]if something answers that, it is on you",
+      "lookup_english": "if something answers that, it is on you",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Si algo responde a eso, será culpa tuya.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]要是真有什么东西应了这话，那都怪你。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_satan_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]i will, he is a coward with a pretty name",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

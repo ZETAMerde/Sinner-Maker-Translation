@@ -1,0 +1,39 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/nightmare_aftermath.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/nightmare_aftermath.dialogue#1",
+      "english": "woah that was weird",
+      "lookup_english": "woah that was weird",
+      "spanish": "Anda, vaya cosa más rara.",
+      "chinese": "哇哦，那可真怪。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/nightmare_aftermath.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "Player talking to one sinner: menus, romance, crisis, feed, gifts.",
+  "voice_hint": ""
+}

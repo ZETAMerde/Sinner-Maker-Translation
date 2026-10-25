@@ -1,0 +1,113 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_mario_angela_ex.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/official/dlb_talk_mario_angela_ex.dialogue#1",
+      "english": "[#cry]Angela?",
+      "lookup_english": "Angela?",
+      "spanish": "[#cry]¿Angela?",
+      "chinese": "[#cry]Angela？",
+      "translation": "[#cry]Angela？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_mario_angela_ex.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#uncomfortable_idle]mmmhmmm",
+      "placeholders": [
+        "[#cry]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "sinner/official/dlb_talk_mario_angela_ex.dialogue#2",
+      "english": "[#uncomfortable_idle]mmmhmmm",
+      "lookup_english": "mmmhmmm",
+      "spanish": "[#uncomfortable_idle]mmmmm... uuugg..",
+      "chinese": "[#uncomfortable_idle]嗯……呜……",
+      "translation": "[#uncomfortable_idle]嗯……呜……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_mario_angela_ex.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#cry]Angela?",
+      "next_english": "[#hard_cry]waaaauwwwaaaawwwuuuuwww",
+      "placeholders": [
+        "[#uncomfortable_idle]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    },
+    {
+      "id": "sinner/official/dlb_talk_mario_angela_ex.dialogue#3",
+      "english": "[#hard_cry]waaaauwwwaaaawwwuuuuwww",
+      "lookup_english": "waaaauwwwaaaawwwuuuuwww",
+      "spanish": "[#hard_cry]Uaaaaaaauaaaaaauuuuaaugg",
+      "chinese": "[#hard_cry]哇啊啊啊呜呜呜哇啊啊啊呜呜呜～",
+      "translation": "[#hard_cry]哇啊啊啊呜呜呜哇啊啊啊呜呜呜～",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_mario_angela_ex.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#uncomfortable_idle]mmmhmmm",
+      "next_english": "[#cry]snif snif",
+      "placeholders": [
+        "[#hard_cry]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 4
+    },
+    {
+      "id": "sinner/official/dlb_talk_mario_angela_ex.dialogue#4",
+      "english": "[#cry]snif snif",
+      "lookup_english": "snif snif",
+      "spanish": "[#cry]snif snif...",
+      "chinese": "[#cry]呜……吸……吸……",
+      "translation": "[#cry]呜……吸……吸……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_mario_angela_ex.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#hard_cry]waaaauwwwaaaawwwuuuuwww",
+      "next_english": "",
+      "placeholders": [
+        "[#cry]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 5
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "In-village Talk tree, or a Don't Look Back Talk About override.",
+  "voice_hint": ""
+}

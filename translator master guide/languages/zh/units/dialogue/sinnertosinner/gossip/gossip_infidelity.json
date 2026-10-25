@@ -1,0 +1,69 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_infidelity.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/gossip/gossip_infidelity.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]did you hear? {{gossip_actor_name}} and {{gossip_subject_name}} and someone is married in that mess, the whole village will call it what it is",
+      "lookup_english": "did you hear? {{gossip_actor_name}} and {{gossip_subject_name}} and someone is married in that mess, the whole village will call it what it is",
+      "spanish": "[#speaker={{speaker_id_1}}]¿Escuchaste? {{gossip_actor_name}} y {{gossip_subject_name}} y alguien está casado en ese lío. Todo el pueblo lo llamará como es.",
+      "chinese": "[#speaker={{speaker_id_1}}]你听说了吗？{{gossip_actor_name}}和{{gossip_subject_name}}，而且那摊烂事里还有人已婚。全村都会把这叫做它本来的样子。",
+      "translation": "[#speaker={{speaker_id_1}}]你听说了吗？{{gossip_actor_name}}和{{gossip_subject_name}}，而且那摊烂事里还有人已婚。全村都会把这叫做它本来的样子。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_infidelity.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]infidelity, I hope their partner finds out before the rumors do",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}",
+        "{{gossip_actor_name}}",
+        "{{gossip_subject_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/gossip/gossip_infidelity.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]infidelity, I hope their partner finds out before the rumors do",
+      "lookup_english": "infidelity, I hope their partner finds out before the rumors do",
+      "spanish": "[#speaker={{speaker_id_2}}]Infidelidad. Espero que su socio se entere antes de que lo hagan los rumores.",
+      "chinese": "[#speaker={{speaker_id_2}}]不忠。我希望他们的伴侣在谣言之前先发现。",
+      "translation": "[#speaker={{speaker_id_2}}]不忠。我希望他们的伴侣在谣言之前先发现。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_infidelity.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]did you hear? {{gossip_actor_name}} and {{gossip_subject_name}} and someone is married in that mess, the whole village will call it what it is",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Gossip between two sinners.",
+  "voice_hint": ""
+}

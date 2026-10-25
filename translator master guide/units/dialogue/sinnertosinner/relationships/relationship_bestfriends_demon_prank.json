@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]i have a terrible idea involving demon bait and the snob's house",
+      "lookup_english": "i have a terrible idea involving demon bait and the snob's house",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Tengo una idea terrible que involucra el cebo para demonios y la casa del snob.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我有个糟糕的主意，要用恶魔诱饵和那个势利眼的房子。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]i am listening",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]i am listening",
+      "lookup_english": "i am listening",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Estoy escuchando.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]我在听。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]i have a terrible idea involving demon bait and the snob's house",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]we run immediately after",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]we run immediately after",
+      "lookup_english": "we run immediately after",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Corremos inmediatamente después.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]我们之后立刻跑。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]i am listening",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]that was implied, when do we start?",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]that was implied, when do we start?",
+      "lookup_english": "that was implied, when do we start?",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Eso estaba implícito. ¿Cuándo empezamos?",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]那是当然的。我们什么时候开始？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_bestfriends_demon_prank.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]we run immediately after",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

@@ -1,0 +1,92 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_open_up_emotionally.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/proposal/proposal_open_up_emotionally.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]i want to tell you something I do not usually say out loud, I care about you, more than I expected",
+      "lookup_english": "i want to tell you something I do not usually say out loud, I care about you, more than I expected",
+      "spanish": "[#speaker={{speaker_id_1}}]Quiero decirte algo que no suelo decir en voz alta. Me preocupo por ti. Más de lo que esperaba.",
+      "chinese": "[#speaker={{speaker_id_1}}]我想告诉你一件我通常不会说出口的事。我在乎你，比我想象的还要多。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_open_up_emotionally.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]that is the most honest thing anyone has said to me here, I feel it too, yes",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_open_up_emotionally.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]that is the most honest thing anyone has said to me here, I feel it too, yes",
+      "lookup_english": "that is the most honest thing anyone has said to me here, I feel it too, yes",
+      "spanish": "[#speaker={{speaker_id_2}}]Eso es lo más honesto que alguien me ha dicho aquí. Yo también lo siento. Sí.",
+      "chinese": "[#speaker={{speaker_id_2}}]这是这里有人对我说过最诚实的话。我也有同样的感觉，是的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_open_up_emotionally.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]i want to tell you something I do not usually say out loud, I care about you, more than I expected",
+      "next_english": "[#speaker={{speaker_id_2}}]i am moved that you told me, truly, but my heart does not feel the same way, I am sorry",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 9
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_open_up_emotionally.dialogue#3",
+      "english": "[#speaker={{speaker_id_2}}]i am moved that you told me, truly, but my heart does not feel the same way, I am sorry",
+      "lookup_english": "i am moved that you told me, truly, but my heart does not feel the same way, I am sorry",
+      "spanish": "[#speaker={{speaker_id_2}}]Me conmueve que me lo hayas contado. Realmente. Pero mi corazón no siente lo mismo. Lo siento.",
+      "chinese": "[#speaker={{speaker_id_2}}]你告诉我这些，我很感动，真的。但我的心没有同样的感觉。对不起。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_open_up_emotionally.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}]that is the most honest thing anyone has said to me here, I feel it too, yes",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 15
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "One sinner approaches a crush.",
+  "voice_hint": ""
+}

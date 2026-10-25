@@ -1,0 +1,65 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Isaiah.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Isaiah.dialogue#1",
+      "english": "[#frustrated]are you fucking deaf?",
+      "lookup_english": "are you fucking deaf?",
+      "spanish": "[#frustrated]¿Estás puto sordo?",
+      "chinese": "[#frustrated]你他妈聋了吗？",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Isaiah.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Man. Wants to be left alone. Short. He never says thanks. Do not soften him.",
+      "prev_english": "",
+      "next_english": "[#face_rub]gosh",
+      "placeholders": [
+        "[#frustrated]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "welcome/sinners/Isaiah.dialogue#2",
+      "english": "[#face_rub]gosh",
+      "lookup_english": "gosh",
+      "spanish": "[#face_rub]Joder...",
+      "chinese": "[#face_rub]老天……",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Isaiah.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Man. Wants to be left alone. Short. He never says thanks. Do not soften him.",
+      "prev_english": "[#frustrated]are you fucking deaf?",
+      "next_english": "",
+      "placeholders": [
+        "[#face_rub]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": "Man. Wants to be left alone. Short. He never says thanks. Do not soften him."
+}

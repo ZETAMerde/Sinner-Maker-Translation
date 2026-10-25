@@ -1,0 +1,107 @@
+{
+  "unit": "dialogue_library",
+  "source": "data/dialogue_library/lines_en.json",
+  "import_target": "data/dialogue_library/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "BIRTH_HELPER_CHOSEN_LINES/sanguine",
+      "english": "thank God {{helper_name}} will help us!",
+      "lookup_english": "thank God {{helper_name}} will help us!",
+      "spanish": "¡Gracias a Dios {{helper_name}} nos ayudará!",
+      "chinese": "感谢上帝，{{helper_name}}会帮我们！",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/dialogue_library/lines_en.json",
+      "channel": "dialogue_library",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "good, {{helper_name}} will help, move quickly",
+      "placeholders": [
+        "{{helper_name}}"
+      ],
+      "import_target": "data/dialogue_library/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "BIRTH_HELPER_CHOSEN_LINES/choleric",
+      "english": "good, {{helper_name}} will help, move quickly",
+      "lookup_english": "good, {{helper_name}} will help, move quickly",
+      "spanish": "Bien. {{helper_name}} ayudará. Muévanse rápido.",
+      "chinese": "很好，{{helper_name}}会帮忙，动作快点。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/dialogue_library/lines_en.json",
+      "channel": "dialogue_library",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "thank God {{helper_name}} will help us!",
+      "next_english": "please, let {{helper_name}} help us through this",
+      "placeholders": [
+        "{{helper_name}}"
+      ],
+      "import_target": "data/dialogue_library/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "BIRTH_HELPER_CHOSEN_LINES/melancholic",
+      "english": "please, let {{helper_name}} help us through this",
+      "lookup_english": "please, let {{helper_name}} help us through this",
+      "spanish": "Por favor... dejen que {{helper_name}} nos ayude a superar esto.",
+      "chinese": "求求你们，让{{helper_name}}帮我们渡过这一关吧。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/dialogue_library/lines_en.json",
+      "channel": "dialogue_library",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "good, {{helper_name}} will help, move quickly",
+      "next_english": "alright, {{helper_name}} will help us",
+      "placeholders": [
+        "{{helper_name}}"
+      ],
+      "import_target": "data/dialogue_library/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    },
+    {
+      "id": "BIRTH_HELPER_CHOSEN_LINES/phlegmatic",
+      "english": "alright, {{helper_name}} will help us",
+      "lookup_english": "alright, {{helper_name}} will help us",
+      "spanish": "Está bien. {{helper_name}} nos ayudará.",
+      "chinese": "好吧，{{helper_name}}会帮我们的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/dialogue_library/lines_en.json",
+      "channel": "dialogue_library",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "please, let {{helper_name}} help us through this",
+      "next_english": "",
+      "placeholders": [
+        "{{helper_name}}"
+      ],
+      "import_target": "data/dialogue_library/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly. Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "BIRTH_HELPER_CHOSEN_LINES"
+}

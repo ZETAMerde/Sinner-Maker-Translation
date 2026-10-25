@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_insult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_insult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#frustrated]{{other_name}} is a stain, I cannot stand them",
+      "lookup_english": "{{other_name}} is a stain, I cannot stand them",
+      "spanish": "[#speaker={{speaker_id_1}}][#frustrated]{{other_name}} es una lacra, no soporto su presencia.",
+      "chinese": "[#speaker={{speaker_id_1}}][#frustrated]{{other_name}}就是个污点，我受不了这人。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]that is harsh",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#frustrated]",
+        "{{speaker_id_1}}",
+        "{{other_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_insult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]that is harsh",
+      "lookup_english": "that is harsh",
+      "spanish": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]Eso es muy duro.",
+      "chinese": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]这话太狠了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#frustrated]{{other_name}} is a stain, I cannot stand them",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]it is earned, they should hear it",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#uncomfortable_idle]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_insult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]it is earned, they should hear it",
+      "lookup_english": "it is earned, they should hear it",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]Se lo ha ganado. Debería oírlo.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]这是自找的，就该让这人听听。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#uncomfortable_idle]that is harsh",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]i will not carry that message",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_sinner_insult.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]i will not carry that message",
+      "lookup_english": "i will not carry that message",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Yo no pienso llevarle ese recado.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]我可不替你传这话。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_sinner_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]it is earned, they should hear it",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

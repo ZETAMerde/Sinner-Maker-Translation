@@ -1,0 +1,58 @@
+{
+  "unit": "ui_scripts",
+  "source": "scripts/features/flipphone/program_scripts/confirm_call.gd",
+  "import_target": "locale/official_es/ui_scripts.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "do you want to call\n%s\nto come to your village?",
+      "english": "do you want to call\n%s\nto come to your village?",
+      "lookup_english": "do you want to call\n%s\nto come to your village?",
+      "spanish": "¿Quieres llamar a\n%s\npara que venga a tu pueblo?",
+      "chinese": "要叫\n%s\n来你的村庄吗？",
+      "translation": "要叫\n%s\n来你的村庄吗？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "",
+      "source": "scripts/features/flipphone/program_scripts/confirm_call.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "%s"
+      ],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Percent placeholders are positional. Keep them in the same order."
+    },
+    {
+      "id": "You don't have enough candles",
+      "english": "You don't have enough candles",
+      "lookup_english": "You don't have enough candles",
+      "spanish": "No tienes suficientes velas",
+      "chinese": "你的蜡烛不够",
+      "translation": "你的蜡烛不够",
+      "style": "ui_label",
+      "casing_rule": "ui_sentence",
+      "speaker": "",
+      "source": "scripts/features/flipphone/program_scripts/confirm_call.gd",
+      "channel": "ui_script",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [],
+      "import_target": "locale/official_<locale>/ui_scripts.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": ""
+    }
+  ]
+}

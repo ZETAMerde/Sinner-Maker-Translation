@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_melancholic.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_melancholic.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wonder]do you ever feel like everyone here is pretending not to notice the cracks?",
+      "lookup_english": "do you ever feel like everyone here is pretending not to notice the cracks?",
+      "spanish": "[#speaker={{speaker_id_1}}][#wonder]¿Alguna vez has sentido que todos aquí fingen no notar las grietas?",
+      "chinese": "[#speaker={{speaker_id_1}}][#wonder]你有没有觉得这里每个人都在假装没注意到那些裂痕？",
+      "translation": "[#speaker={{speaker_id_1}}][#wonder]你有没有觉得这里每个人都在假装没注意到那些裂痕？",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]all the time, pretending is easier than fixing things",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wonder]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_melancholic.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]all the time, pretending is easier than fixing things",
+      "lookup_english": "all the time, pretending is easier than fixing things",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Todo el tiempo. Fingir es más fácil que arreglar las cosas.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]一直这么觉得。假装比修补容易。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]一直这么觉得。假装比修补容易。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wonder]do you ever feel like everyone here is pretending not to notice the cracks?",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]i knew you would understand that",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_melancholic_to_melancholic.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]i knew you would understand that",
+      "lookup_english": "i knew you would understand that",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]Sabía que lo entenderías.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]我就知道你会明白这一点。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_nod]我就知道你会明白这一点。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_melancholic_to_melancholic.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]all the time, pretending is easier than fixing things",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_shake]mom always liked you more",
+      "lookup_english": "mom always liked you more",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_shake]Siempre le gustaste más a mamá.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_shake]妈妈总是更喜欢你。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]mom is dead and the world ended, let it go",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]mom is dead and the world ended, let it go",
+      "lookup_english": "mom is dead and the world ended, let it go",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Mamá está muerta y el mundo se acabó. Déjalo ir.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]妈妈死了，世界也完了。别再想了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_shake]mom always liked you more",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]you would still find a way to win",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]you would still find a way to win",
+      "lookup_english": "you would still find a way to win",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]Aún encontrarás una manera de ganar.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]你还是会找到办法赢。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]mom is dead and the world ended, let it go",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]skill issue, love you though",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]skill issue, love you though",
+      "lookup_english": "skill issue, love you though",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Problema de habilidad. Aunque te amo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]水平不行。不过还是爱你。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_sibling_rivalry.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]you would still find a way to win",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

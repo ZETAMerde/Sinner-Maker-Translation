@@ -1,0 +1,67 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/hookup/hookup_morning_acceptable.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/hookup/hookup_morning_acceptable.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]last night was, better than I expected, not incredible, but good",
+      "lookup_english": "last night was, better than I expected, not incredible, but good",
+      "spanish": "[#speaker={{speaker_id_1}}]Anoche fue... mejor de lo que esperaba. No es increíble, pero bueno.",
+      "chinese": "[#speaker={{speaker_id_1}}]昨晚……比我想的要好。算不上难以置信，但不错。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/hookup/hookup_morning_acceptable.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]acceptable, I would not complain if it happened again",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/hookup/hookup_morning_acceptable.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]acceptable, I would not complain if it happened again",
+      "lookup_english": "acceptable, I would not complain if it happened again",
+      "spanish": "[#speaker={{speaker_id_2}}]Aceptable. No me quejaría si volviera a suceder.",
+      "chinese": "[#speaker={{speaker_id_2}}]可以接受。要是再来一次，我也不会抱怨。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/hookup/hookup_morning_acceptable.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]last night was, better than I expected, not incredible, but good",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Hookup offer or morning after.",
+  "voice_hint": ""
+}

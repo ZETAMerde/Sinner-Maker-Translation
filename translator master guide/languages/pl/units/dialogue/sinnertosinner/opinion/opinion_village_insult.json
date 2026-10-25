@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_insult.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/opinion/opinion_village_insult.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#dissapointed]this village is a pit, mud, rules, and miserable faces",
+      "lookup_english": "this village is a pit, mud, rules, and miserable faces",
+      "spanish": "[#speaker={{speaker_id_1}}][#dissapointed]Este pueblo es un pozo: barro, normas y caras amargadas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#dissapointed]这村子就是个坑，烂泥、规矩，还有一张张苦脸。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]you should not say that so loudly",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#dissapointed]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_village_insult.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#worried]you should not say that so loudly",
+      "lookup_english": "you should not say that so loudly",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]No deberías decir eso tan alto.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]你不该说这么大声。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#dissapointed]this village is a pit, mud, rules, and miserable faces",
+      "next_english": "[#speaker={{speaker_id_1}}][#frustrated]why not? it is true, this place eats people",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_village_insult.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#frustrated]why not? it is true, this place eats people",
+      "lookup_english": "why not? it is true, this place eats people",
+      "spanish": "[#speaker={{speaker_id_1}}][#frustrated]¿Por qué no? Es verdad, este sitio devora a la gente.",
+      "chinese": "[#speaker={{speaker_id_1}}][#frustrated]为什么不？这是实话，这地方吃人。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#worried]you should not say that so loudly",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]i live here, I would rather not hear it",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#frustrated]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/opinion/opinion_village_insult.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]i live here, I would rather not hear it",
+      "lookup_english": "i live here, I would rather not hear it",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Yo vivo aquí. Prefiero no oírlo.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]我住在这儿，宁愿不听这些。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/opinion/opinion_village_insult.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#frustrated]why not? it is true, this place eats people",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Pair talk about faith, the village, or the chief.",
+  "voice_hint": ""
+}

@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_event_hookup.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/gossip/gossip_event_hookup.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]did you hear? {{gossip_actor_name}} spent the night at the house where {{gossip_subject_name}} lives and someone there is married, the walls are thin",
+      "lookup_english": "did you hear? {{gossip_actor_name}} spent the night at the house where {{gossip_subject_name}} lives and someone there is married, the walls are thin",
+      "spanish": "[#speaker={{speaker_id_1}}]¿Escuchaste? {{gossip_actor_name}} pasó la noche en la casa donde vive {{gossip_subject_name}} y hay alguien casado allí. Las paredes son delgadas.",
+      "chinese": "[#speaker={{speaker_id_1}}]你听说了吗？{{gossip_actor_name}}在{{gossip_subject_name}}住的那栋房子里过了夜，而且那里有人已婚。墙很薄。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_event_hookup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]i heard it too, their partner must not know yet",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}",
+        "{{gossip_actor_name}}",
+        "{{gossip_subject_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 7
+    },
+    {
+      "id": "sinnertosinner/gossip/gossip_event_hookup.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]i heard it too, their partner must not know yet",
+      "lookup_english": "i heard it too, their partner must not know yet",
+      "spanish": "[#speaker={{speaker_id_2}}]Yo también lo escuché. Su pareja aún no debe saberlo.",
+      "chinese": "[#speaker={{speaker_id_2}}]我也听说了。他们的伴侣肯定还不知道。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_event_hookup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]did you hear? {{gossip_actor_name}} spent the night at the house where {{gossip_subject_name}} lives and someone there is married, the walls are thin",
+      "next_english": "[#speaker={{speaker_id_1}}]did you hear about last night? {{gossip_actor_name}} and {{gossip_subject_name}} were together at the house the roommate could not sleep",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 8
+    },
+    {
+      "id": "sinnertosinner/gossip/gossip_event_hookup.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}]did you hear about last night? {{gossip_actor_name}} and {{gossip_subject_name}} were together at the house the roommate could not sleep",
+      "lookup_english": "did you hear about last night? {{gossip_actor_name}} and {{gossip_subject_name}} were together at the house the roommate could not sleep",
+      "spanish": "[#speaker={{speaker_id_1}}]¿Te enteraste de lo de anoche? {{gossip_actor_name}} y {{gossip_subject_name}} estaban juntos en la casa y el compañero de cuarto no podía dormir.",
+      "chinese": "[#speaker={{speaker_id_1}}]你听说昨晚的事了吗？{{gossip_actor_name}}和{{gossip_subject_name}}在一起待在那栋房子的时候，室友根本睡不着。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_event_hookup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}]i heard it too, their partner must not know yet",
+      "next_english": "[#speaker={{speaker_id_2}}]the whole village will whisper about it by noon",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}",
+        "{{gossip_actor_name}}",
+        "{{gossip_subject_name}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 14
+    },
+    {
+      "id": "sinnertosinner/gossip/gossip_event_hookup.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}]the whole village will whisper about it by noon",
+      "lookup_english": "the whole village will whisper about it by noon",
+      "spanish": "[#speaker={{speaker_id_2}}]Todo el pueblo lo contará en voz baja al mediodía.",
+      "chinese": "[#speaker={{speaker_id_2}}]到中午全村都会在背后议论这件事。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/gossip/gossip_event_hookup.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]did you hear about last night? {{gossip_actor_name}} and {{gossip_subject_name}} were together at the house the roommate could not sleep",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 15
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Gossip between two sinners.",
+  "voice_hint": ""
+}

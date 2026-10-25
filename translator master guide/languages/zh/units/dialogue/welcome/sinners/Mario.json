@@ -1,0 +1,66 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/welcome/sinners/Mario.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "welcome/sinners/Mario.dialogue#1",
+      "english": "[#motivated]thanks for letting me in",
+      "lookup_english": "thanks for letting me in",
+      "spanish": "[#wave_hand]Gracias por dejarme entrar.",
+      "chinese": "[#motivated]谢谢你让我进来。",
+      "translation": "[#motivated]谢谢你让我进来。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Mario.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Man. Desperate for Angela. Stutter, please, jokes he unsays. Do not make him cool.",
+      "prev_english": "",
+      "next_english": "[#supah_mario]Angela I'm coming for you!",
+      "placeholders": [
+        "[#motivated]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2,
+      "reference_note": "Spanish tags differ from english. Keep the tags on english. Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "welcome/sinners/Mario.dialogue#2",
+      "english": "[#supah_mario]Angela I'm coming for you!",
+      "lookup_english": "Angela I'm coming for you!",
+      "spanish": "[#supah_mario]¡¡Ángela voy a por ti!!",
+      "chinese": "[#supah_mario]Angela，我来找你了！",
+      "translation": "[#supah_mario]Angela，我来找你了！",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/welcome/sinners/Mario.dialogue",
+      "channel": "welcome",
+      "voice_hint": "Man. Desperate for Angela. Stutter, please, jokes he unsays. Do not make him cool.",
+      "prev_english": "[#motivated]thanks for letting me in",
+      "next_english": "",
+      "placeholders": [
+        "[#supah_mario]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    }
+  ],
+  "channel": "welcome",
+  "channel_note": "Short balloon after you let a named official in.",
+  "voice_hint": "Man. Desperate for Angela. Stutter, please, jokes he unsays. Do not make him cool."
+}

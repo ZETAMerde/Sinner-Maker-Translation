@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]i brought you something from the ruins",
+      "lookup_english": "i brought you something from the ruins",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Te traje algo de las ruinas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我从废墟里给你带了点东西。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]我从废墟里给你带了点东西。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#surprised]is it food? please say food",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#surprised]is it food? please say food",
+      "lookup_english": "is it food? please say food",
+      "spanish": "[#speaker={{speaker_id_2}}][#surprised]¿Es comida? Por favor diga comida.",
+      "chinese": "[#speaker={{speaker_id_2}}][#surprised]是吃的吗？求你说是吃的。",
+      "translation": "[#speaker={{speaker_id_2}}][#surprised]是吃的吗？求你说是吃的。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]i brought you something from the ruins",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]better, a demon tooth on a string",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#surprised]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]better, a demon tooth on a string",
+      "lookup_english": "better, a demon tooth on a string",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Mejor. Un diente de demonio en una cuerda.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]更好的。一颗用绳子串起来的恶魔牙齿。",
+      "translation": "[#speaker={{speaker_id_1}}][#laugh]更好的。一颗用绳子串起来的恶魔牙齿。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#surprised]is it food? please say food",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_hard_shake]uncle, no",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_hard_shake]uncle, no",
+      "lookup_english": "uncle, no",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_hard_shake]Tío. No.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_hard_shake]叔叔，不。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_hard_shake]叔叔，不。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/relationships/relationship_family_uncle_weird_gift.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#laugh]better, a demon tooth on a string",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Bonded pair talk: friends, family, or a couple.",
+  "voice_hint": ""
+}

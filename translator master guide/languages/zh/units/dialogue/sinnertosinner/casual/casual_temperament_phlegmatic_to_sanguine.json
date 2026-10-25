@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#worried]you are loud for someone who does so little",
+      "lookup_english": "you are loud for someone who does so little",
+      "spanish": "[#speaker={{speaker_id_1}}][#worried]Eres ruidoso para alguien que hace tan poco.",
+      "chinese": "[#speaker={{speaker_id_1}}][#worried]你做的事这么少，动静倒不小。",
+      "translation": "[#speaker={{speaker_id_1}}][#worried]你做的事这么少，动静倒不小。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]efficiency! maximum noise, minimum work!",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#worried]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]efficiency! maximum noise, minimum work!",
+      "lookup_english": "efficiency! maximum noise, minimum work!",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]¡Eficiencia! ¡Máximo ruido, mínimo trabajo!",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]这叫效率！最大噪音，最少工作！",
+      "translation": "[#speaker={{speaker_id_2}}][#laugh]这叫效率！最大噪音，最少工作！",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#worried]you are loud for someone who does so little",
+      "next_english": "[#speaker={{speaker_id_1}}][#wave_hand]i hate that that makes sense",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]i hate that that makes sense",
+      "lookup_english": "i hate that that makes sense",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]...Odio que eso tenga sentido.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]……我讨厌这话居然有道理。",
+      "translation": "[#speaker={{speaker_id_1}}][#wave_hand]……我讨厌这话居然有道理。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]efficiency! maximum noise, minimum work!",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]see? we are friends now",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]see? we are friends now",
+      "lookup_english": "see? we are friends now",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]¿Ves? Somos amigos ahora.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]看吧？我们现在是朋友了。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_nod]看吧？我们现在是朋友了。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_temperament_phlegmatic_to_sanguine.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]i hate that that makes sense",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

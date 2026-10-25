@@ -1,0 +1,121 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_gambler.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_gambler.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]i bet you five rations the chief sends us to the mines tomorrow",
+      "lookup_english": "i bet you five rations the chief sends us to the mines tomorrow",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Te apuesto cinco raciones a que el jefe nos envía mañana a las minas.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]我拿五份口粮跟你赌，首领明天会派我们去矿上。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_gambler.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#laugh]make it ten, I need a reason to wake up",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_gambler.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#laugh]make it ten, I need a reason to wake up",
+      "lookup_english": "make it ten, I need a reason to wake up",
+      "spanish": "[#speaker={{speaker_id_2}}][#laugh]Que sean diez. Necesito una razón para despertar.",
+      "chinese": "[#speaker={{speaker_id_2}}][#laugh]改成十份。我需要一个醒来的理由。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_gambler.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]i bet you five rations the chief sends us to the mines tomorrow",
+      "next_english": "[#speaker={{speaker_id_1}}][#head_nod]house always wins, except when the world ends",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#laugh]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_gambler.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#head_nod]house always wins, except when the world ends",
+      "lookup_english": "house always wins, except when the world ends",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_nod]La casa siempre gana. Excepto cuando el mundo se acabe.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_nod]庄家总是赢，除了世界末日的时候。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_gambler.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#laugh]make it ten, I need a reason to wake up",
+      "next_english": "[#speaker={{speaker_id_2}}][#wave_hand]then we call it a push and split the misery",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_nod]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_gambler.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#wave_hand]then we call it a push and split the misery",
+      "lookup_english": "then we call it a push and split the misery",
+      "spanish": "[#speaker={{speaker_id_2}}][#wave_hand]Entonces lo llamamos empujón y dividimos la miseria.",
+      "chinese": "[#speaker={{speaker_id_2}}][#wave_hand]那就当平局，苦日子对半分。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_gambler.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_nod]house always wins, except when the world ends",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#wave_hand]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

@@ -1,0 +1,89 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_love.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinner/official/dlb_talk_angela_soren_love.dialogue#1",
+      "english": "[#exited]i fucking love Soren",
+      "lookup_english": "i fucking love Soren",
+      "spanish": "[#exited]Soren me tiene loca perdida",
+      "chinese": "[#exited]我他妈爱死Soren了！",
+      "translation": "[#exited]我他妈爱死Soren了！",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_love.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#anxious_hands]i need him",
+      "placeholders": [
+        "[#exited]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 2
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_soren_love.dialogue#2",
+      "english": "[#anxious_hands]i need him",
+      "lookup_english": "i need him",
+      "spanish": "[#anxious_hands]Le necesito...",
+      "chinese": "[#anxious_hands]我需要他……",
+      "translation": "[#anxious_hands]我需要他……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_love.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#exited]i fucking love Soren",
+      "next_english": "[#shy_cute]i need him gosh",
+      "placeholders": [
+        "[#anxious_hands]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 3
+    },
+    {
+      "id": "sinner/official/dlb_talk_angela_soren_love.dialogue#3",
+      "english": "[#shy_cute]i need him gosh",
+      "lookup_english": "i need him gosh",
+      "spanish": "[#shy_cute]Dios... le necesito mucho...",
+      "chinese": "[#shy_cute]天哪，我好需要他……",
+      "translation": "[#shy_cute]天哪，我好需要他……",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name}}",
+      "source": "scenes/dialogue/dialogues/sinner/official/dlb_talk_angela_soren_love.dialogue",
+      "channel": "talk",
+      "voice_hint": "",
+      "prev_english": "[#anxious_hands]i need him",
+      "next_english": "",
+      "placeholders": [
+        "[#shy_cute]"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "",
+      "source_line": 4
+    }
+  ],
+  "channel": "talk",
+  "channel_note": "In-village Talk tree, or a Don't Look Back Talk About override.",
+  "voice_hint": ""
+}

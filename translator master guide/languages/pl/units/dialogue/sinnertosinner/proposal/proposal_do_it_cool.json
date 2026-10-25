@@ -1,0 +1,92 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_do_it_cool.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/proposal/proposal_do_it_cool.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}]so, I have been thinking, I like you, I figured you should know, no big deal",
+      "lookup_english": "so, I have been thinking, I like you, I figured you should know, no big deal",
+      "spanish": "[#speaker={{speaker_id_1}}]Entonces. He estado pensando. Me gustas. Pensé que deberías saberlo. No es gran cosa.",
+      "chinese": "[#speaker={{speaker_id_1}}]所以。我一直在想。我喜欢你。我觉得你该知道。没什么大不了的。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_do_it_cool.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}]no big deal? it is the best thing I have heard all week, yes, obviously yes",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_do_it_cool.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}]no big deal? it is the best thing I have heard all week, yes, obviously yes",
+      "lookup_english": "no big deal? it is the best thing I have heard all week, yes, obviously yes",
+      "spanish": "[#speaker={{speaker_id_2}}]¿No es gran cosa? Es lo mejor que he escuchado en toda la semana. Sí. Obviamente si.",
+      "chinese": "[#speaker={{speaker_id_2}}]没什么大不了的？这是我这一周听过最好的事。是的，当然愿意。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_do_it_cool.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}]so, I have been thinking, I like you, I figured you should know, no big deal",
+      "next_english": "[#speaker={{speaker_id_2}}]that was very smooth, but I do not feel that way about you, I hope that is alright",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 9
+    },
+    {
+      "id": "sinnertosinner/proposal/proposal_do_it_cool.dialogue#3",
+      "english": "[#speaker={{speaker_id_2}}]that was very smooth, but I do not feel that way about you, I hope that is alright",
+      "lookup_english": "that was very smooth, but I do not feel that way about you, I hope that is alright",
+      "spanish": "[#speaker={{speaker_id_2}}]Eso fue muy suave. Pero no siento lo mismo por ti. Espero que esté bien.",
+      "chinese": "[#speaker={{speaker_id_2}}]这话说得真圆滑。但我对你没有那种感觉。希望这没关系。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/proposal/proposal_do_it_cool.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}]no big deal? it is the best thing I have heard all week, yes, obviously yes",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 15
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "One sinner approaches a crush.",
+  "voice_hint": ""
+}

@@ -1,0 +1,95 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_weeb.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/casual/casual_shared_weeb.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#wave_hand]this village would be easier to survive if it had better stories",
+      "lookup_english": "this village would be easier to survive if it had better stories",
+      "spanish": "[#speaker={{speaker_id_1}}][#wave_hand]Sería más fácil para este pueblo sobrevivir si tuviera mejores historias.",
+      "chinese": "[#speaker={{speaker_id_1}}][#wave_hand]这个村子要是能有更好的故事，活下去会容易些。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_weeb.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_nod]or if the people here understood the stories we already know",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#wave_hand]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_weeb.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_nod]or if the people here understood the stories we already know",
+      "lookup_english": "or if the people here understood the stories we already know",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_nod]O si la gente de aquí entendiera las historias que ya conocemos.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_nod]或者，如果这里的人能理解我们已经知道的故事。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_weeb.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#wave_hand]this village would be easier to survive if it had better stories",
+      "next_english": "[#speaker={{speaker_id_1}}][#laugh]that would already be a miracle",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_nod]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/casual/casual_shared_weeb.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#laugh]that would already be a miracle",
+      "lookup_english": "that would already be a miracle",
+      "spanish": "[#speaker={{speaker_id_1}}][#laugh]Eso ya sería un milagro.",
+      "chinese": "[#speaker={{speaker_id_1}}][#laugh]那已经算是个奇迹了。",
+      "translation": "",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/casual/casual_shared_weeb.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_nod]or if the people here understood the stories we already know",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#laugh]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ongoing pair chat by temperament, trait, age, or gender.",
+  "voice_hint": ""
+}

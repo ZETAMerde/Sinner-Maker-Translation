@@ -1,0 +1,38 @@
+{
+  "unit": "talk_about",
+  "source": "data/talk_about/lines_en.json",
+  "import_target": "data/talk_about/lines_es.json",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "spiritual_vs_satanist",
+      "english": "[#head_shake]a satanist and a spiritual person in the same village, awkward",
+      "lookup_english": "a satanist and a spiritual person in the same village, awkward",
+      "spanish": "[#head_shake]Un satanista y una persona espiritual en el mismo pueblo, qué incómodo.",
+      "chinese": "[#head_shake]一个撒旦教徒和一个灵修者待在同一个村子里，真尴尬。",
+      "translation": "[#head_shake]一个撒旦教徒和一个灵修者待在同一个村子里，真尴尬。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "(sinner)",
+      "source": "data/talk_about/lines_en.json",
+      "channel": "talk_about",
+      "voice_hint": "Generic sinner. Any gender unless the line names someone. Avoid masculine-only endings.",
+      "prev_english": "",
+      "next_english": "",
+      "placeholders": [
+        "[#head_shake]"
+      ],
+      "import_target": "data/talk_about/lines_<locale>.json",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Keep [[[variant|variant]]] pipes and [#tags] if this string has them. Same variant count."
+    }
+  ],
+  "group": "spiritual_vs_satanist"
+}

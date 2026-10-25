@@ -1,0 +1,122 @@
+{
+  "unit": "dialogue",
+  "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_snoring_neighbor.dialogue",
+  "import_target": "locale/official_es/dialogue.csv",
+  "read_first": [
+    "00_INSTRUCTIONS.md",
+    "01_STYLE.md",
+    "02_GLOSSARY.md",
+    "03_OFFICIAL_CHOICES.md",
+    "04_OUTPUT_CONTRACT.md"
+  ],
+  "strings": [
+    {
+      "id": "sinnertosinner/sleep_snoring_neighbor.dialogue#1",
+      "english": "[#speaker={{speaker_id_1}}][#head_hard_shake]your neighbour snores like a demon with asthma",
+      "lookup_english": "your neighbour snores like a demon with asthma",
+      "spanish": "[#speaker={{speaker_id_1}}][#head_hard_shake]Quien vive en la casa de al lado ronca como un demonio con asma.",
+      "chinese": "[#speaker={{speaker_id_1}}][#head_hard_shake]你的邻居打呼噜像个得了哮喘的恶魔。",
+      "translation": "[#speaker={{speaker_id_1}}][#head_hard_shake]你的邻居打呼噜像个得了哮喘的恶魔。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_snoring_neighbor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "",
+      "next_english": "[#speaker={{speaker_id_2}}][#head_shake]that is me, I am the neighbour",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#head_hard_shake]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 2
+    },
+    {
+      "id": "sinnertosinner/sleep_snoring_neighbor.dialogue#2",
+      "english": "[#speaker={{speaker_id_2}}][#head_shake]that is me, I am the neighbour",
+      "lookup_english": "that is me, I am the neighbour",
+      "spanish": "[#speaker={{speaker_id_2}}][#head_shake]Soy yo. La casa de al lado es la mía.",
+      "chinese": "[#speaker={{speaker_id_2}}][#head_shake]那是我。我就是那个邻居。",
+      "translation": "[#speaker={{speaker_id_2}}][#head_shake]那是我。我就是那个邻居。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_snoring_neighbor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#head_hard_shake]your neighbour snores like a demon with asthma",
+      "next_english": "[#speaker={{speaker_id_1}}][#surprised]oh",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#head_shake]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 3
+    },
+    {
+      "id": "sinnertosinner/sleep_snoring_neighbor.dialogue#3",
+      "english": "[#speaker={{speaker_id_1}}][#surprised]oh",
+      "lookup_english": "oh",
+      "spanish": "[#speaker={{speaker_id_1}}][#surprised]...Oh.",
+      "chinese": "[#surprised]哦！",
+      "translation": "[#surprised]哦！",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name1}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_snoring_neighbor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_2}}][#head_shake]that is me, I am the neighbour",
+      "next_english": "[#speaker={{speaker_id_2}}][#worried]apologize to my lungs",
+      "placeholders": [
+        "[#speaker={{speaker_id_1}}]",
+        "[#surprised]",
+        "{{speaker_id_1}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 4,
+      "reference_note": "Chinese tags differ from english. Keep the tags on english."
+    },
+    {
+      "id": "sinnertosinner/sleep_snoring_neighbor.dialogue#4",
+      "english": "[#speaker={{speaker_id_2}}][#worried]apologize to my lungs",
+      "lookup_english": "apologize to my lungs",
+      "spanish": "[#speaker={{speaker_id_2}}][#worried]Discúlpate hasta mis pulmones.",
+      "chinese": "[#speaker={{speaker_id_2}}][#worried]向我的肺道歉。",
+      "translation": "[#speaker={{speaker_id_2}}][#worried]向我的肺道歉。",
+      "style": "spoken",
+      "casing_rule": "sinner_spoken",
+      "speaker": "{{npc_name2}}",
+      "source": "scenes/dialogue/dialogues/sinnertosinner/sleep_snoring_neighbor.dialogue",
+      "channel": "pair",
+      "voice_hint": "",
+      "prev_english": "[#speaker={{speaker_id_1}}][#surprised]oh",
+      "next_english": "",
+      "placeholders": [
+        "[#speaker={{speaker_id_2}}]",
+        "[#worried]",
+        "{{speaker_id_2}}"
+      ],
+      "import_target": "locale/official_<locale>/dialogue.csv",
+      "wired": true,
+      "copy_exactly": false,
+      "notes": "Named placeholders can move to fit the target language word order. Spell every token exactly.",
+      "source_line": 5
+    }
+  ],
+  "channel": "pair",
+  "channel_note": "Ambient pair conversation.",
+  "voice_hint": ""
+}
