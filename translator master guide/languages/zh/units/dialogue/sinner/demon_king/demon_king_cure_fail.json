@@ -16,7 +16,7 @@
       "lookup_english": "{{talk_line}}",
       "spanish": "{{talk_line}}",
       "chinese": "",
-      "translation": "",
+      "translation": "{{talk_line}}",
       "style": "spoken",
       "casing_rule": "copy_english",
       "speaker": "{{npc_name}}",
